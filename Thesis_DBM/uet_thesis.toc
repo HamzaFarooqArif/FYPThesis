@@ -1,0 +1,15 @@
+\contentsline {chapter}{Acknowledgments}{ii}{dummy.2}%
+\contentsline {chapter}{List of Figures}{v}{dummy.4}%
+\contentsline {chapter}{List of Tables}{vi}{dummy.6}%
+\contentsline {chapter}{Abbreviations}{vii}{dummy.8}%
+\contentsline {chapter}{Abstract}{viii}{dummy.11}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.12}%
+\contentsline {chapter}{\numberline {2}Literature Review}{2}{chapter.13}%
+\contentsline {chapter}{\numberline {3}Proposed Methodology}{3}{chapter.14}%
+\contentsline {chapter}{\numberline {4}Implementation}{4}{chapter.15}%
+\contentsline {chapter}{\numberline {5}Evaluation Criteria}{5}{chapter.16}%
+\contentsline {chapter}{\numberline {6}Results}{6}{chapter.17}%
+\contentsline {chapter}{\numberline {7}Future Work}{7}{chapter.18}%
+\vspace {2em}
+\vspace {2em}
+\contentsline {chapter}{References}{8}{dummy.19}%
