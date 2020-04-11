@@ -4,11 +4,23 @@
 \label{Chapter1}
 \lhead{Chapter 1. \emph{Project Report/Thesis Structure}} % Write in your own chapter title to set the page header
 \section{Background and Overview}
-Digital Board Marker is a size efficient, bandwidth saving lecture recording system. It can record lecture, providing automated google search of handwritten words. It provides on the spot wiki. Lecture text notes can be generated automatically. Lecture can be named and divided into topics and subtopics automatically. According to a survey, 94\% students go for online help of recently attended lectures because they can’t fully grab the concepts. Recorded lectures as video format require so much internet bandwidth to play. In most cases, large sized videos are difficult to handle or download. Because students mostly don’t have huge amount of extra space available especially for the CSE students, as they already use bulky software and also students don’t have large amount of bandwidth of internet available.
+Digital Board Marker is a size efficient, bandwidth saving lecture recording system. It can record lecture, providing automated google search of handwritten words. It provides on the spot wiki. Lecture text notes can be generated automatically. Lecture can be named and divided into topics and subtopics automatically. According to a survey, 94\% students go for online help of recently attended lectures because they can’t fully grab the concepts. Recorded lectures as video format require so much internet bandwidth to play. In most cases, large sized videos are difficult to handle or download. Because students mostly don’t have huge amount of extra space available especially for the CSE students, as they already use bulky software and also students don’t have large amount of bandwidth of internet available.\\
 Digital Board Marker is an innovation and need of the hour because it is solving the basic problem of all students in society because it saves their time to note the lecture and they can concentrate on the topic completely. As most of the student lost their concentration while writing the detailed lecture. Moreover, sometimes we skip important part of our lecture in the effort of writing whole details on our notebook. So, Digital Board Marker is leading-edge to solve all these Issues. It has some potential for having positive effect on student learning.
+\bigskip
 
 \section{Motivation}
-The motivation and purpose to do this project is to minimize the use of resources that are used in lecture systems now a days working in all over the world i.e. video lecture recording and streaming through internet. The first motivation is to deal with the large amount of storage that normally video lectures take. This system is not based on video recording but on recording the writing on the board with marker. It will record the position of the marker as the coordinates of board where marker touches and store it in the text file (which will later be converted and played like a video). This will take minimum amount of database storage to store this kind of data on a website. The second motivation to do this project is to use less internet resources for accessing the lectures. Normally the video lectures of different institutes worldwide are very large and to download those on the system through internet requires large amount of resources which are normally difficult for students to get and to download it in high quality even more resources are required. The lectures for recording are very low in memory as compared to normal video recording and will require very minimum resources to download on the system. The third motivation is for example a power failure occurred during the lecture and you cannot clearly see the board but teacher is still writing and erases the board after some time, this may result in not getting proper notes or missing the important point of lecture. Moreover students can get benefit by seeing the lecture again and again if they missed any concept or if they were absent minded or not attending lecture. These few are the reasons which motivated us to do this project.
+The motivation and purpose to do this project is to minimize the use of resources that are used in lecture systems now a days working in all over the world i.e. video lecture recording and streaming through internet. 
+
+\begin{itemize}
+
+\item The first motivation is to deal with the large amount of storage that normally video lectures take. This system is not based on video recording but on recording the writing on the board with marker. It will record the position of the marker as the coordinates of board where marker touches and store it in the text file (which will later be converted and played like a video). This will take minimum amount of database storage to store this kind of data on a website.
+
+\item The second motivation to do this project is to use less internet resources for accessing the lectures. Normally the video lectures of different institutes worldwide are very large and to download those on the system through internet requires large amount of resources which are normally difficult for students to get and to download it in high quality even more resources are required. The lectures for recording are very low in memory as compared to normal video recording and will require very minimum resources to download on the system.
+
+\item The third motivation is for example a power failure occurred during the lecture and you cannot clearly see the board but teacher is still writing and erases the board after some time, this may result in not getting proper notes or missing the important point of lecture. Moreover students can get benefit by seeing the lecture again and again if they missed any concept or if they were absent minded or not attending lecture. These few are the reasons which motivated us to do this project.
+
+\end{itemize}
+
 
 \bigskip
 \section{Objectives of the Project}
@@ -27,6 +39,8 @@ will lead to progress in industry.
 
 \end{itemize}
 
+\bigskip
+
 \subsection{Research Objectives}
 In the development of digital board marker, computer vision is used and computer vision is most vital in the field of research. Computer vision plays a great role in research work. So by improving the uses of computer vision in future work its vast area for research work.
 Research objective of the system is to go through all the recent research work done in system's development fields and then on its basis, developing a system which is storage and bandwidth efficient.
@@ -39,6 +53,8 @@ Research objective of the system is to go through all the recent research work d
 \item Research should be able to help future work in detection of ball in any sort environment without assumptions and with more accuracy.
 
 \end{itemize}
+
+\bigskip
 
 \subsection{Academic Objectives}
 Digital board marker mainly cover academic area the main purpose is to provide each and every student all the lectures with better quality and less bandwidth because in Pakistan we students face this issue the most, as we know it cannot be resolved in near future we have to work something out for this issue and that's where this system will work it will provide an interface to all the students which have all the lectures of their respective subjects from their respective teachers which can be streamed online and downloaded for offline to play later on at very low bandwidth. It will provide all the assignment related material and lectures at same platform to students. It is the new revolution in the academic field.
@@ -54,7 +70,7 @@ Digital board marker mainly cover academic area the main purpose is to provide e
 \item Developers must be able to risk the change management in their projects, as while doing the projects, developers might face different kinds of situation and their decision making plays and important role in leading them to success.
 
 \end{itemize}
-
+\bigskip
 
 \section{Problem Statement}
 To make a storage and bandwidth efficient system with a lecture player and learning management system for the students and the educational institutes.
@@ -62,7 +78,94 @@ To make a storage and bandwidth efficient system with a lecture player and learn
 
 \section{Scope of the Project}
 Digital board marker mainly cover academic area the main purpose is to provide each and every student all the lectures with better quality and less bandwidth because in Pakistan we students face this issue the most, as we know it cannot be resolved in near future we have to work something out for this issue and that’s where this system will work it will provide an interface to all the students which have all the lectures of their respective subjects from their respective teachers which can be streamed online and downloaded for offline to play later on at very low bandwidth. It will provide all the assignment related material and lectures at same platform to students. It is the new revolution in the academic field. Although it covers industry and researches as well.
+\bigskip
 
+\section{Challenges}
+\subsection{Technology Selection}
+The technology used is:
+\begin{itemize}
+
+\item Angular 8 and C\# for web application
+\item C\# windows application for desktop application
+\item Embedded C for marker hardware
+
+\end{itemize}
+
+The selection of technology was one of the first major issue at the start of project. The first technology we thought of using was \textbf{django} (a python related framework) but we could not get comfortable with that so we switched to C\# and angular 8. These were quiet familiar to us and also angular 8 was newly stable released latest technology so we opted these.
+\bigskip
+
+
+\subsection{Camera Selection}
+To record the position and orientation of the camera the main issue was to use good quality cameras with low cost. High FPS cameras with low cost were very difficult to find. So this was also one of major challenges of hardware.
+\bigskip
+
+
+\subsection{Stereo Vision Camera Input}
+Recording a stereo vision using two cameras and taking correct input, setting them at correct angle came up as a challenge.
+\bigskip
+
+
+\subsection{Marker Hardware}
+Marker hardware was also a challenge. To make a marker which is almost same as light weight as the normal marker and make it easy to pick. Also to make it in less cost with all the hardware parts and wires attached.
+\bigskip
+
+
+\subsection{Ball detection}
+The ball attached on the top of marker is used to detect the position of marker but sometimes the color of ball can match with dress of user and cameras can confuse with the color, which came up as a challenge.
+\bigskip
+
+\subsection{Marker Orientation Calibration}
+There should be precise and accurate orientation data of marker so that proper position data can be recorded and later used which became a big challenge.
+\bigskip
+
+\subsection{Pressure Sensor handling}
+There was a lot of noise in the data that is recording which was handled using pressure sensor, it was also one of the major challenges.
+\bigskip
+
+\subsection{Transmission Speed}
+The transmission speed lag between \textbf{NRF24L01} came up as a challenge with and without antenna.
+\bigskip
+
+\subsection{Audio Hardware}
+Audio hardware itself was bit of a challenge which is to be attached so that synchronized audio data can be recorded.
+\bigskip
+
+\subsection{Noise Reduction}
+The noise from audio should be removed to get clear audio which was also one of the challenge.
+\bigskip
+
+\subsection{Marker and duster thickness configuration}
+Selecting the dimensions, size and configuration of marker and duster so that it can sync with stereo vision of cameras and input to camera.
+\bigskip
+\subsection{Erasing board}
+When erasing the board or a part of board there should be removal from the video that is played in the video player. So it was a difficult challenge to keep record of that.
+\bigskip
+\subsection{Seek bar control}
+Controlling the seek bar in audio player for forward and rewind of video came up as a challenge.
+\bigskip
+\subsection{Getting familiar with new framework}
+Angular 8 came up as a new framework for the developers so it was a bit challenge for getting familiar with this. Moreover we started using simple HTML and then converting to angular material was bit of a challenge.
+\bigskip
+
+\subsection{Cross Platform Linking}
+Connecting front end to API came up as a challenge as developers have never worked with API before. Also there were many development related issue to work with .NET core framework since it is updated version of what developers were already using (.NET classic). So it was a bit of challenge to combine API and front end.
+\bigskip
+
+\section{Assumptions and Constraints}
+
+Following are assumptions which were kept in mind during the implementation of the project:
+
+\begin{itemize}
+
+\item The position is detected via ball using the computer vision so ball color should not interfere with color of surroundings.
+
+\item Teacher should erase complete board and not some words or some parts and also there should be an indication of that so that screen can be removed accordingly.
+
+\item Teacher or writer should not block the vision of camera by coming in the way.
+
+\item Teacher should start recording using a button on the controller app and similarly stop in the same way.
+
+\end{itemize}
 
 
 
