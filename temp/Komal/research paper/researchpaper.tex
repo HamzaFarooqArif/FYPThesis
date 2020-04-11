@@ -1,0 +1,155 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\begin{document}
+
+\title{Digital Board Marker storage efficient system for class lectures \\
+{\footnotesize }
+\thanks{}
+}
+
+\author{\IEEEauthorblockN{Samyan Qayyum Wahla}
+\IEEEauthorblockA{\textit{CS\&E Department} \\
+\textit{UET, Main Campus}\\
+Lahore, Pakistan \\
+samyanwahla@gmail.com}
+\and
+\IEEEauthorblockN{Komal Shehzadi}
+\IEEEauthorblockA{\textit{CS\&E Department} \\
+\textit{UET, Main Campus}\\
+Lahore, Pakistan \\
+shehzadikomal303@gmail.com}
+\and
+\IEEEauthorblockN{Hamza Farooq}
+\IEEEauthorblockA{\textit{CS\&E Department} \\
+\textit{UET, Main Campus}\\
+Lahore, Pakistan \\
+m.hamzaarif786@gmail.com}
+}
+
+\maketitle
+
+\begin{abstract}Digital Board Marker is a storage efficient lecture recording system which saves almost 100 times the storage size and bandwidth while watching the lectures. Many types of research has shown that providing recorded class lectures was beneficial for students learning and growth in that subject but because of the size of video lectures it is hard to carry them all in any storage media and live streaming brings the issue of bandwidth for students, DBM aka Digital Board Marker is the solution of all these problems it provides both hardware and software interface for lectures which can be watched later on customized player.
+\end{abstract}
+
+\begin{IEEEkeywords}
+bandwidth, class lectures, lecture recording, storage.
+\end{IEEEkeywords}
+\section{Literature Survey}
+
+\section{Introduction}
+\subsection{Overview}
+Digitized board marker is a size efficient, bandwidth saving lecture recording system. It can record a lecture, providing automated Google search of handwritten words. Provides on the spot wiki. Lecture text notes can be generated automatically. The lecture can be named and divided into topics and subtopics automatically. According to a survey, 94\% of students go for online help of recently attended lectures because they can’t fully grab the concepts. Recorded lectures as video format require so much internet bandwidth to play. In most cases, large-sized videos are difficult to handle or download. Because students mostly don’t have a huge amount of extra space available especially for the CSE students, as they already use bulky software and also students don’t have a large amount of bandwidth of internet available. Studies has also shown that in higher education providing recorded lectures is a constructive thing for students.\cite{b7}
+\subsection{background}
+The main objective of the digital board marker is to provide ease to the students of all the educational institutes. Mostly lecture systems that already exist, of different universities, provide lectures online on youtube but the problem is that they need great internet bandwidth and a lot of memory to download and watch the lectures which are difficult for students especially in Pakistan. So that we provide bandwidth and storage efficient lecture system. Universities are places of knowledge production, and the economy and society are the users of this knowledge. So universities can provide ease to a student with this system. 
+\subsection{Motivation}
+The motivation and purpose to do this project are to minimize the use of resources that are used in lecture systems nowadays working all over the world i.e. video lecture recording and streaming through the internet. The first motivation is to deal with a large amount of storage that normally video lectures take. This system is not based on video recording but on recording the writing on the board with a marker. It will record the position of the marker as the coordinates of the board where the marker touches and store it in the text file (which will later be converted and played like a video). This will take a minimum amount of database storage to store this kind of data on a website. The second motivation to do this project is to use fewer internet resources for accessing the lectures. Normally the video lectures of different institutes worldwide are very large and to download those on the system through the internet requires a large number of resources which are normally difficult for students to get and to download it in high quality even more resources are required. The lectures for recording are very low in memory as compared to normal video recording and will require very minimum resources to download on the system. The third motivation is, for example, a power failure occurred during the lecture and you cannot clearly see the board but the teacher is still writing and erases the board after some time, this may result in not getting proper notes or missing the important point of the lecture. Moreover, students can get benefit by seeing the lecture again and again if they missed any concept or if they were absent-minded or not attending the lecture.
+\section{Methods}
+\subsection{Storage and Bandwidth Optimization Algorithm}
+The algorithms used for storage and bandwidth efficiency require only most important details of a video lecture which is the tip of the board marker because that's the part responsible for writing on the board. The main idea behind this algorithm is to delete all the unnecessary details and just store the important ones in an encrypted format for that purpose it saves the coordinates of position of the marker tip every time it changes and store it in a JSON file so that it would be in an encrypted format and customized player can play it with another algorithms which draws back the words and shapes on board by joining the coordinates with some rules. This whole process is synchronized with time, encrypted file, player, recorder, all work together to create an end product. A animated lecture which is almost 100 times efficient then the ordinary lectures that can be seen because saving frames of video in one second takes much more resources than saving a line of text and a mono channel audio for one second.
+\subsection{Position Extraction}
+Now for optimization of video lectures, we need to find coordinates and to acquire the coordinates at every position we have to use some hardware components and a camera that can calculate the position of marker nib at every second. People may think why compression was not a choice that was because of two reasons first one is compression reduces the quality of video and the second one is it can not reduce the size as much as DBM. In other algorithms after compression, we have to try something else to make it better quality-wise  and video compression algorithms can not work so accurately we can analyze that from the results we gathered\cite{b21}.
+\subsubsection{Relative displacement extraction}
+Using stereo vision, relative displacement of the marker from middle line is attained and mapped to 
+-100 to 100 sample points in horizontal. This method includes following sub methods.
+\subsubsection{Masking based on color}
+Masking is performed based on upper and lower limits of color. Color format is HSV for convenient manipulation while testing.
+\subsubsection{Morphological Processing}
+Erosion and dilation or opening are performed on the acquired frame to make it suitable for next processing method.
+\subsubsection{Boundary extraction}
+Contours are extracted using the given color limit and boundary is extracted by covering the biggest contour and finding its center.
+\subsection{Orientation extraction}
+Orientation is attained using gyroscope and accelerometer sensor and transmitted using nrf24L01 LoRa transceiver. Arduino nano mainboard is used as central processing unit. I2C protocol is used to transfer data from sensor to mainboard.
+\subsection{Voice Transmission}
+Voice data is transmitted using nrf24L01 LoRa transceiver with the range of 10 meters.
+\subsubsection{Voice Acquisition}
+Electret Condenser 4015 microphone is connected with LM386 digital amplifier that is further connected with Arduino nano. Analog to digital converter of Arduino nano converts the signal to digital and saves it into a buffer.
+\subsubsection{Data Transmission}
+Voice data saved in temporary buffer is then sent to Receiver with a unique pipe number. Data pipe is selected through which data will be transmitted and received.
+\subsubsection{Data Reception}
+Receiver module that is connected to the PC now receives the voice data through the unique pipe defined in both transmitted and receiver. After receiving voice data packet, it is decoded and sent to PC via Line-In port.
+\section{Results}
+The file generated by DBM was compared with existing systems which are providing video lectures with their own techniques and based on that this comparison table was created. The results shows that the methodology DBM is using is much more efficient than the ordinary systems or any other methodology these systems are using.
+\begin{center}
+ \begin{tabular}{|c c c c|} 
+ \hline
+\textbf{Name}  & \textbf{Storage} & \textbf{Encrypted Format} & \textbf{Customized Player}\\ [0.5ex] 
+ & (KBps) & & \\
+ \hline
+ edx & 793.6  & \textbf{X} & \textbf{X} \\ 
+ \hline
+ Moodle & 720  & \textbf{X} & \textbf{X} \\
+ \hline
+ Coursera & 750  & \textbf{X} & \textbf{X} \\
+ \hline
+ Udemy & 790  & \textbf{X} & \textbf{X} \\
+ \hline
+ Udacity & 790  & \textbf{X} & \textbf{X} \\ [1ex] 
+ \hline
+ DBM & 14.5  & \checkmark & \checkmark \\ [1ex] 
+ \hline
+\end{tabular}
+\end{center}
+
+\section{Discussion}
+\section{Conclusions}
+Now we can see from all the acquired results that DBM is an optimized lecture recorder and player. It is providing all of its applications free from any other 
+\section{Abbreviations}
+DBM Digital Board Marker, JSON JavaScript Object Notation, PC Personal Computer,LoRa Long Range, nrf Hardware Component, LM Hardware Component.
+\section{Declaration}
+Hamza Farooq was responsible for board marker and camera setup. He was also responsible for the controller app which retrieves all the data from components and generates an optimized file. Komal Shehzadi worked in the implementation of player app for both winform and web app, which plays the lecture file with given algorithm. Ayesha Atif and Haris Khan was responsible for the Learning Management System which gives a complete platform for all the lectures and course related Material.
+\section{Acknowledgment}
+This research was partially supported by UET, Lahore Pakistan. We thank our fellows from VU who provided insight and expertise that greatly assisted the research, although they may not agree with all of the interpretations/conclusions of this paper.
+We thank Samyan Wahla, Lecturer, CS\&E department UET for assistance with video lecture optimization algorithm, and Dr. Awais Hassan, Lecturer, CSE department UET for comments that greatly improved the manuscript.
+We would also like to show our gratitude to the (Name) for sharing their pearls of wisdom with us during the course of this research, and we thank 3 “anonymous” reviewers for their so-called insights. We are also immensely grateful to (List names and positions) for their comments on an earlier version of the manuscript, although any errors are our own and should not tarnish the reputations of these esteemed persons.
+
+\begin{thebibliography}{00}
+\bibitem{b1} Martin, F., \& Bolliger, D. U. (2018). Engagement matters: Student perceptions on the importance of engagement strategies in the online learning environment. Online Learning Journal, 22(1), 205–222. https://doi.org/10.24059/olj.v22i1.1092
+\bibitem{b2} García-Cabrero, B., Hoover, M. L., Lajoie, S. P., Andrade-Santoyo, N. L., Quevedo-Rodríguez, L. M., \& Wong, J. (2018). Design of a learning-centered online environment: a cognitive apprenticeship approach. Educational Technology Research and Development, 66(3), 813–835. https://doi.org/10.1007/s11423-018-9582-1
+\bibitem{b3} Kiewra, K. A., Colliot, T., \& Lu, J. (2018). Note This: How to Improve Student Note Taking. Idea, September, 1–18. https://$ www.ideaedu.org/Portals/0/Uploads/Documents/\\IDEA Papers/IDEA Papers/IDEA_Paper_73.pdf$
+\bibitem{b4} Vega, L. C., Dickey-Kurdziolek, M., Shupp, L., Pérez-Quiñones, M. A., Booker, J., \& Congleton, B. (2007). Taking Notes Together: Augmenting note taking. Proceedings of the 2007 International Symposium on Collaborative Technologies and Systems, CTS, 16–23. https://doi.org/10.1109/CTS.2007.4621733
+\bibitem{b5} Meehan, M., \& McCallig, J. (2019). Effects on learning of time spent by university students attending lectures and/or watching online videos. Journal of Computer Assisted Learning, 35(2), 283–293. https://doi.org/10.1111/jcal.12329
+\bibitem{b6} Li, N., Kidzi, Ł., Jermann, P., \& Dillenbourg, P. (2001). How Do In-video Interactions Reflect Perceived Video Difficulty ?
+\bibitem{b7} O’Callaghan, F. V., Neumann, D. L., Jones, L., \& Creed, P. A. (2017). The use of lecture recordings in higher education: A review of institutional, student, and lecturer issues. Education and Information Technologies, 22(1), 399–415. https://doi.org/10.1007/s10639-015-9451-z
+\bibitem{b8}Classes, R. (n.d.). iRECLASS – AN AUTOMATIC SYSTEM FOR. 1–12.
+\bibitem{b9}Pimentel, M. da G. C., Martins, D. S., Yaguinuma, C. A., \& Zaine, I. (2019). Anchoring interactive points of interest on web-based instructional video: Effects on students’ interaction behavior and perceived experience. Proceedings of the ACM Symposium on Applied Computing, Part F1477, 2445–2452. https://doi.org/10.1145/3297280.3297521
+\bibitem{b10}Yang, D., Wen, M., Howley, I., Kraut, R., \& Rosé, C. (2015). Exploring the effect of confusion in discussion forums of massive open online courses. L@S 2015 - 2nd ACM Conference on Learning at Scale, 121–130. https://doi.org/10.1145/2724660.2724677
+\bibitem{b11}Li, L. Y. (2019). Effect of Prior Knowledge on Attitudes, Behavior, and Learning Performance in Video Lecture Viewing. International Journal of Human-Computer Interaction, 35(4–5), 415–426. https://doi.org/10.1080/10447318.2018.1543086
+\bibitem{b12}Martin, F., Wang, C., \& Sadaf, A. (2018). Student perception of helpfulness of facilitation strategies that enhance instructor presence, connectedness, engagement and learning in online courses. Internet and Higher Education, 37(March 2017), 52–65. https://doi.org/10.1016/j.iheduc.2018.01.003
+\bibitem{b13}Giannakos, M. N., Jaccheri, L., \& Krogstie, J. (2016). Exploring the relationship between video lecture usage patterns and students’ attitudes. British Journal of Educational Technology, 47(6), 1259–1275. https://doi.org/10.1111/bjet.12313
+\bibitem{b14}Iannone, P., \& Miller, D. (2019). Guided notes for university mathematics and their impact on students’ note-taking behaviour. Educational Studies in Mathematics, 387–404. https://doi.org/10.1007/s10649-018-9872-x
+\bibitem{b15}Sakurai, S. (2014). Promoting Skills and Strategies of Lecture Listening and Note-taking in L2. 1019–1046.
+\bibitem{b16}Renz, J., Bauer, M., Malchow, M., Staubitz, T., \& Meinel, C. (2015). Optimizing the Video Experience in Moocs. EDULEARN15 Proceedings, July, 5150–5158.
+
+\bibitem{b17}Khan, H. U. (2016). Possible effect of video lecture capture technology on the cognitive empowerment of higher education students: A case study of gulf-based university. International Journal of Innovation and Learning, 20(1), 68–84. https://doi.org/10.1504/IJIL.2016.076672
+\bibitem{b18}Yang, D., Kraut, R., \& Rose, C. (2016). Exploring the Effect of Student Confusion in Massive Open Online Courses. Journal of Educational Data Mining, 8(1), 52–83. http://www.educationaldatamining.org/JEDM/index.php/JEDM/article/view/JEDM2016-8-1
+\bibitem{b19}Gonzalez-Agulla, E., Alba-Castro, J. L., Canto, H., \& Goyanes, V. (2013). GaliTracker: Real-time lecturer-tracking for lecture capturing. Proceedings - 2013 IEEE International Symposium on Multimedia, ISM 2013, Vc, 462–467. https://doi.org/10.1109/ISM.2013.89
+\bibitem{b20}Lo, C. K., \& Hew, K. F. (2019). The impact of flipped classrooms on student achievement in engineering education: A meta-analysis of 10 years of research. Journal of Engineering Education, March, 523–546. https://doi.org/10.1002/jee.20293
+\bibitem{b21}Al Ani, M., \& Hammouri, T. A. (2011). Video Compression Algorithm Based on Frame Difference Approaches. International Journal on Soft Computing, 2(4), 67–79. https://doi.org/10.5121/ijsc.2011.2407
+\bibitem{b22}Wang, Q., \& Huang, C. (2018). Pedagogical, social and technical designs of a blended synchronous learning environment. British Journal of Educational Technology, 49(3), 451–462. https://doi.org/10.1111/bjet.12558
+\bibitem{b23}Siegel, J. (2018). Did you take “good” notes?: On methods for evaluating student notetaking performance. Journal of English for Academic Purposes, 35, 85–92. https://doi.org/10.1016/j.jeap.2018.07.001
+\bibitem{b24}Chen, C. M., \& Wu, C. H. (2015). Effects of different video lecture types on sustained attention, emotion, cognitive load, and learning performance. Computers and Education, 80, 108–121. https://doi.org/10.1016/j.compedu.2014.08.015
+\bibitem{b25}Lin, Y. T., \& Chen, C. M. (2019). Improving effectiveness of learners’ review of video lectures by using an attention-based video lecture review mechanism based on brainwave signals. Interactive Learning Environments, 27(1), 86–102. https://doi.org/10.1080/10494820.2018.1451899
+\bibitem{b26}Meishar-Tal, H., \& Pieterse, E. (2017). International review of research in open and distributed learning. International Review of Research in Open and Distributed Learning, 18(1), 1–18. http://www.irrodl.org/index.php/irrodl/article/view/2643/4044
+\bibitem{b27}Patel, B., Mislan, S., Yook, G., \& Persky, A. M. (2019). Recorded lectures as a source of cognitive off-loading. American Journal of Pharmaceutical Education, 83(5). https://doi.org/10.5688/ajpe6793
+\bibitem{b28}Carlsson, N., Eager, D., Krishnamoorthi, V., \& Polishchuk, T. (2017). Optimized adaptive streaming of multi-video stream bundles. IEEE Transactions on Multimedia, 19(7), 1637–1653. https://doi.org/10.1109/TMM.2017.2673412
+\bibitem{b29}Yang, Y. (2018). Micro-lecture Application in College Ideological and Political Theory Teaching. 193(Ssme), 138–142. https://doi.org/10.2991/ssme-18.2018.27
+\bibitem{b30}Miller, A. M., \& Gibson, R. (2012). Implementation of a Lecture Capture Recording System in a Counselor Education Clinical Training Facility. Vistas Online, Article 91. $https://www.counseling.org/docs/default-source/vistas/vistas_2012_article_91.pdf?sfvrsn=11$
+\bibitem{b31}Waizenegger, W. (2015). An overview of different approaches for lecture casting. Science, January.
+\bibitem{b32}Barra, E., Carril, A., Gordillo, A., Salvachúa, J., \& Quemada, J. (2014). Design, development and evaluation of a portable recording system to capture dynamic presentations using the teacher’s tablet PC. World Academy of Science, Engineering and Technology, 8(3), 747–751.
+\bibitem{b33}Murthy, S. V. N., \& Sujatha, B. K. (2016). Multi-Level Optimization in Encoding to Balance Video Compression and Retention of 8K Resolution. Perspectives in Science, 8, 338–344. https://doi.org/10.1016/j.pisc.2016.04.069
+\bibitem{b34}Chou, H. P., Wang, J. M., Fuh, C. S., Lin, S. C., \& Chen, S. W. (2010). Automated lecture recording system. 2010 International Conference on System Science and Engineering, ICSSE 2010, 167–172. https://doi.org/10.1109/ICSSE.2010.5551811
+\bibitem{b35}Barokas, J., Ketterl, M., Brooks, C., \& Greer, J. (2010). Lecture Capture : Student Perceptions , Expectations , and Behaviors. Digital Media, 1–8. $http://www.informatik.uni-osnabrueck.de/papers_pdf/2010_02.pdf$
+\bibitem{b36}Brooks, C., Erickson, G., Greer, J., \& Gutwin, C. (2014). Modelling and quantifying the behaviours of students in lecture capture environments. Computers and Education, 75, 282–292. https://doi.org/10.1016/j.compedu.2014.03.002
+\end{thebibliography}
+
+
+\end{document}
