@@ -41,11 +41,12 @@
 \contentsline {subsection}{\numberline {1.9.3}Sketch Artist}{11}{subsection.49}%
 \contentsline {subsubsection}{\numberline {1.9.3.1}Industrial Presentations}{11}{subsubsection.51}%
 \contentsline {chapter}{\numberline {2}Literature Review}{12}{chapter.53}%
-\contentsline {chapter}{\numberline {3}Proposed Methodology}{13}{chapter.54}%
-\contentsline {chapter}{\numberline {4}Implementation}{14}{chapter.55}%
-\contentsline {chapter}{\numberline {5}Evaluation Criteria}{15}{chapter.56}%
-\contentsline {chapter}{\numberline {6}Results}{16}{chapter.57}%
-\contentsline {chapter}{\numberline {7}Future Work}{17}{chapter.58}%
+\contentsline {section}{\numberline {2.1}Summary of Research Papers}{12}{section.54}%
+\contentsline {chapter}{\numberline {3}Proposed Methodology}{13}{chapter.55}%
+\contentsline {chapter}{\numberline {4}Implementation}{14}{chapter.56}%
+\contentsline {chapter}{\numberline {5}Evaluation Criteria}{15}{chapter.57}%
+\contentsline {chapter}{\numberline {6}Results}{16}{chapter.58}%
+\contentsline {chapter}{\numberline {7}Future Work}{17}{chapter.59}%
 \vspace {2em}
 \vspace {2em}
-\contentsline {chapter}{References}{18}{dummy.59}%
+\contentsline {chapter}{References}{18}{dummy.60}%
