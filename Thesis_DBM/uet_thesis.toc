@@ -1,52 +1,52 @@
-\contentsline {chapter}{Acknowledgments}{ii}{dummy.2}% 
-\contentsline {chapter}{List of Figures}{vi}{dummy.4}% 
-\contentsline {chapter}{List of Tables}{vii}{dummy.6}% 
-\contentsline {chapter}{Abbreviations}{viii}{dummy.8}% 
-\contentsline {chapter}{Abstract}{ix}{dummy.11}% 
-\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.12}% 
-\contentsline {section}{\numberline {1.1}Overview of the Project}{1}{section.13}% 
-\contentsline {section}{\numberline {1.2}Background}{1}{section.14}% 
-\contentsline {section}{\numberline {1.3}Motivation}{2}{section.15}% 
-\contentsline {section}{\numberline {1.4}Objectives of the Project}{2}{section.16}% 
-\contentsline {subsection}{\numberline {1.4.1}Industry Objectives}{2}{subsection.17}% 
-\contentsline {subsection}{\numberline {1.4.2}Research Objectives}{3}{subsection.18}% 
-\contentsline {subsection}{\numberline {1.4.3}Academic Objectives}{4}{subsection.19}% 
-\contentsline {section}{\numberline {1.5}Problem Statement}{4}{section.20}% 
-\contentsline {section}{\numberline {1.6}Scope of the Project}{4}{section.21}% 
-\contentsline {section}{\numberline {1.7}Challenges}{5}{section.22}% 
-\contentsline {subsection}{\numberline {1.7.1}Technology Selection}{5}{subsection.23}% 
-\contentsline {subsection}{\numberline {1.7.2}Camera Selection}{5}{subsection.24}% 
-\contentsline {subsection}{\numberline {1.7.3}Stereo Vision Camera Input}{5}{subsection.25}% 
-\contentsline {subsection}{\numberline {1.7.4}Marker Hardware}{5}{subsection.26}% 
-\contentsline {subsection}{\numberline {1.7.5}Ball detection}{6}{subsection.27}% 
-\contentsline {subsection}{\numberline {1.7.6}Marker Orientation Calibration}{6}{subsection.28}% 
-\contentsline {subsection}{\numberline {1.7.7}Pressure Sensor handling}{6}{subsection.29}% 
-\contentsline {subsection}{\numberline {1.7.8}Transmission Speed}{6}{subsection.30}% 
-\contentsline {subsection}{\numberline {1.7.9}Audio Hardware}{6}{subsection.31}% 
-\contentsline {subsection}{\numberline {1.7.10}Noise Reduction}{6}{subsection.32}% 
-\contentsline {subsection}{\numberline {1.7.11}Marker and duster thickness configuration}{6}{subsection.33}% 
-\contentsline {subsection}{\numberline {1.7.12}Erasing board}{6}{subsection.34}% 
-\contentsline {subsection}{\numberline {1.7.13}Seek bar control}{7}{subsection.35}% 
-\contentsline {subsection}{\numberline {1.7.14}Getting familiar with new framework}{7}{subsection.36}% 
-\contentsline {subsection}{\numberline {1.7.15}Cross Platform Linking}{7}{subsection.37}% 
-\contentsline {section}{\numberline {1.8}Assumptions and Constraints}{7}{section.38}% 
-\contentsline {section}{\numberline {1.9}Possible Applications of Work}{7}{section.39}% 
-\contentsline {subsection}{\numberline {1.9.1}Educational Institutes}{8}{subsection.40}% 
-\contentsline {subsubsection}{\numberline {1.9.1.1}Admin}{8}{subsubsection.41}% 
-\contentsline {subsubsection}{\numberline {1.9.1.2}Teacher}{8}{subsubsection.42}% 
-\contentsline {subsubsection}{\numberline {1.9.1.3}Students}{9}{subsubsection.43}% 
-\contentsline {subsection}{\numberline {1.9.2}Online Tutors}{9}{subsection.44}% 
-\contentsline {subsubsection}{\numberline {1.9.2.1}Tutors}{10}{subsubsection.45}% 
-\contentsline {subsubsection}{\numberline {1.9.2.2}Users}{10}{subsubsection.46}% 
-\contentsline {subsection}{\numberline {1.9.3}Sketch Artist}{10}{subsection.47}% 
-\contentsline {subsubsection}{\numberline {1.9.3.1}Industrial Presentations}{10}{subsubsection.48}% 
-\contentsline {chapter}{\numberline {2}Literature Review}{11}{chapter.50}% 
-\contentsline {section}{\numberline {2.1}Literature Review}{11}{section.51}% 
-\contentsline {chapter}{\numberline {3}Proposed Methodology}{12}{chapter.52}% 
-\contentsline {chapter}{\numberline {4}Implementation}{13}{chapter.53}% 
-\contentsline {chapter}{\numberline {5}Evaluation Criteria}{14}{chapter.54}% 
-\contentsline {chapter}{\numberline {6}Results}{15}{chapter.55}% 
-\contentsline {chapter}{\numberline {7}Future Work}{16}{chapter.56}% 
+\contentsline {chapter}{Acknowledgments}{ii}{dummy.2}%
+\contentsline {chapter}{List of Figures}{vi}{dummy.4}%
+\contentsline {chapter}{List of Tables}{vii}{dummy.6}%
+\contentsline {chapter}{Abbreviations}{viii}{dummy.8}%
+\contentsline {chapter}{Abstract}{ix}{dummy.11}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.12}%
+\contentsline {section}{\numberline {1.1}Overview of the Project}{1}{section.13}%
+\contentsline {section}{\numberline {1.2}Background}{1}{section.14}%
+\contentsline {section}{\numberline {1.3}Motivation}{2}{section.15}%
+\contentsline {section}{\numberline {1.4}Objectives of the Project}{2}{section.16}%
+\contentsline {subsection}{\numberline {1.4.1}Industry Objectives}{2}{subsection.17}%
+\contentsline {subsection}{\numberline {1.4.2}Research Objectives}{3}{subsection.18}%
+\contentsline {subsection}{\numberline {1.4.3}Academic Objectives}{4}{subsection.19}%
+\contentsline {section}{\numberline {1.5}Problem Statement}{4}{section.20}%
+\contentsline {section}{\numberline {1.6}Scope of the Project}{4}{section.21}%
+\contentsline {section}{\numberline {1.7}Challenges}{5}{section.22}%
+\contentsline {subsection}{\numberline {1.7.1}Technology Selection}{5}{subsection.23}%
+\contentsline {subsection}{\numberline {1.7.2}Camera Selection}{5}{subsection.24}%
+\contentsline {subsection}{\numberline {1.7.3}Stereo Vision Camera Input}{5}{subsection.25}%
+\contentsline {subsection}{\numberline {1.7.4}Marker Hardware}{5}{subsection.26}%
+\contentsline {subsection}{\numberline {1.7.5}Ball detection}{6}{subsection.27}%
+\contentsline {subsection}{\numberline {1.7.6}Marker Orientation Calibration}{6}{subsection.28}%
+\contentsline {subsection}{\numberline {1.7.7}Pressure Sensor handling}{6}{subsection.29}%
+\contentsline {subsection}{\numberline {1.7.8}Transmission Speed}{6}{subsection.30}%
+\contentsline {subsection}{\numberline {1.7.9}Audio Hardware}{6}{subsection.31}%
+\contentsline {subsection}{\numberline {1.7.10}Noise Reduction}{6}{subsection.32}%
+\contentsline {subsection}{\numberline {1.7.11}Marker and duster thickness configuration}{6}{subsection.33}%
+\contentsline {subsection}{\numberline {1.7.12}Erasing board}{6}{subsection.34}%
+\contentsline {subsection}{\numberline {1.7.13}Seek bar control}{7}{subsection.35}%
+\contentsline {subsection}{\numberline {1.7.14}Getting familiar with new framework}{7}{subsection.36}%
+\contentsline {subsection}{\numberline {1.7.15}Cross Platform Linking}{7}{subsection.37}%
+\contentsline {section}{\numberline {1.8}Assumptions and Constraints}{7}{section.38}%
+\contentsline {section}{\numberline {1.9}Possible Applications of Work}{7}{section.39}%
+\contentsline {subsection}{\numberline {1.9.1}Educational Institutes}{8}{subsection.40}%
+\contentsline {subsubsection}{\numberline {1.9.1.1}Admin}{8}{subsubsection.42}%
+\contentsline {subsubsection}{\numberline {1.9.1.2}Teacher}{8}{subsubsection.43}%
+\contentsline {subsubsection}{\numberline {1.9.1.3}Students}{9}{subsubsection.44}%
+\contentsline {subsection}{\numberline {1.9.2}Online Tutors}{10}{subsection.45}%
+\contentsline {subsubsection}{\numberline {1.9.2.1}Tutors}{10}{subsubsection.47}%
+\contentsline {subsubsection}{\numberline {1.9.2.2}Users}{10}{subsubsection.48}%
+\contentsline {subsection}{\numberline {1.9.3}Sketch Artist}{11}{subsection.49}%
+\contentsline {subsubsection}{\numberline {1.9.3.1}Industrial Presentations}{11}{subsubsection.51}%
+\contentsline {chapter}{\numberline {2}Literature Review}{12}{chapter.53}%
+\contentsline {section}{\numberline {2.1}Literature Review}{12}{section.54}%
+\contentsline {chapter}{\numberline {3}Proposed Methodology}{14}{chapter.55}%
+\contentsline {chapter}{\numberline {4}Implementation}{15}{chapter.56}%
+\contentsline {chapter}{\numberline {5}Evaluation Criteria}{16}{chapter.57}%
+\contentsline {chapter}{\numberline {6}Results}{17}{chapter.58}%
+\contentsline {chapter}{\numberline {7}Future Work}{18}{chapter.59}%
 \vspace {2em}
 \vspace {2em}
-\contentsline {chapter}{References}{17}{dummy.57}% 
+\contentsline {chapter}{References}{19}{dummy.60}%

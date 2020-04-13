@@ -1,36 +1,25 @@
-\begin{thebibliography}{5}
+\begin{thebibliography}{2}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Barrass(2002)]{barrass2002scientists}
-R.~Barrass.
-\newblock \emph{{Scientists must write: a guide to better writing for
-  scientists, engineers and students}}.
-\newblock RoutledgeFalmer, 2002.
+\bibitem[Murthy and Sujatha(2016)]{Murthy2016}
+S.V.N. Murthy and B.K. Sujatha.
+\newblock \emph{{Multi-Level Optimization in Encoding to Balance Video
+  Compression and Retention of 8K Resolution}}.
+\newblock Elsevier GmbH, 2016.
 
-\bibitem[Chandrasekhar(Last accessed on May 19, 2010.)]{getthesis}
-R.~Chandrasekhar.
-\newblock {How to Write a Thesis: \textit{A Working Guide}}.
-\newblock \url{http://ciips.ee.uwa.edu.au/pub/HowToWriteAThesis.pdf}, Last
-  accessed on May 19, 2010.
-
-\bibitem[Easterbrook(Last accessed on May 19, 2010.)]{howtothesis}
-S.~Easterbrook.
-\newblock {How Thesis Get Written}.
-\newblock \url{http://www.cs.toronto.edu/~sme/presentations/thesiswriting.pdf},
-  Last accessed on May 19, 2010.
-
-\bibitem[Evans and Gruba(2003)]{evans2003write}
-D.~Evans and P.~Gruba.
-\newblock \emph{{How to write a better thesis}}.
-\newblock Melbourne University Publishing, 2003.
-
-\bibitem[Murray(2006)]{murray2006write}
-R.~Murray.
-\newblock \emph{{How to write a thesis}}.
-\newblock Open Univ Press, 2006.
+\bibitem[O'Callaghan et~al.(2017)O'Callaghan, Neumann, Jones, and
+  Creed]{OCallaghan2017}
+Frances~V. O'Callaghan, David~L. Neumann, Liz Jones, and Peter~A. Creed.
+\newblock {The use of lecture recordings in higher education: A review of
+  institutional, student, and lecturer issues}.
+\newblock \emph{Education and Information Technologies}, 22\penalty0
+  (1):\penalty0 399--415, 2017.
+\newblock ISSN 15737608.
+\newblock \doi{10.1007/s10639-015-9451-z}.
+\newblock URL \url{http://dx.doi.org/10.1007/s10639-015-9451-z}.
 
 \end{thebibliography}
