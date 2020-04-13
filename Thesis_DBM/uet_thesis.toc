@@ -1,8 +1,8 @@
 \contentsline {chapter}{Acknowledgments}{ii}{dummy.2}%
-\contentsline {chapter}{List of Figures}{vi}{dummy.4}%
-\contentsline {chapter}{List of Tables}{vii}{dummy.6}%
-\contentsline {chapter}{Abbreviations}{viii}{dummy.8}%
-\contentsline {chapter}{Abstract}{ix}{dummy.11}%
+\contentsline {chapter}{List of Figures}{vii}{dummy.4}%
+\contentsline {chapter}{List of Tables}{viii}{dummy.6}%
+\contentsline {chapter}{Abbreviations}{ix}{dummy.8}%
+\contentsline {chapter}{Abstract}{x}{dummy.11}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.12}%
 \contentsline {section}{\numberline {1.1}Overview of the Project}{1}{section.13}%
 \contentsline {section}{\numberline {1.2}Background}{1}{section.14}%
@@ -43,10 +43,31 @@
 \contentsline {chapter}{\numberline {2}Literature Review}{12}{chapter.53}%
 \contentsline {section}{\numberline {2.1}Literature Review}{12}{section.54}%
 \contentsline {chapter}{\numberline {3}Proposed Methodology}{14}{chapter.55}%
-\contentsline {chapter}{\numberline {4}Implementation}{15}{chapter.56}%
-\contentsline {chapter}{\numberline {5}Evaluation Criteria}{16}{chapter.57}%
-\contentsline {chapter}{\numberline {6}Results}{17}{chapter.58}%
-\contentsline {chapter}{\numberline {7}Future Work}{18}{chapter.59}%
+\contentsline {section}{\numberline {3.1}Proposed Solution}{14}{section.56}%
+\contentsline {section}{\numberline {3.2}General Proposed Model}{14}{section.57}%
+\contentsline {section}{\numberline {3.3}General Flow}{15}{section.59}%
+\contentsline {section}{\numberline {3.4}Formulas Used}{16}{section.61}%
+\contentsline {section}{\numberline {3.5}Use-Case Diagrams}{17}{section.63}%
+\contentsline {subsection}{\numberline {3.5.1}Controller Application}{17}{subsection.64}%
+\contentsline {subsection}{\numberline {3.5.2}Player Application}{18}{subsection.66}%
+\contentsline {subsection}{\numberline {3.5.3}LMS Web Application}{19}{subsection.68}%
+\contentsline {section}{\numberline {3.6}Architecture Diagram}{20}{section.71}%
+\contentsline {section}{\numberline {3.7}Modules Methodology Description}{21}{section.73}%
+\contentsline {subsection}{\numberline {3.7.1}Board Marker}{21}{subsection.74}%
+\contentsline {subsubsection}{\numberline {3.7.1.1}Stereo Vision Cameras}{22}{subsubsection.75}%
+\contentsline {subsubsection}{\numberline {3.7.1.2}Marker Hardware}{22}{subsubsection.77}%
+\contentsline {subsection}{\numberline {3.7.2}Audio Hardware}{23}{subsection.79}%
+\contentsline {subsection}{\numberline {3.7.3}Controller Application}{24}{subsection.81}%
+\contentsline {subsection}{\numberline {3.7.4}Player Application}{25}{subsection.83}%
+\contentsline {subsection}{\numberline {3.7.5}Offline Player}{25}{subsection.84}%
+\contentsline {subsection}{\numberline {3.7.6}WebGL Player}{26}{subsection.86}%
+\contentsline {subsection}{\numberline {3.7.7}Learning Management System}{27}{subsection.88}%
+\contentsline {subsubsection}{\numberline {3.7.7.1}Entity Relationship Diagram}{27}{subsubsection.89}%
+\contentsline {subsubsection}{\numberline {3.7.7.2}Database Diagram}{28}{subsubsection.91}%
+\contentsline {chapter}{\numberline {4}Implementation}{29}{chapter.93}%
+\contentsline {chapter}{\numberline {5}Evaluation Criteria}{30}{chapter.94}%
+\contentsline {chapter}{\numberline {6}Results}{31}{chapter.95}%
+\contentsline {chapter}{\numberline {7}Future Work}{32}{chapter.96}%
 \vspace {2em}
 \vspace {2em}
-\contentsline {chapter}{References}{19}{dummy.60}%
+\contentsline {chapter}{References}{33}{dummy.97}%
