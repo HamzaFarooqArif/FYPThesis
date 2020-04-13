@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.13)  13 APR 2020 22:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.13)  13 APR 2020 22:25
 entering extended mode
 **./uet_thesis.tex
 (uet_thesis.tex
@@ -783,20 +783,20 @@ Chapter 2.
 -------------------------------------------
 [12
 
-]) (Chapters/Chapter3.tex [13]
+]) [13] (Chapters/Chapter3.tex [14]
 Chapter 3.
 -------------------------------------------
  3 Proposed Methodology
 -------------------------------------------
-<Figures/General Model.png, id=538, 87.9285pt x 87.9285pt>
+<Figures/General Model.png, id=544, 87.9285pt x 87.9285pt>
 File: Figures/General Model.png Graphic file (type png)
 <use Figures/General Model.png>
 Package pdftex.def Info: Figures/General Model.png  used on input line 15.
 (pdftex.def)             Requested size: 199.18295pt x 170.72864pt.
-[14
+[15
 
  <./Figures/General Model.png>]
-<Figures/Workflow.png, id=544, 954.56625pt x 609.27625pt>
+<Figures/Workflow.png, id=550, 954.56625pt x 609.27625pt>
 File: Figures/Workflow.png Graphic file (type png)
 <use Figures/Workflow.png>
 Package pdftex.def Info: Figures/Workflow.png  used on input line 28.
@@ -806,12 +806,12 @@ Overfull \hbox (9.31033pt too wide) in paragraph at lines 28--29
  [][] 
  []
 
-<Figures/EulerAngles.png, id=545, 211.79124pt x 239.89626pt>
+<Figures/EulerAngles.png, id=551, 211.79124pt x 239.89626pt>
 File: Figures/EulerAngles.png Graphic file (type png)
 <use Figures/EulerAngles.png>
 Package pdftex.def Info: Figures/EulerAngles.png  used on input line 42.
 (pdftex.def)             Requested size: 125.24336pt x 170.7192pt.
-<Figures/Quaternion to Euler conversion.png, id=546, 284.86424pt x 81.30376pt>
+<Figures/Quaternion to Euler conversion.png, id=552, 284.86424pt x 81.30376pt>
 File: Figures/Quaternion to Euler conversion.png Graphic file (type png)
 <use Figures/Quaternion to Euler conversion.png>
 Package pdftex.def Info: Figures/Quaternion to Euler conversion.png  used on in
@@ -827,7 +827,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--62
 []|\OT1/cmr/m/n/12 Used to com-pute
  []
 
-<Figures/Euclidean distance formula.jpg, id=547, 320.19624pt x 133.49875pt>
+<Figures/Euclidean distance formula.jpg, id=553, 320.19624pt x 133.49875pt>
 File: Figures/Euclidean distance formula.jpg Graphic file (type jpg)
 <use Figures/Euclidean distance formula.jpg>
 Package pdftex.def Info: Figures/Euclidean distance formula.jpg  used on input 
@@ -843,7 +843,7 @@ Underfull \hbox (badness 1642) in paragraph at lines 73--73
 \OT1/cmr/m/n/12 Marker with re-spect
  []
 
-<Figures/slope-intercept form.jpg, id=548, 399.02266pt x 77.65181pt>
+<Figures/slope-intercept form.jpg, id=554, 399.02266pt x 77.65181pt>
 File: Figures/slope-intercept form.jpg Graphic file (type jpg)
 <use Figures/slope-intercept form.jpg>
 Package pdftex.def Info: Figures/slope-intercept form.jpg  used on input line 7
@@ -859,28 +859,28 @@ Overfull \hbox (18.46547pt too wide) in alignment at lines 34--86
  [] [] [] 
  []
 
-[15 <./Figures/Workflow.png>]
+[16 <./Figures/Workflow.png>]
 Underfull \vbox (badness 10000) detected at line 86
  []
 
-[16 <./Figures/EulerAngles.png> <./Figures/Quaternion to Euler conversion.png> 
+[17 <./Figures/EulerAngles.png> <./Figures/Quaternion to Euler conversion.png> 
 <./Figures/Euclidean distance formula.jpg> <./Figures/slope-intercept form.jpg>
 ]
-<Figures/ControllerApplication.png, id=560, 305.64188pt x 212.795pt>
+<Figures/ControllerApplication.png, id=566, 305.64188pt x 212.795pt>
 File: Figures/ControllerApplication.png Graphic file (type png)
 <use Figures/ControllerApplication.png>
 Package pdftex.def Info: Figures/ControllerApplication.png  used on input line 
 106.
 (pdftex.def)             Requested size: 312.99579pt x 284.5431pt.
- [17 <./Figures/ControllerApplication.png>]
-<Figures/PlayerApplication.png, id=566, 301.125pt x 213.29688pt>
+ [18 <./Figures/ControllerApplication.png>]
+<Figures/PlayerApplication.png, id=572, 301.125pt x 213.29688pt>
 File: Figures/PlayerApplication.png Graphic file (type png)
 <use Figures/PlayerApplication.png>
 Package pdftex.def Info: Figures/PlayerApplication.png  used on input line 128.
 
 (pdftex.def)             Requested size: 369.92206pt x 398.36514pt.
- [18 <./Figures/PlayerApplication.png>]
-<Figures/DBMUseCaseWebAppPart1.png, id=572, 370.986pt x 641.39626pt>
+ [19 <./Figures/PlayerApplication.png>]
+<Figures/DBMUseCaseWebAppPart1.png, id=579, 370.986pt x 641.39626pt>
 File: Figures/DBMUseCaseWebAppPart1.png Graphic file (type png)
 <use Figures/DBMUseCaseWebAppPart1.png>
 Package pdftex.def Info: Figures/DBMUseCaseWebAppPart1.png  used on input line 
@@ -891,7 +891,7 @@ Overfull \hbox (9.33298pt too wide) in paragraph at lines 149--150
  [][] 
  []
 
-<Figures/DBMUseCaseWebAppPart2.png, id=573, 412.54124pt x 441.44925pt>
+<Figures/DBMUseCaseWebAppPart2.png, id=580, 412.54124pt x 441.44925pt>
 File: Figures/DBMUseCaseWebAppPart2.png Graphic file (type png)
 <use Figures/DBMUseCaseWebAppPart2.png>
 Package pdftex.def Info: Figures/DBMUseCaseWebAppPart2.png  used on input line 
@@ -905,9 +905,9 @@ Overfull \hbox (9.32503pt too wide) in paragraph at lines 155--156
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[19 <./Figures/DBMUseCaseWebAppPart1.png>] [20 <./Figures/DBMUseCaseWebAppPart2
+[20 <./Figures/DBMUseCaseWebAppPart1.png>] [21 <./Figures/DBMUseCaseWebAppPart2
 .png>]
-<Figures/Architect 3.png, id=585, 1806.75pt x 1405.25pt>
+<Figures/Architect 3.png, id=591, 1806.75pt x 1405.25pt>
 File: Figures/Architect 3.png Graphic file (type png)
 <use Figures/Architect 3.png>
 Package pdftex.def Info: Figures/Architect 3.png  used on input line 179.
@@ -917,20 +917,20 @@ Overfull \hbox (37.7697pt too wide) in paragraph at lines 179--180
  [][] 
  []
 
-[21 <./Figures/Architect 3.png>]
-<Figures/Main_Camera.png, id=591, 1505.625pt x 1003.75pt>
+[22 <./Figures/Architect 3.png>]
+<Figures/Main_Camera.png, id=597, 1505.625pt x 1003.75pt>
 File: Figures/Main_Camera.png Graphic file (type png)
 <use Figures/Main_Camera.png>
 Package pdftex.def Info: Figures/Main_Camera.png  used on input line 195.
 (pdftex.def)             Requested size: 369.88072pt x 341.43896pt.
- [22 <./Figures/Main_Camera.png>]
-<Figures/Main_Marker.png, id=597, 1505.625pt x 1003.75pt>
+ [23 <./Figures/Main_Camera.png>]
+<Figures/Main_Marker.png, id=603, 1505.625pt x 1003.75pt>
 File: Figures/Main_Marker.png Graphic file (type png)
 <use Figures/Main_Marker.png>
 Package pdftex.def Info: Figures/Main_Marker.png  used on input line 206.
 (pdftex.def)             Requested size: 369.88072pt x 341.43896pt.
- [23 <./Figures/Main_Marker.png>]
-<Figures/Audio Methodology.png, id=603, 499.8675pt x 389.95688pt>
+ [24 <./Figures/Main_Marker.png>]
+<Figures/Audio Methodology.png, id=609, 499.8675pt x 389.95688pt>
 File: Figures/Audio Methodology.png Graphic file (type png)
 <use Figures/Audio Methodology.png>
 Package pdftex.def Info: Figures/Audio Methodology.png  used on input line 218.
@@ -941,16 +941,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 223--226
 
  []
 
-<Figures/Controller Application Methodology.png, id=604, 308.65312pt x 213.7987
+<Figures/Controller Application Methodology.png, id=610, 308.65312pt x 213.7987
 5pt>
 File: Figures/Controller Application Methodology.png Graphic file (type png)
 <use Figures/Controller Application Methodology.png>
 Package pdftex.def Info: Figures/Controller Application Methodology.png  used o
 n input line 230.
 (pdftex.def)             Requested size: 369.91562pt x 313.0048pt.
-[24 <./Figures/Audio Methodology.png>] [25 <./Figures/Controller Application Me
+[25 <./Figures/Audio Methodology.png>] [26 <./Figures/Controller Application Me
 thodology.png>]
-<Figures/Player Application Methodology (Offline).png, id=616, 308.65312pt x 16
+<Figures/Player Application Methodology (Offline).png, id=622, 308.65312pt x 16
 9.38281pt>
 File: Figures/Player Application Methodology (Offline).png Graphic file (type p
 ng)
@@ -958,7 +958,7 @@ ng)
 Package pdftex.def Info: Figures/Player Application Methodology (Offline).png  
 used on input line 244.
 (pdftex.def)             Requested size: 369.91562pt x 227.63083pt.
-<Figures/Player Application Methodology (Online).png, id=617, 308.65312pt x 169
+<Figures/Player Application Methodology (Online).png, id=623, 308.65312pt x 169
 .38281pt>
 File: Figures/Player Application Methodology (Online).png Graphic file (type pn
 g)
@@ -966,15 +966,15 @@ g)
 Package pdftex.def Info: Figures/Player Application Methodology (Online).png  u
 sed on input line 253.
 (pdftex.def)             Requested size: 369.91562pt x 227.63083pt.
- [26 <./Figures/Player Application Methodology (Offline).png> <./Figures/Player
+ [27 <./Figures/Player Application Methodology (Offline).png> <./Figures/Player
  Application Methodology (Online).png>]
-<Figures/Entity Diagram.png, id=624, 2300.595pt x 1346.02875pt>
+<Figures/Entity Diagram.png, id=630, 2300.595pt x 1346.02875pt>
 File: Figures/Entity Diagram.png Graphic file (type png)
 <use Figures/Entity Diagram.png>
 Package pdftex.def Info: Figures/Entity Diagram.png  used on input line 263.
 (pdftex.def)             Requested size: 369.85794pt x 199.16394pt.
- [27 <./Figures/Entity Diagram.png>]
-<Figures/DBM_DB_Diagram.png, id=630, 1174.3875pt x 1463.4675pt>
+ [28 <./Figures/Entity Diagram.png>]
+<Figures/DBM_DB_Diagram.png, id=636, 1174.3875pt x 1463.4675pt>
 File: Figures/DBM_DB_Diagram.png Graphic file (type png)
 <use Figures/DBM_DB_Diagram.png>
 Package pdftex.def Info: Figures/DBM_DB_Diagram.png  used on input line 272.
@@ -984,33 +984,33 @@ Overfull \hbox (9.32013pt too wide) in paragraph at lines 272--273
  [][] 
  []
 
-) (Chapters/Chapter4.tex [28 <./Figures/DBM_DB_Diagram.png>]
+) (Chapters/Chapter4.tex [29 <./Figures/DBM_DB_Diagram.png>]
 Chapter 4.
 -------------------------------------------
  4 Implementation
 -------------------------------------------
-) (Chapters/Chapter5.tex [29
+) (Chapters/Chapter5.tex [30
 
 ]
 Chapter 5.
 -------------------------------------------
  5 Evaluation Criteria
 -------------------------------------------
-) (Chapters/Chapter6.tex [30
+) (Chapters/Chapter6.tex [31
 
 ]
 Chapter 6.
 -------------------------------------------
  6 Results
 -------------------------------------------
-) (Chapters/Chapter7.tex [31
+) (Chapters/Chapter7.tex [32
 
 ]
 Chapter 7.
 -------------------------------------------
  7 Future Work
 -------------------------------------------
-) [32
+) [33
 
 ]
 -------------------------------------------
@@ -1018,7 +1018,7 @@ Chapter 7.
 -------------------------------------------
 (uet_thesis.bbl)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 187.
- [33
+ [34
 
 
 ]
@@ -1031,10 +1031,10 @@ Package rerunfilecheck Info: File `uet_thesis.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 187.
  ) 
 Here is how much of TeX's memory you used:
- 15052 strings out of 480930
- 222125 string characters out of 2901168
- 468050 words of memory out of 3000000
- 30502 multiletter control sequences out of 15000+200000
+ 15057 strings out of 480930
+ 222213 string characters out of 2901168
+ 468118 words of memory out of 3000000
+ 30505 multiletter control sequences out of 15000+200000
  541265 words of font info for 56 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,13n,89p,1949b,431s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1049,9 +1049,9 @@ ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/DC
 /AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C
 :/Users/DC/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmt
 t12.pfb>
-Output written on uet_thesis.pdf (45 pages, 2248668 bytes).
+Output written on uet_thesis.pdf (46 pages, 2250754 bytes).
 PDF statistics:
- 726 PDF objects out of 1000 (max. 8388607)
- 147 named destinations out of 1000 (max. 500000)
+ 732 PDF objects out of 1000 (max. 8388607)
+ 149 named destinations out of 1000 (max. 500000)
  689 words of extra memory for PDF output out of 10000 (max. 10000000)
 
