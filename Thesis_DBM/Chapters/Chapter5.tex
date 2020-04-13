@@ -2,7 +2,144 @@
 
 \chapter{Evaluation Criteria} % Write in your own chapter title
 \label{Chapter5}
-\lhead{Chapter 2. \emph{What to Write}} % Write in your own chapter title to set the page header
+\lhead{Chapter 2. \emph{Evaluation Criteria}} % Write in your own chapter title to set the page header
 
+Here are the test cases for evaluation of the project:
+\section{Web Application}
+\subsection{Test Scenario TS-1: User Registration Functionality}
+\textbf{Post-Conditions: } User data successfully sent to admin request approval page.
+\subsubsection{\underline{Test Case TC-1: Enter all valid credentials}}
+\textbf{Test Steps:}
+\begin{itemize}
 
+\item Enter valid First Name, Last Name, Email, Password and Registration Number.
+\item Select a designation \& date of birth.
+\item Click on register button.
+\item Registration Number: 2016-CS-123
 
+\end{itemize}
+
+\textbf{Test Data:}
+\begin{itemize}
+
+\item First Name: abc
+\item Last Name: xyz
+\item Email: someone@example.com (Email should be already registered on any service.)
+\item Password: abcd (At least four characters).
+\item Registration Number: 2016-CS-123
+
+\end{itemize}
+
+\subsubsection{\underline{Test Case TC-2: Enter Invalid First Name}}
+\textbf{Test Steps:}
+\begin{itemize}
+
+\item Enter invalid First Name
+\item Enter valid Last Name, Email, Password and Registration Number.
+\item Select a designation \& date of birth.
+\item Click on register button.
+
+\end{itemize}
+
+\textbf{Test Data:}
+\begin{itemize}
+
+\item First Name: abc12
+\item Last Name: xyz
+\item Email: someone@example.com (Email should be already registered on any service.)
+\item Password: abcd (At least four characters).
+\item Registration Number: 2016-CS-123
+
+\end{itemize}
+
+\subsubsection{\underline{Test Case TC-3: Enter Invalid Last Name}}
+\textbf{Test Steps:}
+\begin{itemize}
+
+\item Enter invalid Last Name
+\item Enter valid First Name, Email, Passwordand Registration Number.
+\item Select a designation \& date of birth.
+\item Click on register button.
+\item Registration Number: 2016-CS-123
+
+\end{itemize}
+
+\textbf{Test Data:}
+\begin{itemize}
+
+\item First Name: abc
+\item Last Name: xyz12
+\item Email: someone@example.com (Email should be already registered on any service.)
+\item Password: abcd (At least four characters).
+\item Registration Number: 2016-CS-123
+
+\end{itemize}
+
+\subsubsection{\underline{Test Case TC-4: Enter Invalid Email}}
+\textbf{Test Steps:}
+\begin{itemize}
+
+\item Enter invalid Email
+\item Enter valid First Name, Password and Registration Number.
+\item Select a designation \& date of birth.
+\item Click on register button.
+\item Registration Number: 2016-CS-123
+
+\end{itemize}
+
+\textbf{Test Data:}
+\begin{itemize}
+
+\item First Name: abc
+\item Last Name: xyz
+\item Email: someone.com (Email should be already registered on any service.)
+\item Password: abcd (At least four characters).
+\item Registration Number: 2016-CS-123
+
+\end{itemize}
+
+\subsubsection{\underline{Test Case TC-5: Enter Invalid Password}}
+\textbf{Test Steps:}
+\begin{itemize}
+
+\item Enter invalid Password.
+\item Enter valid First Name, Password and Registration Number.
+\item Select a designation \& date of birth.
+\item Click on register button.
+\item Registration Number: 2016-CS-123
+
+\end{itemize}
+
+\textbf{Test Data:}
+\begin{itemize}
+
+\item First Name: abc
+\item Last Name: xyz
+\item Email: someone@example.com (Email should be already registered on any service.)
+\item Password: abc (At least four characters).
+\item Registration Number: 2016-CS-123
+
+\end{itemize}
+
+\subsubsection{\underline{Test Case TC-6: Enter Invalid Registration Number}}
+\textbf{Test Steps:}
+\begin{itemize}
+
+\item Enter invalid Registration Number.
+\item Enter valid First Name, Password and Registration Number.
+\item Select a designation \& date of birth.
+\item Click on register button.
+\item Registration Number: 2016-CS-123
+
+\end{itemize}
+
+\textbf{Test Data:}
+\begin{itemize}
+
+\item First Name: abc
+\item Last Name: xyz
+\item Email: someone@example.com (Email should be already registered on any service.)
+\item Password: abcd (At least four characters).
+\item Registration Number: 2016-CS--1, 2016-CS-A, 2008-123-A, 2016-!A-1, 2016-!A-A, 2019-!A-£, 20!1-AB-1
+
+\end{itemize}
