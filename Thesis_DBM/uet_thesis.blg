@@ -3,46 +3,47 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: uet_thesis.aux
 The style file: plainnat.bst
 Database file #1: references.bib
+Warning--there's a number but no volume in Gonzalez-Agulla2013
 Warning--there's a number but no volume in Lo2019
-You've used 15 entries,
+You've used 16 entries,
             2773 wiz_defined-function locations,
-            736 strings with 8977 characters,
-and the built_in function-call counts, 8231 in all, are:
-= -- 807
-> -- 455
+            746 strings with 9285 characters,
+and the built_in function-call counts, 8803 in all, are:
+= -- 859
+> -- 494
 < -- 10
-+ -- 153
-- -- 138
-* -- 711
-:= -- 1274
-add.period$ -- 76
-call.type$ -- 15
-change.case$ -- 90
-chr.to.int$ -- 15
-cite$ -- 31
-duplicate$ -- 335
-empty$ -- 614
-format.name$ -- 163
-if$ -- 1724
++ -- 166
+- -- 150
+* -- 768
+:= -- 1363
+add.period$ -- 80
+call.type$ -- 16
+change.case$ -- 97
+chr.to.int$ -- 16
+cite$ -- 34
+duplicate$ -- 356
+empty$ -- 655
+format.name$ -- 176
+if$ -- 1840
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 16
-newline$ -- 114
-num.names$ -- 60
-pop$ -- 135
+missing$ -- 17
+newline$ -- 120
+num.names$ -- 64
+pop$ -- 147
 preamble$ -- 1
-purify$ -- 76
+purify$ -- 82
 quote$ -- 0
-skip$ -- 270
+skip$ -- 284
 stack$ -- 0
-substring$ -- 401
-swap$ -- 42
+substring$ -- 428
+swap$ -- 43
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 160
-warning$ -- 1
-while$ -- 76
+type$ -- 171
+warning$ -- 2
+while$ -- 81
 width$ -- 0
-write$ -- 263
-(There was 1 warning)
+write$ -- 278
+(There were 2 warnings)
