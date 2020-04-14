@@ -1,4 +1,4 @@
-\begin{thebibliography}{23}
+\begin{thebibliography}{24}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -104,6 +104,16 @@ Habib~Ullah Khan.
   (1):\penalty0 68--84, 2016.
 \newblock ISSN 17408016.
 \newblock \doi{10.1504/IJIL.2016.076672}.
+
+\bibitem[{Le Gall}(1992)]{LeGall1992}
+Didier~J. {Le Gall}.
+\newblock {The MPEG video compression algorithm}.
+\newblock \emph{Signal Processing: Image Communication}, 4\penalty0
+  (2):\penalty0 129--140, apr 1992.
+\newblock ISSN 0923-5965.
+\newblock \doi{10.1016/0923-5965(92)90019-C}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/abs/pii/092359659290019C}.
 
 \bibitem[Li(2019)]{Li2019}
 Liang~Yi Li.
