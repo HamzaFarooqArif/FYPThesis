@@ -1,4 +1,4 @@
-\begin{thebibliography}{18}
+\begin{thebibliography}{19}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -162,6 +162,13 @@ Frances~V. O'Callaghan, David~L. Neumann, Liz Jones, and Peter~A. Creed.
 \newblock ISSN 15737608.
 \newblock \doi{10.1007/s10639-015-9451-z}.
 \newblock URL \url{http://dx.doi.org/10.1007/s10639-015-9451-z}.
+
+\bibitem[Renz et~al.(2015)Renz, Bauer, Malchow, Staubitz, and Meinel]{Renz2015}
+J~Renz, M~Bauer, M~Malchow, T~Staubitz, and C~Meinel.
+\newblock {Optimizing the Video Experience in Moocs}.
+\newblock \emph{EDULEARN15 Proceedings}, \penalty0 (July):\penalty0 5150--5158,
+  2015.
+\newblock ISSN 2340-1117.
 
 \bibitem[Yang et~al.(2015)Yang, Wen, Howley, Kraut, and Ros{\'{e}}]{Yang2015}
 Diyi Yang, Miaomiao Wen, Iris Howley, Robert Kraut, and Carolyn Ros{\'{e}}.
