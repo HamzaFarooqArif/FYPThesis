@@ -1,4 +1,4 @@
-\begin{thebibliography}{11}
+\begin{thebibliography}{12}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -22,6 +22,14 @@ Chih~Ming Chen and Chung~Hsin Wu.
 \newblock ISSN 03601315.
 \newblock \doi{10.1016/j.compedu.2014.08.015}.
 \newblock URL \url{http://dx.doi.org/10.1016/j.compedu.2014.08.015}.
+
+\bibitem[Chou et~al.(2010)Chou, Wang, Fuh, Lin, and Chen]{Chou2010}
+Han~Ping Chou, Jung~Ming Wang, Chiou~Shann Fuh, Shih~Chi Lin, and Sei~Wang
+  Chen.
+\newblock {Automated lecture recording system}.
+\newblock \emph{2010 International Conference on System Science and
+  Engineering, ICSSE 2010}, pages 167--172, 2010.
+\newblock \doi{10.1109/ICSSE.2010.5551811}.
 
 \bibitem[Giannakos et~al.(2016)Giannakos, Jaccheri, and
   Krogstie]{Giannakos2016}
