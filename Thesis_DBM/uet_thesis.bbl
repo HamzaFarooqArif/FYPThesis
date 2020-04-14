@@ -1,9 +1,18 @@
-\begin{thebibliography}{4}
+\begin{thebibliography}{5}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Brooks et~al.(2014)Brooks, Erickson, Greer, and Gutwin]{Brooks2014}
+Christopher Brooks, Graham Erickson, Jim Greer, and Carl Gutwin.
+\newblock {Modelling and quantifying the behaviours of students in lecture
+  capture environments}.
+\newblock \emph{Computers and Education}, 75:\penalty0 282--292, 2014.
+\newblock ISSN 03601315.
+\newblock \doi{10.1016/j.compedu.2014.03.002}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.compedu.2014.03.002}.
 
 \bibitem[Giannakos et~al.(2016)Giannakos, Jaccheri, and
   Krogstie]{Giannakos2016}
