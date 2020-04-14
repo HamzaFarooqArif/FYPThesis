@@ -1,4 +1,4 @@
-\begin{thebibliography}{12}
+\begin{thebibliography}{13}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -48,6 +48,16 @@ Paola Iannone and Dominic Miller.
 \newblock \emph{Educational Studies in Mathematics}, pages 387--404, 2019.
 \newblock ISSN 15730816.
 \newblock \doi{10.1007/s10649-018-9872-x}.
+
+\bibitem[Khan(2016)]{Khan2016}
+Habib~Ullah Khan.
+\newblock {Possible effect of video lecture capture technology on the cognitive
+  empowerment of higher education students: A case study of gulf-based
+  university}.
+\newblock \emph{International Journal of Innovation and Learning}, 20\penalty0
+  (1):\penalty0 68--84, 2016.
+\newblock ISSN 17408016.
+\newblock \doi{10.1504/IJIL.2016.076672}.
 
 \bibitem[Li(2019)]{Li2019}
 Liang~Yi Li.
