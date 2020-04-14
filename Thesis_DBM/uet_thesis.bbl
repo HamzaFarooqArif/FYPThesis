@@ -1,4 +1,4 @@
-\begin{thebibliography}{9}
+\begin{thebibliography}{10}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -13,6 +13,15 @@ Christopher Brooks, Graham Erickson, Jim Greer, and Carl Gutwin.
 \newblock ISSN 03601315.
 \newblock \doi{10.1016/j.compedu.2014.03.002}.
 \newblock URL \url{http://dx.doi.org/10.1016/j.compedu.2014.03.002}.
+
+\bibitem[Chen and Wu(2015)]{Chen2015}
+Chih~Ming Chen and Chung~Hsin Wu.
+\newblock {Effects of different video lecture types on sustained attention,
+  emotion, cognitive load, and learning performance}.
+\newblock \emph{Computers and Education}, 80:\penalty0 108--121, 2015.
+\newblock ISSN 03601315.
+\newblock \doi{10.1016/j.compedu.2014.08.015}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.compedu.2014.08.015}.
 
 \bibitem[Giannakos et~al.(2016)Giannakos, Jaccheri, and
   Krogstie]{Giannakos2016}
