@@ -4,45 +4,45 @@ The top-level auxiliary file: uet_thesis.aux
 The style file: plainnat.bst
 Database file #1: references.bib
 Warning--there's a number but no volume in Lo2019
-You've used 8 entries,
+You've used 9 entries,
             2773 wiz_defined-function locations,
-            673 strings with 7031 characters,
-and the built_in function-call counts, 4150 in all, are:
-= -- 410
-> -- 211
-< -- 5
-+ -- 71
-- -- 63
-* -- 356
-:= -- 648
-add.period$ -- 42
-call.type$ -- 8
-change.case$ -- 44
-chr.to.int$ -- 8
-cite$ -- 17
-duplicate$ -- 173
-empty$ -- 321
-format.name$ -- 77
-if$ -- 866
+            682 strings with 7319 characters,
+and the built_in function-call counts, 4861 in all, are:
+= -- 477
+> -- 259
+< -- 6
++ -- 87
+- -- 78
+* -- 415
+:= -- 752
+add.period$ -- 46
+call.type$ -- 9
+change.case$ -- 52
+chr.to.int$ -- 9
+cite$ -- 19
+duplicate$ -- 203
+empty$ -- 367
+format.name$ -- 93
+if$ -- 1020
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 9
-newline$ -- 66
-num.names$ -- 32
-pop$ -- 65
+missing$ -- 10
+newline$ -- 72
+num.names$ -- 36
+pop$ -- 80
 preamble$ -- 1
-purify$ -- 37
+purify$ -- 44
 quote$ -- 0
-skip$ -- 133
+skip$ -- 162
 stack$ -- 0
-substring$ -- 198
-swap$ -- 17
-text.length$ -- 1
+substring$ -- 232
+swap$ -- 27
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 83
+type$ -- 94
 warning$ -- 1
-while$ -- 39
+while$ -- 45
 width$ -- 0
-write$ -- 146
+write$ -- 161
 (There was 1 warning)

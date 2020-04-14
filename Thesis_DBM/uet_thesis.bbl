@@ -1,4 +1,4 @@
-\begin{thebibliography}{8}
+\begin{thebibliography}{9}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -78,5 +78,13 @@ Frances~V. O'Callaghan, David~L. Neumann, Liz Jones, and Peter~A. Creed.
 \newblock ISSN 15737608.
 \newblock \doi{10.1007/s10639-015-9451-z}.
 \newblock URL \url{http://dx.doi.org/10.1007/s10639-015-9451-z}.
+
+\bibitem[Yang et~al.(2015)Yang, Wen, Howley, Kraut, and Ros{\'{e}}]{Yang2015}
+Diyi Yang, Miaomiao Wen, Iris Howley, Robert Kraut, and Carolyn Ros{\'{e}}.
+\newblock {Exploring the effect of confusion in discussion forums of massive
+  open online courses}.
+\newblock \emph{L@S 2015 - 2nd ACM Conference on Learning at Scale}, pages
+  121--130, 2015.
+\newblock \doi{10.1145/2724660.2724677}.
 
 \end{thebibliography}
