@@ -1,4 +1,4 @@
-\begin{thebibliography}{6}
+\begin{thebibliography}{7}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -23,6 +23,14 @@ Michail~N. Giannakos, Letizia Jaccheri, and John Krogstie.
   (6):\penalty0 1259--1275, 2016.
 \newblock ISSN 14678535.
 \newblock \doi{10.1111/bjet.12313}.
+
+\bibitem[Iannone and Miller(2019)]{Iannone2019}
+Paola Iannone and Dominic Miller.
+\newblock {Guided notes for university mathematics and their impact on
+  students' note-taking behaviour}.
+\newblock \emph{Educational Studies in Mathematics}, pages 387--404, 2019.
+\newblock ISSN 15730816.
+\newblock \doi{10.1007/s10649-018-9872-x}.
 
 \bibitem[Lo and Hew(2019)]{Lo2019}
 Chung~Kwan Lo and Khe~Foon Hew.
