@@ -1,13 +1,13 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.9)  13 APR 2020 19:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.13)  13 APR 2020 22:25
 entering extended mode
 **./uet_thesis.tex
 (uet_thesis.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-04-06> (uet_thesis.cls
 Document Class: uet_thesis 2010/22/03 v1.1 LaTeX document class
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\book.cls"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\book.cls"
 Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\bk12.clo"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\bk12.clo"
 File: bk12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
 \c@part=\count167
@@ -23,20 +23,19 @@ File: bk12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
 )
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/setspace\setsp
-ace.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/setspace\setspace.sty
+"
 Package: setspace 2011/12/19 v6.7a set line spacing
-)
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/vmargin\vmargi
-n.sty"
+) ("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/vmargin\vmargin.sty
+"
 Package: vmargin 2004/07/15 V2.5 set document margins (VK)
 
 Package: vmargin 2004/07/15 V2.5 set document margins (VK)
 \PaperWidth=\dimen135
 \PaperHeight=\dimen136
 )
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyhdr\fancy
-hdr.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr.sty
+"
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
 \f@nch@headwidth=\skip49
@@ -48,31 +47,24 @@ s
 \f@nch@O@erf=\skip55
 \f@nch@O@olf=\skip56
 \f@nch@O@orf=\skip57
-)
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmat
-h.sty"
+) ("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty
+"
 Package: amsmath 2020/01/20 v2.17e AMS math features
 \@mathmargin=\skip58
 
 For additional information on amsmath, use the `?' option.
-
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstex
-t.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen
-.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks15
 \ex@=\dimen137
-))
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy
-.sty"
+)) ("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty
+"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen138
-)
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn
-.sty"
+) ("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count176
@@ -113,8 +105,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 )
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amsfo
-nts.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.sty
+"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
@@ -122,20 +114,15 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amssy
-mb.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-)
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amscd.
-sty"
+) ("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amscd.sty"
 Package: amscd 2017/04/14 v2.1 AMS Commutative Diagrams
 \athelp@=\toks20
 \minaw@=\dimen146
 \bigaw@=\dimen147
 \minCDarrowwidth=\dimen148
-)
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amscls\amsthm.
-sty"
+) ("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amscls\amsthm.sty"
 Package: amsthm 2017/10/31 v2.20.4
 \thm@style=\toks21
 \thm@bodyfont=\toks22
@@ -147,24 +134,19 @@ Package: amsthm 2017/10/31 v2.20.4
 \thm@headsep=\skip63
 \dth@everypar=\toks26
 )
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\xspace.s
-ty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\xspace.sty"
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 \c@example=\count188
 \c@theorem=\count189
 
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\captio
-n.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption.sty"
 Package: caption 2020/01/03 v3.4h Customizing captions (AR)
 
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\captio
-n3.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption3.sty"
 Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 61.
-
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyva
-l.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks27
 )
@@ -180,33 +162,31 @@ Package caption Info: Standard document class detected.
 \c@caption@flags=\count190
 \c@continuedfloat=\count191
 )
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graph
-icx.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.sty
+"
 Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graph
-ics.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.sty
+"
 Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
-
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.
-sty"
+ ("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\g
-raphics.cfg"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graphics
+.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
 
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\p
-dftex.def"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdftex.d
+ef"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen156
 \Gin@req@width=\dimen157
 )
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/subfigure\subf
-igure.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/subfigure\subfigure.s
+ty"
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip64
 \subfigcapskip=\skip65
@@ -223,13 +203,13 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 * Local config file subfigure.cfg used *
 ****************************************
 
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/subfigure\subf
-igure.cfg")
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/subfigure\subfigure.c
+fg")
 \subfig@top=\skip68
 \subfig@bottom=\skip69
 )
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/booktabs\bookt
-abs.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/booktabs\booktabs.sty
+"
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen160
 \lightrulewidth=\dimen161
@@ -249,12 +229,10 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@lastruleclass=\count199
 \@thisrulewidth=\dimen172
 )
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\rotat
-ing.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\rotating.sty
+"
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.st
-y"
+ ("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \c@r@tfl@t=\count266
@@ -263,8 +241,8 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \rot@float@box=\box47
 \rot@mess@toks=\toks28
 )
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listi
-ngs.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.sty
+"
 \lst@mode=\count267
 \lst@gtempboxa=\box48
 \lst@token=\toks29
@@ -277,89 +255,82 @@ ngs.sty"
 \lst@newlines=\count271
 \lst@lineno=\count272
 \lst@maxwidth=\dimen176
-
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstmi
-sc.sty"
+ ("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstmisc.sty
+"
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 \c@lstnumber=\count273
 \lst@skipnumbers=\count274
 \lst@framebox=\box49
 )
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listi
-ngs.cfg"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.cfg
+"
 File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
 
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hyper
-ref.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hyperref.sty
+"
 Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
 
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ltxcmds\ltxc
-mds.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ltxcmds\ltxcmds.sty
+"
 Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
-)
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\iftex.
-sty"
+) ("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\iftex.sty"
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 )
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdftexcmds\pdf
-texcmds.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdftexcmds\pdftexcmds
+.sty"
 Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/generic/infwarerr\in
-fwarerr.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/generic/infwarerr\infwarerr
+.sty"
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvsetkeys\kv
-setkeys.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvsetkeys\kvsetkeys
+.sty"
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 )
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvdefinekeys
-\kvdefinekeys.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvdefinekeys\kvdefi
+nekeys.sty"
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pdfescape\pd
-fescape.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pdfescape\pdfescape
+.sty"
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 )
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hycolor\hycolo
-r.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hycolor\hycolor.sty"
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/letltxmacro\le
-tltxmacro.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/letltxmacro\letltxmac
+ro.sty"
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/auxhook\auxhoo
-k.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/auxhook\auxhook.sty"
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kvoptions\kvop
-tions.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kvoptions\kvoptions.s
+ty"
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
 \@linkdim=\dimen177
 \Hy@linkcounter=\count275
 \Hy@pagecounter=\count276
 
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd1en
-c.def"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd1enc.def"
 File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-)
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/generic/intcalc\intc
-alc.sty"
+) ("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/generic/intcalc\intcalc.s
+ty"
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/generic/etexcmds\ete
-xcmds.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/generic/etexcmds\etexcmds.s
+ty"
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count277
@@ -371,8 +342,7 @@ Package hyperref Info: Option `hypertexnames' set `false' on input line 4421.
 Package hyperref Info: Option `colorlinks' set `true' on input line 4421.
 Package hyperref Info: Option `unicode' set `true' on input line 4421.
 
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\puenc
-.def"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\puenc.def"
 File: puenc.def 2020/01/14 v7.00d Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -387,19 +357,18 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4800.
 \c@Hy@tempcnt=\count278
 
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5159.
 \XeTeXLinkMargin=\dimen178
 
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/generic/bitset\bitse
-t.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/generic/bitset\bitset.sty"
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/generic/bigintcalc\b
-igintcalc.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/generic/bigintcalc\bigintca
+lc.sty"
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
@@ -416,8 +385,8 @@ Package hyperref Info: PDF/A mode OFF on input line 6460.
 LaTeX Info: Redefining \ref on input line 6500.
 LaTeX Info: Redefining \pageref on input line 6504.
 
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/generic/atbegshi\atb
-egshi.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/generic/atbegshi\atbegshi.s
+ty"
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
 \Hy@abspage=\count280
@@ -426,24 +395,23 @@ Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hpdft
-ex.def"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hpdftex.def"
 File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
 
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/atveryend\atve
-ryend.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/atveryend\atveryend.s
+ty"
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
 )
 \Fld@listcount=\count283
 \c@bookmark@seq@number=\count284
 
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/rerunfilecheck
-\rerunfilecheck.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/rerunfilecheck\rerunf
+ilecheck.sty"
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
 
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/generic/uniquecounte
-r\uniquecounter.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/generic/uniquecounter\uniqu
+ecounter.sty"
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
@@ -453,8 +421,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \c@dummy=\count285
 
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\longtabl
-e.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\longtable.sty"
 Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LTleft=\skip73
 \LTright=\skip74
@@ -471,24 +438,18 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \c@LT@tables=\count289
 \c@LT@chunks=\count290
 \LT@p@ftn=\toks30
-))
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/natbib\natbib.
-sty"
+)) ("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/natbib\natbib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip77
 \bibsep=\skip78
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count291
-)
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\verbatim
-.sty"
+) ("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\verbatim.sty"
 Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks31
 \verbatim@line=\toks32
 \verbatim@in@stream=\read2
-)
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\array.st
-y"
+) ("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\array.sty"
 Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \col@sep=\dimen182
 \ar@mcellbox=\box54
@@ -498,35 +459,34 @@ Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \backup@length=\skip80
 \ar@cellbox=\box55
 )
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/adjustbox\adju
-stbox.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/adjustbox\adjustbox.s
+ty"
 Package: adjustbox 2019/01/04 v1.2 Adjusting TeX boxes (trim, clip, ...)
 
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xkeyval\xkeyva
-l.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xkeyval\xkeyval.sty"
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyval\xkey
-val.tex"
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyval\xkvu
-tils.tex"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyval\xkeyval.tex
+"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyval\xkvutils.te
+x"
 \XKV@toks=\toks34
 \XKV@tempa@toks=\toks35
 )
 \XKV@depth=\count292
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/adjustbox\adjc
-alc.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/adjustbox\adjcalc.sty
+"
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
 -ends (calc, etex, pgfmath)
 )
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/adjustbox\trim
-clip.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/adjustbox\trimclip.st
+y"
 Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
 
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/collectbox\col
-lectbox.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/collectbox\collectbox
+.sty"
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \collectedbox=\box56
 )
@@ -536,8 +496,8 @@ Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \tc@ury=\dimen187
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/adjustbox\tc-p
-dftex.def"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/adjustbox\tc-pdftex.d
+ef"
 File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ))
 \adjbox@Width=\dimen188
@@ -549,13 +509,13 @@ File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 \adjbox@pdepth=\dimen194
 \adjbox@ptotalheight=\dimen195
 
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ifoddpage\ifod
-dpage.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ifoddpage\ifoddpage.s
+ty"
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
 \c@checkoddpage=\count293
 )
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/varwidth\varwi
-dth.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/varwidth\varwidth.sty
+"
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box57
 \sift@deathcycles=\count294
@@ -564,8 +524,8 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 ))
 Package hyperref Info: Option `colorlinks' set `true' on input line 22.
 
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/titlesec\title
-sec.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/titlesec\titlesec.sty
+"
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \ttl@box=\box58
 \beforetitleunit=\skip81
@@ -577,8 +537,8 @@ Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \titlewidthlast=\dimen257
 \titlewidthfirst=\dimen258
 )
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3ba
-ckend-pdfmode.def"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3backend-p
+dfmode.def"
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count295
 \l__pdf_internal_box=\box59
@@ -608,16 +568,16 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
 
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\ltcapt
-ion.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\ltcaption.sty
+"
 Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
 )
 Package caption Info: rotating package is loaded.
 Package caption Info: subfigure package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\su
-pp-pdf.mkii"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.
+mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count296
 \scratchdimen=\dimen259
@@ -631,8 +591,8 @@ pp-pdf.mkii"
 \makeMPintoPDFobject=\count301
 \everyMPtoPDFconversion=\toks38
 )
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\e
-pstopdf-base.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstopdf
+-base.sty"
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
@@ -640,28 +600,25 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 \c@lstlisting=\count302
 \AtBeginShipoutBox=\box61
 
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\color
-.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\color.sty"
 Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
 
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\c
-olor.cfg"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color.cf
+g"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
 Package hyperref Info: Link coloring ON on input line 36.
 
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\namer
-ef.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
-
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/refcount\refco
-unt.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/refcount\refcount.sty
+"
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/generic/gettitlestri
-ng\gettitlestring.sty"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/generic/gettitlestring\gett
+itlestring.sty"
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count303
@@ -697,7 +654,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 11.74988pt
 (hyperref)                replaced by space on input line 51.
 
-<./Figures/uet_logo.pdf, id=319, 150.5625pt x 150.5625pt>
+<./Figures/uet_logo.pdf, id=287, 150.5625pt x 150.5625pt>
 File: ./Figures/uet_logo.pdf Graphic file (type pdf)
 <use ./Figures/uet_logo.pdf>
 Package pdftex.def Info: ./Figures/uet_logo.pdf  used on input line 51.
@@ -706,8 +663,8 @@ Package pdftex.def Info: ./Figures/uet_logo.pdf  used on input line 51.
 
 
 
-] [2{C:/Users/KhanHouse/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./F
-igures/uet_logo.pdf>]
+] [2{C:/Users/DC/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Figures/
+uet_logo.pdf>]
 -------------------------------------------
  Declaration of Authorship
 -------------------------------------------
@@ -733,16 +690,15 @@ igures/uet_logo.pdf>]
 (uet_thesis.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 7.
 
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.
-fd"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 7.
 
-("C:\Users\KhanHouse\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.
-fd"
+("C:\Users\DC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [4
+)
+[4
 
 
 ] [5])
@@ -795,26 +751,26 @@ Chapter 1.
 
 
 ] [2] [3] [4] [5] [6] [7]
-<Figures/Educational Institutes.png, id=536, 320.19624pt x 320.19624pt>
+<Figures/Educational Institutes.png, id=496, 320.19624pt x 320.19624pt>
 File: Figures/Educational Institutes.png Graphic file (type png)
 <use Figures/Educational Institutes.png>
 Package pdftex.def Info: Figures/Educational Institutes.png  used on input line
  187.
 (pdftex.def)             Requested size: 170.71944pt x 142.26457pt.
  [8 <./Figures/Educational Institutes.png>] [9]
-<Figures/Online Tutors.png, id=549, 320.19624pt x 320.19624pt>
+<Figures/Online Tutors.png, id=509, 320.19624pt x 320.19624pt>
 File: Figures/Online Tutors.png Graphic file (type png)
 <use Figures/Online Tutors.png>
 Package pdftex.def Info: Figures/Online Tutors.png  used on input line 252.
 (pdftex.def)             Requested size: 170.71944pt x 142.26457pt.
 
 [10 <./Figures/Online Tutors.png>]
-<Figures/Sketch Artists.png, id=555, 202.7575pt x 202.7575pt>
+<Figures/Sketch Artists.png, id=515, 202.7575pt x 202.7575pt>
 File: Figures/Sketch Artists.png Graphic file (type png)
 <use Figures/Sketch Artists.png>
 Package pdftex.def Info: Figures/Sketch Artists.png  used on input line 287.
 (pdftex.def)             Requested size: 170.72043pt x 142.26651pt.
-<Figures/Industry.png, id=556, 192.8295pt x 128.4435pt>
+<Figures/Industry.png, id=516, 192.8295pt x 128.4435pt>
 File: Figures/Industry.png Graphic file (type png)
 <use Figures/Industry.png>
 Package pdftex.def Info: Figures/Industry.png  used on input line 300.
@@ -827,20 +783,20 @@ Chapter 2.
 -------------------------------------------
 [12
 
-]) (Chapters/Chapter3.tex [13]
+]) [13] (Chapters/Chapter3.tex [14]
 Chapter 3.
 -------------------------------------------
  3 Proposed Methodology
 -------------------------------------------
-<Figures/General Model.png, id=576, 87.9285pt x 87.9285pt>
+<Figures/General Model.png, id=544, 87.9285pt x 87.9285pt>
 File: Figures/General Model.png Graphic file (type png)
 <use Figures/General Model.png>
 Package pdftex.def Info: Figures/General Model.png  used on input line 15.
 (pdftex.def)             Requested size: 199.18295pt x 170.72864pt.
-[14
+[15
 
  <./Figures/General Model.png>]
-<Figures/Workflow.png, id=582, 954.56625pt x 609.27625pt>
+<Figures/Workflow.png, id=550, 954.56625pt x 609.27625pt>
 File: Figures/Workflow.png Graphic file (type png)
 <use Figures/Workflow.png>
 Package pdftex.def Info: Figures/Workflow.png  used on input line 28.
@@ -850,12 +806,12 @@ Overfull \hbox (9.31033pt too wide) in paragraph at lines 28--29
  [][] 
  []
 
-<Figures/EulerAngles.png, id=583, 211.79124pt x 239.89626pt>
+<Figures/EulerAngles.png, id=551, 211.79124pt x 239.89626pt>
 File: Figures/EulerAngles.png Graphic file (type png)
 <use Figures/EulerAngles.png>
 Package pdftex.def Info: Figures/EulerAngles.png  used on input line 42.
 (pdftex.def)             Requested size: 125.24336pt x 170.7192pt.
-<Figures/Quaternion to Euler conversion.png, id=584, 284.86424pt x 81.30376pt>
+<Figures/Quaternion to Euler conversion.png, id=552, 284.86424pt x 81.30376pt>
 File: Figures/Quaternion to Euler conversion.png Graphic file (type png)
 <use Figures/Quaternion to Euler conversion.png>
 Package pdftex.def Info: Figures/Quaternion to Euler conversion.png  used on in
@@ -871,7 +827,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--62
 []|\OT1/cmr/m/n/12 Used to com-pute
  []
 
-<Figures/Euclidean distance formula.jpg, id=585, 320.19624pt x 133.49875pt>
+<Figures/Euclidean distance formula.jpg, id=553, 320.19624pt x 133.49875pt>
 File: Figures/Euclidean distance formula.jpg Graphic file (type jpg)
 <use Figures/Euclidean distance formula.jpg>
 Package pdftex.def Info: Figures/Euclidean distance formula.jpg  used on input 
@@ -887,7 +843,7 @@ Underfull \hbox (badness 1642) in paragraph at lines 73--73
 \OT1/cmr/m/n/12 Marker with re-spect
  []
 
-<Figures/slope-intercept form.jpg, id=586, 399.02266pt x 77.65181pt>
+<Figures/slope-intercept form.jpg, id=554, 399.02266pt x 77.65181pt>
 File: Figures/slope-intercept form.jpg Graphic file (type jpg)
 <use Figures/slope-intercept form.jpg>
 Package pdftex.def Info: Figures/slope-intercept form.jpg  used on input line 7
@@ -903,28 +859,28 @@ Overfull \hbox (18.46547pt too wide) in alignment at lines 34--86
  [] [] [] 
  []
 
-[15 <./Figures/Workflow.png>]
+[16 <./Figures/Workflow.png>]
 Underfull \vbox (badness 10000) detected at line 86
  []
 
-[16 <./Figures/EulerAngles.png> <./Figures/Quaternion to Euler conversion.png> 
+[17 <./Figures/EulerAngles.png> <./Figures/Quaternion to Euler conversion.png> 
 <./Figures/Euclidean distance formula.jpg> <./Figures/slope-intercept form.jpg>
 ]
-<Figures/ControllerApplication.png, id=598, 305.64188pt x 212.795pt>
+<Figures/ControllerApplication.png, id=566, 305.64188pt x 212.795pt>
 File: Figures/ControllerApplication.png Graphic file (type png)
 <use Figures/ControllerApplication.png>
 Package pdftex.def Info: Figures/ControllerApplication.png  used on input line 
 106.
 (pdftex.def)             Requested size: 312.99579pt x 284.5431pt.
- [17 <./Figures/ControllerApplication.png>]
-<Figures/PlayerApplication.png, id=604, 301.125pt x 213.29688pt>
+ [18 <./Figures/ControllerApplication.png>]
+<Figures/PlayerApplication.png, id=572, 301.125pt x 213.29688pt>
 File: Figures/PlayerApplication.png Graphic file (type png)
 <use Figures/PlayerApplication.png>
 Package pdftex.def Info: Figures/PlayerApplication.png  used on input line 128.
 
 (pdftex.def)             Requested size: 369.92206pt x 398.36514pt.
- [18 <./Figures/PlayerApplication.png>]
-<Figures/DBMUseCaseWebAppPart1.png, id=610, 370.986pt x 641.39626pt>
+ [19 <./Figures/PlayerApplication.png>]
+<Figures/DBMUseCaseWebAppPart1.png, id=579, 370.986pt x 641.39626pt>
 File: Figures/DBMUseCaseWebAppPart1.png Graphic file (type png)
 <use Figures/DBMUseCaseWebAppPart1.png>
 Package pdftex.def Info: Figures/DBMUseCaseWebAppPart1.png  used on input line 
@@ -935,7 +891,7 @@ Overfull \hbox (9.33298pt too wide) in paragraph at lines 149--150
  [][] 
  []
 
-<Figures/DBMUseCaseWebAppPart2.png, id=611, 412.54124pt x 441.44925pt>
+<Figures/DBMUseCaseWebAppPart2.png, id=580, 412.54124pt x 441.44925pt>
 File: Figures/DBMUseCaseWebAppPart2.png Graphic file (type png)
 <use Figures/DBMUseCaseWebAppPart2.png>
 Package pdftex.def Info: Figures/DBMUseCaseWebAppPart2.png  used on input line 
@@ -949,9 +905,9 @@ Overfull \hbox (9.32503pt too wide) in paragraph at lines 155--156
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[19 <./Figures/DBMUseCaseWebAppPart1.png>] [20 <./Figures/DBMUseCaseWebAppPart2
+[20 <./Figures/DBMUseCaseWebAppPart1.png>] [21 <./Figures/DBMUseCaseWebAppPart2
 .png>]
-<Figures/Architect 3.png, id=623, 1806.75pt x 1405.25pt>
+<Figures/Architect 3.png, id=591, 1806.75pt x 1405.25pt>
 File: Figures/Architect 3.png Graphic file (type png)
 <use Figures/Architect 3.png>
 Package pdftex.def Info: Figures/Architect 3.png  used on input line 179.
@@ -961,20 +917,20 @@ Overfull \hbox (37.7697pt too wide) in paragraph at lines 179--180
  [][] 
  []
 
-[21 <./Figures/Architect 3.png>]
-<Figures/Main_Camera.png, id=629, 1505.625pt x 1003.75pt>
+[22 <./Figures/Architect 3.png>]
+<Figures/Main_Camera.png, id=597, 1505.625pt x 1003.75pt>
 File: Figures/Main_Camera.png Graphic file (type png)
 <use Figures/Main_Camera.png>
 Package pdftex.def Info: Figures/Main_Camera.png  used on input line 195.
 (pdftex.def)             Requested size: 369.88072pt x 341.43896pt.
- [22 <./Figures/Main_Camera.png>]
-<Figures/Main_Marker.png, id=635, 1505.625pt x 1003.75pt>
+ [23 <./Figures/Main_Camera.png>]
+<Figures/Main_Marker.png, id=603, 1505.625pt x 1003.75pt>
 File: Figures/Main_Marker.png Graphic file (type png)
 <use Figures/Main_Marker.png>
 Package pdftex.def Info: Figures/Main_Marker.png  used on input line 206.
 (pdftex.def)             Requested size: 369.88072pt x 341.43896pt.
- [23 <./Figures/Main_Marker.png>]
-<Figures/Audio Methodology.png, id=641, 499.8675pt x 389.95688pt>
+ [24 <./Figures/Main_Marker.png>]
+<Figures/Audio Methodology.png, id=609, 499.8675pt x 389.95688pt>
 File: Figures/Audio Methodology.png Graphic file (type png)
 <use Figures/Audio Methodology.png>
 Package pdftex.def Info: Figures/Audio Methodology.png  used on input line 218.
@@ -985,16 +941,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 223--226
 
  []
 
-<Figures/Controller Application Methodology.png, id=642, 308.65312pt x 213.7987
+<Figures/Controller Application Methodology.png, id=610, 308.65312pt x 213.7987
 5pt>
 File: Figures/Controller Application Methodology.png Graphic file (type png)
 <use Figures/Controller Application Methodology.png>
 Package pdftex.def Info: Figures/Controller Application Methodology.png  used o
 n input line 230.
 (pdftex.def)             Requested size: 369.91562pt x 313.0048pt.
-[24 <./Figures/Audio Methodology.png>] [25 <./Figures/Controller Application Me
+[25 <./Figures/Audio Methodology.png>] [26 <./Figures/Controller Application Me
 thodology.png>]
-<Figures/Player Application Methodology (Offline).png, id=654, 308.65312pt x 16
+<Figures/Player Application Methodology (Offline).png, id=622, 308.65312pt x 16
 9.38281pt>
 File: Figures/Player Application Methodology (Offline).png Graphic file (type p
 ng)
@@ -1002,7 +958,7 @@ ng)
 Package pdftex.def Info: Figures/Player Application Methodology (Offline).png  
 used on input line 244.
 (pdftex.def)             Requested size: 369.91562pt x 227.63083pt.
-<Figures/Player Application Methodology (Online).png, id=655, 308.65312pt x 169
+<Figures/Player Application Methodology (Online).png, id=623, 308.65312pt x 169
 .38281pt>
 File: Figures/Player Application Methodology (Online).png Graphic file (type pn
 g)
@@ -1010,15 +966,15 @@ g)
 Package pdftex.def Info: Figures/Player Application Methodology (Online).png  u
 sed on input line 253.
 (pdftex.def)             Requested size: 369.91562pt x 227.63083pt.
- [26 <./Figures/Player Application Methodology (Offline).png> <./Figures/Player
+ [27 <./Figures/Player Application Methodology (Offline).png> <./Figures/Player
  Application Methodology (Online).png>]
-<Figures/Entity Diagram.png, id=662, 2300.595pt x 1346.02875pt>
+<Figures/Entity Diagram.png, id=630, 2300.595pt x 1346.02875pt>
 File: Figures/Entity Diagram.png Graphic file (type png)
 <use Figures/Entity Diagram.png>
 Package pdftex.def Info: Figures/Entity Diagram.png  used on input line 263.
 (pdftex.def)             Requested size: 369.85794pt x 199.16394pt.
- [27 <./Figures/Entity Diagram.png>]
-<Figures/DBM_DB_Diagram.png, id=668, 1174.3875pt x 1463.4675pt>
+ [28 <./Figures/Entity Diagram.png>]
+<Figures/DBM_DB_Diagram.png, id=636, 1174.3875pt x 1463.4675pt>
 File: Figures/DBM_DB_Diagram.png Graphic file (type png)
 <use Figures/DBM_DB_Diagram.png>
 Package pdftex.def Info: Figures/DBM_DB_Diagram.png  used on input line 272.
@@ -1028,180 +984,33 @@ Overfull \hbox (9.32013pt too wide) in paragraph at lines 272--273
  [][] 
  []
 
-) (Chapters/Chapter4.tex [28 <./Figures/DBM_DB_Diagram.png>]
+) (Chapters/Chapter4.tex [29 <./Figures/DBM_DB_Diagram.png>]
 Chapter 4.
 -------------------------------------------
- 4 Implementation Details
+ 4 Implementation
 -------------------------------------------
-) (Chapters/Chapter5.tex [29
+) (Chapters/Chapter5.tex [30
 
 ]
 Chapter 5.
 -------------------------------------------
  5 Evaluation Criteria
 -------------------------------------------
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 11.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@@underline' on input line 11.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hbox' on input line 11.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 11.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 11.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 11.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 33.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@@underline' on input line 33.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hbox' on input line 33.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 33.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 33.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 33.
-
-[30
+) (Chapters/Chapter6.tex [31
 
 ]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 55.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@@underline' on input line 55.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hbox' on input line 55.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 55.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 55.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 55.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 78.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@@underline' on input line 78.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hbox' on input line 78.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 78.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 78.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 78.
-
-[31]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 101.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@@underline' on input line 101.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hbox' on input line 101.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 101.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 101.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 101.
-
-[32]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 124.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@@underline' on input line 124.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hbox' on input line 124.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 124.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 124.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 124.
-
-) (Chapters/Chapter6.tex [33]
 Chapter 6.
 -------------------------------------------
  6 Results
 -------------------------------------------
-) (Chapters/Chapter7.tex [34
+) (Chapters/Chapter7.tex [32
 
 ]
 Chapter 7.
 -------------------------------------------
  7 Future Work
 -------------------------------------------
-) [35
+) [33
 
 ]
 -------------------------------------------
@@ -1209,7 +1018,7 @@ Chapter 7.
 -------------------------------------------
 (uet_thesis.bbl)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 187.
- [36
+ [34
 
 
 ]
@@ -1218,31 +1027,31 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 187.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 187.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 187.
 Package rerunfilecheck Info: File `uet_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 768E08F65E419E36F3C01F4A14ADB151;14833.
+(rerunfilecheck)             Checksum: E606E90B57BE864FCCEE5312E027FAE5;12303.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 187.
  ) 
 Here is how much of TeX's memory you used:
- 15067 strings out of 480896
- 224343 string characters out of 2896234
- 470269 words of memory out of 3000000
- 30523 multiletter control sequences out of 15000+200000
+ 15057 strings out of 480930
+ 222213 string characters out of 2901168
+ 468118 words of memory out of 3000000
+ 30505 multiletter control sequences out of 15000+200000
  541265 words of font info for 56 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,13n,89p,1949b,431s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\KhanHouse\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi
-600\tcrm1200.pk><C:/Users/KhanHouse/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmbx12.pfb><C:/Users/KhanHouse/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/KhanHouse/AppData/
-Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Kh
-anHouse/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.
-pfb><C:/Users/KhanHouse/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmr17.pfb><C:/Users/KhanHouse/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/KhanHouse/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/KhanHouse/AppDa
-ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on uet_thesis.pdf (48 pages, 2259103 bytes).
+ <C:\Users\DC\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcr
+m1200.pk><C:/Users/DC/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmbx12.pfb><C:/Users/DC/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmcsc10.pfb><C:/Users/DC/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/DC/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/DC/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/DC/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/DC
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C
+:/Users/DC/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmt
+t12.pfb>
+Output written on uet_thesis.pdf (46 pages, 2250754 bytes).
 PDF statistics:
- 779 PDF objects out of 1000 (max. 8388607)
- 157 named destinations out of 1000 (max. 500000)
- 753 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 732 PDF objects out of 1000 (max. 8388607)
+ 149 named destinations out of 1000 (max. 500000)
+ 689 words of extra memory for PDF output out of 10000 (max. 10000000)
 

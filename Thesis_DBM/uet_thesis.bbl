@@ -1,9 +1,28 @@
-\begin{thebibliography}{2}
+\begin{thebibliography}{4}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Giannakos et~al.(2016)Giannakos, Jaccheri, and
+  Krogstie]{Giannakos2016}
+Michail~N. Giannakos, Letizia Jaccheri, and John Krogstie.
+\newblock {Exploring the relationship between video lecture usage patterns and
+  students' attitudes}.
+\newblock \emph{British Journal of Educational Technology}, 47\penalty0
+  (6):\penalty0 1259--1275, 2016.
+\newblock ISSN 14678535.
+\newblock \doi{10.1111/bjet.12313}.
+
+\bibitem[Lo and Hew(2019)]{Lo2019}
+Chung~Kwan Lo and Khe~Foon Hew.
+\newblock {The impact of flipped classrooms on student achievement in
+  engineering education: A meta-analysis of 10 years of research}.
+\newblock \emph{Journal of Engineering Education}, \penalty0 (March):\penalty0
+  523--546, 2019.
+\newblock ISSN 10694730.
+\newblock \doi{10.1002/jee.20293}.
 
 \bibitem[Murthy and Sujatha(2016)]{Murthy2016}
 S.V.N. Murthy and B.K. Sujatha.
