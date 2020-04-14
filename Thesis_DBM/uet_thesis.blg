@@ -5,45 +5,45 @@ The style file: plainnat.bst
 Database file #1: references.bib
 Warning--there's a number but no volume in Gonzalez-Agulla2013
 Warning--there's a number but no volume in Lo2019
-You've used 16 entries,
+You've used 17 entries,
             2773 wiz_defined-function locations,
-            746 strings with 9285 characters,
-and the built_in function-call counts, 8803 in all, are:
-= -- 859
-> -- 494
-< -- 10
-+ -- 166
-- -- 150
-* -- 768
-:= -- 1363
-add.period$ -- 80
-call.type$ -- 16
-change.case$ -- 97
-chr.to.int$ -- 16
-cite$ -- 34
-duplicate$ -- 356
-empty$ -- 655
-format.name$ -- 176
-if$ -- 1840
+            753 strings with 9528 characters,
+and the built_in function-call counts, 9388 in all, are:
+= -- 913
+> -- 533
+< -- 11
++ -- 179
+- -- 162
+* -- 817
+:= -- 1452
+add.period$ -- 84
+call.type$ -- 17
+change.case$ -- 104
+chr.to.int$ -- 17
+cite$ -- 36
+duplicate$ -- 382
+empty$ -- 695
+format.name$ -- 189
+if$ -- 1965
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 17
-newline$ -- 120
-num.names$ -- 64
-pop$ -- 147
+missing$ -- 18
+newline$ -- 126
+num.names$ -- 68
+pop$ -- 160
 preamble$ -- 1
-purify$ -- 82
+purify$ -- 88
 quote$ -- 0
-skip$ -- 284
+skip$ -- 306
 stack$ -- 0
-substring$ -- 428
-swap$ -- 43
-text.length$ -- 3
+substring$ -- 446
+swap$ -- 49
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 171
+type$ -- 182
 warning$ -- 2
-while$ -- 81
+while$ -- 87
 width$ -- 0
-write$ -- 278
+write$ -- 293
 (There were 2 warnings)

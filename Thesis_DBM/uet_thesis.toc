@@ -42,88 +42,88 @@
 \contentsline {subsubsection}{\numberline {1.9.3.1}Industrial Presentations}{11}{subsubsection.51}%
 \contentsline {chapter}{\numberline {2}Literature Review}{12}{chapter.53}%
 \contentsline {section}{\numberline {2.1}Literature Review}{12}{section.54}%
-\contentsline {chapter}{\numberline {3}Proposed Methodology}{19}{chapter.55}%
-\contentsline {section}{\numberline {3.1}Proposed Solution}{19}{section.56}%
-\contentsline {section}{\numberline {3.2}General Proposed Model}{19}{section.57}%
-\contentsline {section}{\numberline {3.3}General Flow}{20}{section.59}%
-\contentsline {section}{\numberline {3.4}Formulas Used}{21}{section.61}%
-\contentsline {section}{\numberline {3.5}Use-Case Diagrams}{22}{section.63}%
-\contentsline {subsection}{\numberline {3.5.1}Controller Application}{22}{subsection.64}%
-\contentsline {subsection}{\numberline {3.5.2}Player Application}{23}{subsection.66}%
-\contentsline {subsection}{\numberline {3.5.3}LMS Web Application}{24}{subsection.68}%
-\contentsline {section}{\numberline {3.6}Architecture Diagram}{25}{section.71}%
-\contentsline {section}{\numberline {3.7}Modules Methodology Description}{26}{section.73}%
-\contentsline {subsection}{\numberline {3.7.1}Board Marker}{26}{subsection.74}%
-\contentsline {subsubsection}{\numberline {3.7.1.1}Stereo Vision Cameras}{27}{subsubsection.75}%
-\contentsline {subsubsection}{\numberline {3.7.1.2}Marker Hardware}{27}{subsubsection.77}%
-\contentsline {subsection}{\numberline {3.7.2}Audio Hardware}{28}{subsection.79}%
-\contentsline {subsection}{\numberline {3.7.3}Controller Application}{29}{subsection.81}%
-\contentsline {subsection}{\numberline {3.7.4}Player Application}{30}{subsection.83}%
-\contentsline {subsection}{\numberline {3.7.5}Offline Player}{30}{subsection.84}%
-\contentsline {subsection}{\numberline {3.7.6}WebGL Player}{31}{subsection.86}%
-\contentsline {subsection}{\numberline {3.7.7}Learning Management System}{32}{subsection.88}%
-\contentsline {subsubsection}{\numberline {3.7.7.1}Entity Relationship Diagram}{32}{subsubsection.89}%
-\contentsline {subsubsection}{\numberline {3.7.7.2}Database Diagram}{33}{subsubsection.91}%
-\contentsline {chapter}{\numberline {4}Implementation}{34}{chapter.93}%
-\contentsline {chapter}{\numberline {5}Evaluation Criteria}{35}{chapter.94}%
-\contentsline {section}{\numberline {5.1}Web Application}{35}{section.95}%
-\contentsline {subsection}{\numberline {5.1.1}Test Scenario TS-1: User Registration Functionality}{35}{subsection.96}%
-\contentsline {subsubsection}{\numberline {5.1.1.1}\underline {Test Case TC-1: Enter all valid credentials}}{35}{subsubsection.97}%
-\contentsline {subsubsection}{\numberline {5.1.1.2}\underline {Test Case TC-2: Enter Invalid First Name}}{36}{subsubsection.98}%
-\contentsline {subsubsection}{\numberline {5.1.1.3}\underline {Test Case TC-3: Enter Invalid Last Name}}{36}{subsubsection.99}%
-\contentsline {subsubsection}{\numberline {5.1.1.4}\underline {Test Case TC-4: Enter Invalid Email}}{37}{subsubsection.100}%
-\contentsline {subsubsection}{\numberline {5.1.1.5}\underline {Test Case TC-5: Enter Invalid Password}}{37}{subsubsection.101}%
-\contentsline {subsubsection}{\numberline {5.1.1.6}\underline {Test Case TC-6: Enter Invalid Registration Number}}{38}{subsubsection.102}%
-\contentsline {subsection}{\numberline {5.1.2}Test Scenario TS-2: User Login Functionality}{38}{subsection.103}%
-\contentsline {subsubsection}{\numberline {5.1.2.1}\underline {Test Case TC-1: Enter all valid credentials}}{39}{subsubsection.104}%
-\contentsline {subsubsection}{\numberline {5.1.2.2}\underline {Test Case TC-2: Enter Invalid Email}}{39}{subsubsection.105}%
-\contentsline {subsubsection}{\numberline {5.1.2.3}\underline {Test Case TC-3: Enter Invalid Password}}{39}{subsubsection.106}%
-\contentsline {subsection}{\numberline {5.1.3}Test Scenario TS-3: Teacher's Request Approval Functionality}{40}{subsection.107}%
-\contentsline {subsection}{\numberline {5.1.4}Test Scenario TS-4: Teacher's Request Disapproval Functionality}{40}{subsection.108}%
-\contentsline {subsection}{\numberline {5.1.5}Test Scenario TS-5: Students' Request Approval Functionality}{41}{subsection.109}%
-\contentsline {subsection}{\numberline {5.1.6}Test Scenario TS-6: Students' Request Disapproval Functionality}{41}{subsection.110}%
-\contentsline {subsection}{\numberline {5.1.7}Test Scenario TS-7: Add Course Functionality}{42}{subsection.111}%
-\contentsline {subsubsection}{\numberline {5.1.7.1}\underline {Test Case TC-1: Enter all valid data}}{42}{subsubsection.112}%
-\contentsline {subsubsection}{\numberline {5.1.7.2}\underline {Test Case TC-2: Enter Invalid Course Name}}{42}{subsubsection.113}%
-\contentsline {subsubsection}{\numberline {5.1.7.3}\underline {Test Case TC-3: Enter Invalid Course Code}}{42}{subsubsection.114}%
-\contentsline {subsection}{\numberline {5.1.8}Test Scenario TS-8: Update Course Functionality}{43}{subsection.115}%
-\contentsline {subsubsection}{\numberline {5.1.8.1}\underline {Test Case TC-1: Enter all valid data}}{43}{subsubsection.116}%
-\contentsline {subsubsection}{\numberline {5.1.8.2}\underline {Test Case TC-2: Enter Invalid Course Name}}{43}{subsubsection.117}%
-\contentsline {subsubsection}{\numberline {5.1.8.3}\underline {Test Case TC-3: Enter Invalid Course Code}}{44}{subsubsection.118}%
-\contentsline {subsection}{\numberline {5.1.9}Test Scenario TS-9: Course Deletion Functionality}{44}{subsection.119}%
-\contentsline {subsection}{\numberline {5.1.10}Test Scenario TS-10: View Course Functionality}{44}{subsection.120}%
-\contentsline {subsection}{\numberline {5.1.11}Test Scenario TS-11: Upload Course Assignment Functionality}{45}{subsection.121}%
-\contentsline {subsubsection}{\numberline {5.1.11.1}\underline {Test Case TC-1: Upload valid file}}{45}{subsubsection.122}%
-\contentsline {subsubsection}{\numberline {5.1.11.2}\underline {Test Case TC-2: Enter Invalid Assignment File}}{45}{subsubsection.123}%
-\contentsline {subsection}{\numberline {5.1.12}Test Scenario TS-12: Downloading Assignment Functionality}{46}{subsection.124}%
-\contentsline {subsection}{\numberline {5.1.13}Test Scenario TS-13: Assignment Deletion Functionality}{46}{subsection.125}%
-\contentsline {subsection}{\numberline {5.1.14}Test Scenario TS-14: Add Course Announcement Functionality}{46}{subsection.126}%
-\contentsline {subsection}{\numberline {5.1.15}Test Scenario TS-15: Edit Course Announcement Functionality}{47}{subsection.127}%
-\contentsline {subsection}{\numberline {5.1.16}Test Scenario TS-16: Delete Course Announcement Functionality}{48}{subsection.128}%
-\contentsline {subsection}{\numberline {5.1.17}Test Scenario TS-17: Students Assignment Submission Functionality}{48}{subsection.129}%
-\contentsline {subsection}{\numberline {5.1.18}Test Scenario TS-18: Upload Course Notes Functionality}{49}{subsection.130}%
-\contentsline {subsection}{\numberline {5.1.19}Test Scenario TS-19: View Course Notes Functionality}{49}{subsection.131}%
-\contentsline {subsection}{\numberline {5.1.20}Test Scenario TS-20: Download Course Notes Functionality}{50}{subsection.132}%
-\contentsline {subsection}{\numberline {5.1.21}Test Scenario TS-21: Delete Course Notes Functionality}{50}{subsection.133}%
-\contentsline {subsection}{\numberline {5.1.22}Test Scenario TS-22: Student Enrolment in Course Functionality}{51}{subsection.134}%
-\contentsline {subsection}{\numberline {5.1.23}Test Scenario TS-23: Course Enrolment Requests Disapproval Functionality}{51}{subsection.135}%
-\contentsline {subsection}{\numberline {5.1.24}Test Scenario TS-24: Course Enrolment Requests Approval Functionality}{52}{subsection.136}%
-\contentsline {subsection}{\numberline {5.1.25}Test Scenario TS-25: Assign Courses Functionality}{53}{subsection.137}%
-\contentsline {subsection}{\numberline {5.1.26}Test Scenario TS-26: View Students' Assignments Functionality}{53}{subsection.138}%
-\contentsline {subsection}{\numberline {5.1.27}Test Scenario TS-27: Download Students' Assignments Functionality}{54}{subsection.139}%
-\contentsline {section}{\numberline {5.2}Offline Player}{54}{section.140}%
-\contentsline {subsection}{\numberline {5.2.1}Test Scenario TS-1: User Authentication Functionality}{54}{subsection.141}%
-\contentsline {subsubsection}{\numberline {5.2.1.1}\underline {Test Case TC-1: Enter Valid Credentials}}{54}{subsubsection.142}%
-\contentsline {subsubsection}{\numberline {5.2.1.2}\underline {Test Case TC-2: Enter Invalid Email}}{55}{subsubsection.143}%
-\contentsline {subsubsection}{\numberline {5.2.1.3}\underline {Test Case TC-3: Enter Invalid Password}}{55}{subsubsection.144}%
-\contentsline {subsubsection}{\numberline {5.2.1.4}\underline {Test Case TC-4: Enter Invalid Credentials}}{55}{subsubsection.145}%
-\contentsline {subsection}{\numberline {5.2.2}Test Scenario TS-2: View Lecture Functionality}{56}{subsection.146}%
-\contentsline {subsection}{\numberline {5.2.3}Test Scenario TS-3: Play Lecture Functionality}{56}{subsection.147}%
-\contentsline {subsection}{\numberline {5.2.4}Test Scenario TS-4: Download Lecture Functionality}{56}{subsection.148}%
-\contentsline {subsection}{\numberline {5.2.5}Test Scenario TS-5: View About Page Functionality}{57}{subsection.149}%
-\contentsline {subsection}{\numberline {5.2.6}Test Scenario TS-6: View Contact Us Page Functionality}{57}{subsection.150}%
-\contentsline {chapter}{\numberline {6}Results}{58}{chapter.151}%
-\contentsline {chapter}{\numberline {7}Future Work}{59}{chapter.152}%
+\contentsline {chapter}{\numberline {3}Proposed Methodology}{20}{chapter.55}%
+\contentsline {section}{\numberline {3.1}Proposed Solution}{20}{section.56}%
+\contentsline {section}{\numberline {3.2}General Proposed Model}{20}{section.57}%
+\contentsline {section}{\numberline {3.3}General Flow}{21}{section.59}%
+\contentsline {section}{\numberline {3.4}Formulas Used}{22}{section.61}%
+\contentsline {section}{\numberline {3.5}Use-Case Diagrams}{23}{section.63}%
+\contentsline {subsection}{\numberline {3.5.1}Controller Application}{23}{subsection.64}%
+\contentsline {subsection}{\numberline {3.5.2}Player Application}{24}{subsection.66}%
+\contentsline {subsection}{\numberline {3.5.3}LMS Web Application}{25}{subsection.68}%
+\contentsline {section}{\numberline {3.6}Architecture Diagram}{26}{section.71}%
+\contentsline {section}{\numberline {3.7}Modules Methodology Description}{27}{section.73}%
+\contentsline {subsection}{\numberline {3.7.1}Board Marker}{27}{subsection.74}%
+\contentsline {subsubsection}{\numberline {3.7.1.1}Stereo Vision Cameras}{28}{subsubsection.75}%
+\contentsline {subsubsection}{\numberline {3.7.1.2}Marker Hardware}{28}{subsubsection.77}%
+\contentsline {subsection}{\numberline {3.7.2}Audio Hardware}{29}{subsection.79}%
+\contentsline {subsection}{\numberline {3.7.3}Controller Application}{30}{subsection.81}%
+\contentsline {subsection}{\numberline {3.7.4}Player Application}{31}{subsection.83}%
+\contentsline {subsection}{\numberline {3.7.5}Offline Player}{31}{subsection.84}%
+\contentsline {subsection}{\numberline {3.7.6}WebGL Player}{32}{subsection.86}%
+\contentsline {subsection}{\numberline {3.7.7}Learning Management System}{33}{subsection.88}%
+\contentsline {subsubsection}{\numberline {3.7.7.1}Entity Relationship Diagram}{33}{subsubsection.89}%
+\contentsline {subsubsection}{\numberline {3.7.7.2}Database Diagram}{34}{subsubsection.91}%
+\contentsline {chapter}{\numberline {4}Implementation}{35}{chapter.93}%
+\contentsline {chapter}{\numberline {5}Evaluation Criteria}{36}{chapter.94}%
+\contentsline {section}{\numberline {5.1}Web Application}{36}{section.95}%
+\contentsline {subsection}{\numberline {5.1.1}Test Scenario TS-1: User Registration Functionality}{36}{subsection.96}%
+\contentsline {subsubsection}{\numberline {5.1.1.1}\underline {Test Case TC-1: Enter all valid credentials}}{36}{subsubsection.97}%
+\contentsline {subsubsection}{\numberline {5.1.1.2}\underline {Test Case TC-2: Enter Invalid First Name}}{37}{subsubsection.98}%
+\contentsline {subsubsection}{\numberline {5.1.1.3}\underline {Test Case TC-3: Enter Invalid Last Name}}{37}{subsubsection.99}%
+\contentsline {subsubsection}{\numberline {5.1.1.4}\underline {Test Case TC-4: Enter Invalid Email}}{38}{subsubsection.100}%
+\contentsline {subsubsection}{\numberline {5.1.1.5}\underline {Test Case TC-5: Enter Invalid Password}}{38}{subsubsection.101}%
+\contentsline {subsubsection}{\numberline {5.1.1.6}\underline {Test Case TC-6: Enter Invalid Registration Number}}{39}{subsubsection.102}%
+\contentsline {subsection}{\numberline {5.1.2}Test Scenario TS-2: User Login Functionality}{39}{subsection.103}%
+\contentsline {subsubsection}{\numberline {5.1.2.1}\underline {Test Case TC-1: Enter all valid credentials}}{40}{subsubsection.104}%
+\contentsline {subsubsection}{\numberline {5.1.2.2}\underline {Test Case TC-2: Enter Invalid Email}}{40}{subsubsection.105}%
+\contentsline {subsubsection}{\numberline {5.1.2.3}\underline {Test Case TC-3: Enter Invalid Password}}{40}{subsubsection.106}%
+\contentsline {subsection}{\numberline {5.1.3}Test Scenario TS-3: Teacher's Request Approval Functionality}{41}{subsection.107}%
+\contentsline {subsection}{\numberline {5.1.4}Test Scenario TS-4: Teacher's Request Disapproval Functionality}{41}{subsection.108}%
+\contentsline {subsection}{\numberline {5.1.5}Test Scenario TS-5: Students' Request Approval Functionality}{42}{subsection.109}%
+\contentsline {subsection}{\numberline {5.1.6}Test Scenario TS-6: Students' Request Disapproval Functionality}{42}{subsection.110}%
+\contentsline {subsection}{\numberline {5.1.7}Test Scenario TS-7: Add Course Functionality}{43}{subsection.111}%
+\contentsline {subsubsection}{\numberline {5.1.7.1}\underline {Test Case TC-1: Enter all valid data}}{43}{subsubsection.112}%
+\contentsline {subsubsection}{\numberline {5.1.7.2}\underline {Test Case TC-2: Enter Invalid Course Name}}{43}{subsubsection.113}%
+\contentsline {subsubsection}{\numberline {5.1.7.3}\underline {Test Case TC-3: Enter Invalid Course Code}}{43}{subsubsection.114}%
+\contentsline {subsection}{\numberline {5.1.8}Test Scenario TS-8: Update Course Functionality}{44}{subsection.115}%
+\contentsline {subsubsection}{\numberline {5.1.8.1}\underline {Test Case TC-1: Enter all valid data}}{44}{subsubsection.116}%
+\contentsline {subsubsection}{\numberline {5.1.8.2}\underline {Test Case TC-2: Enter Invalid Course Name}}{44}{subsubsection.117}%
+\contentsline {subsubsection}{\numberline {5.1.8.3}\underline {Test Case TC-3: Enter Invalid Course Code}}{45}{subsubsection.118}%
+\contentsline {subsection}{\numberline {5.1.9}Test Scenario TS-9: Course Deletion Functionality}{45}{subsection.119}%
+\contentsline {subsection}{\numberline {5.1.10}Test Scenario TS-10: View Course Functionality}{45}{subsection.120}%
+\contentsline {subsection}{\numberline {5.1.11}Test Scenario TS-11: Upload Course Assignment Functionality}{46}{subsection.121}%
+\contentsline {subsubsection}{\numberline {5.1.11.1}\underline {Test Case TC-1: Upload valid file}}{46}{subsubsection.122}%
+\contentsline {subsubsection}{\numberline {5.1.11.2}\underline {Test Case TC-2: Enter Invalid Assignment File}}{46}{subsubsection.123}%
+\contentsline {subsection}{\numberline {5.1.12}Test Scenario TS-12: Downloading Assignment Functionality}{47}{subsection.124}%
+\contentsline {subsection}{\numberline {5.1.13}Test Scenario TS-13: Assignment Deletion Functionality}{47}{subsection.125}%
+\contentsline {subsection}{\numberline {5.1.14}Test Scenario TS-14: Add Course Announcement Functionality}{47}{subsection.126}%
+\contentsline {subsection}{\numberline {5.1.15}Test Scenario TS-15: Edit Course Announcement Functionality}{48}{subsection.127}%
+\contentsline {subsection}{\numberline {5.1.16}Test Scenario TS-16: Delete Course Announcement Functionality}{49}{subsection.128}%
+\contentsline {subsection}{\numberline {5.1.17}Test Scenario TS-17: Students Assignment Submission Functionality}{49}{subsection.129}%
+\contentsline {subsection}{\numberline {5.1.18}Test Scenario TS-18: Upload Course Notes Functionality}{50}{subsection.130}%
+\contentsline {subsection}{\numberline {5.1.19}Test Scenario TS-19: View Course Notes Functionality}{50}{subsection.131}%
+\contentsline {subsection}{\numberline {5.1.20}Test Scenario TS-20: Download Course Notes Functionality}{51}{subsection.132}%
+\contentsline {subsection}{\numberline {5.1.21}Test Scenario TS-21: Delete Course Notes Functionality}{51}{subsection.133}%
+\contentsline {subsection}{\numberline {5.1.22}Test Scenario TS-22: Student Enrolment in Course Functionality}{52}{subsection.134}%
+\contentsline {subsection}{\numberline {5.1.23}Test Scenario TS-23: Course Enrolment Requests Disapproval Functionality}{52}{subsection.135}%
+\contentsline {subsection}{\numberline {5.1.24}Test Scenario TS-24: Course Enrolment Requests Approval Functionality}{53}{subsection.136}%
+\contentsline {subsection}{\numberline {5.1.25}Test Scenario TS-25: Assign Courses Functionality}{54}{subsection.137}%
+\contentsline {subsection}{\numberline {5.1.26}Test Scenario TS-26: View Students' Assignments Functionality}{54}{subsection.138}%
+\contentsline {subsection}{\numberline {5.1.27}Test Scenario TS-27: Download Students' Assignments Functionality}{55}{subsection.139}%
+\contentsline {section}{\numberline {5.2}Offline Player}{55}{section.140}%
+\contentsline {subsection}{\numberline {5.2.1}Test Scenario TS-1: User Authentication Functionality}{55}{subsection.141}%
+\contentsline {subsubsection}{\numberline {5.2.1.1}\underline {Test Case TC-1: Enter Valid Credentials}}{55}{subsubsection.142}%
+\contentsline {subsubsection}{\numberline {5.2.1.2}\underline {Test Case TC-2: Enter Invalid Email}}{56}{subsubsection.143}%
+\contentsline {subsubsection}{\numberline {5.2.1.3}\underline {Test Case TC-3: Enter Invalid Password}}{56}{subsubsection.144}%
+\contentsline {subsubsection}{\numberline {5.2.1.4}\underline {Test Case TC-4: Enter Invalid Credentials}}{56}{subsubsection.145}%
+\contentsline {subsection}{\numberline {5.2.2}Test Scenario TS-2: View Lecture Functionality}{57}{subsection.146}%
+\contentsline {subsection}{\numberline {5.2.3}Test Scenario TS-3: Play Lecture Functionality}{57}{subsection.147}%
+\contentsline {subsection}{\numberline {5.2.4}Test Scenario TS-4: Download Lecture Functionality}{57}{subsection.148}%
+\contentsline {subsection}{\numberline {5.2.5}Test Scenario TS-5: View About Page Functionality}{58}{subsection.149}%
+\contentsline {subsection}{\numberline {5.2.6}Test Scenario TS-6: View Contact Us Page Functionality}{58}{subsection.150}%
+\contentsline {chapter}{\numberline {6}Results}{59}{chapter.151}%
+\contentsline {chapter}{\numberline {7}Future Work}{60}{chapter.152}%
 \vspace {2em}
 \vspace {2em}
-\contentsline {chapter}{References}{60}{dummy.153}%
+\contentsline {chapter}{References}{61}{dummy.153}%

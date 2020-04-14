@@ -1,9 +1,17 @@
-\begin{thebibliography}{16}
+\begin{thebibliography}{17}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Barokas et~al.(2010)Barokas, Ketterl, Brooks, and Greer]{Barokas2010}
+Jack Barokas, Markus Ketterl, Christopher Brooks, and Jim Greer.
+\newblock {Lecture Capture : Student Perceptions , Expectations , and
+  Behaviors}.
+\newblock \emph{Digital Media}, pages 1--8, 2010.
+\newblock URL
+  \url{http://www.informatik.uni-osnabrueck.de/papers_pdf/2010_02.pdf}.
 
 \bibitem[Brooks et~al.(2014)Brooks, Erickson, Greer, and Gutwin]{Brooks2014}
 Christopher Brooks, Graham Erickson, Jim Greer, and Carl Gutwin.
