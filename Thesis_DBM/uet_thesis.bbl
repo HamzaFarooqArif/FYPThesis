@@ -1,4 +1,4 @@
-\begin{thebibliography}{24}
+\begin{thebibliography}{25}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -189,6 +189,16 @@ Frances~V. O'Callaghan, David~L. Neumann, Liz Jones, and Peter~A. Creed.
 \newblock ISSN 15737608.
 \newblock \doi{10.1007/s10639-015-9451-z}.
 \newblock URL \url{http://dx.doi.org/10.1007/s10639-015-9451-z}.
+
+\bibitem[Pimentel et~al.(2019)Pimentel, Martins, Yaguinuma, and
+  Zaine]{Pimentel2019}
+Maria da Gra{\c{c}}a~C. Pimentel, Diogo~S. Martins, Cristiane~A. Yaguinuma, and
+  Isabela Zaine.
+\newblock {Anchoring interactive points of interest on web-based instructional
+  video: Effects on students' interaction behavior and perceived experience}.
+\newblock \emph{Proceedings of the ACM Symposium on Applied Computing}, Part
+  F1477:\penalty0 2445--2452, 2019.
+\newblock \doi{10.1145/3297280.3297521}.
 
 \bibitem[Renz et~al.(2015)Renz, Bauer, Malchow, Staubitz, and Meinel]{Renz2015}
 J~Renz, M~Bauer, M~Malchow, T~Staubitz, and C~Meinel.
