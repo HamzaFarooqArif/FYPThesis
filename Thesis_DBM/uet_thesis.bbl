@@ -1,4 +1,4 @@
-\begin{thebibliography}{5}
+\begin{thebibliography}{6}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -32,6 +32,17 @@ Chung~Kwan Lo and Khe~Foon Hew.
   523--546, 2019.
 \newblock ISSN 10694730.
 \newblock \doi{10.1002/jee.20293}.
+
+\bibitem[Martin et~al.(2018)Martin, Wang, and Sadaf]{Martin2018}
+Florence Martin, Chuang Wang, and Ayesha Sadaf.
+\newblock {Student perception of helpfulness of facilitation strategies that
+  enhance instructor presence, connectedness, engagement and learning in online
+  courses}.
+\newblock \emph{Internet and Higher Education}, 37\penalty0 (March
+  2017):\penalty0 52--65, 2018.
+\newblock ISSN 10967516.
+\newblock \doi{10.1016/j.iheduc.2018.01.003}.
+\newblock URL \url{https://doi.org/10.1016/j.iheduc.2018.01.003}.
 
 \bibitem[Murthy and Sujatha(2016)]{Murthy2016}
 S.V.N. Murthy and B.K. Sujatha.
