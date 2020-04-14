@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{11}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -70,6 +70,15 @@ Florence Martin, Chuang Wang, and Ayesha Sadaf.
 \newblock ISSN 10967516.
 \newblock \doi{10.1016/j.iheduc.2018.01.003}.
 \newblock URL \url{https://doi.org/10.1016/j.iheduc.2018.01.003}.
+
+\bibitem[Meehan and McCallig(2019)]{Meehan2019}
+Maria Meehan and John McCallig.
+\newblock {Effects on learning of time spent by university students attending
+  lectures and/or watching online videos}.
+\newblock \emph{Journal of Computer Assisted Learning}, 35\penalty0
+  (2):\penalty0 283--293, 2019.
+\newblock ISSN 13652729.
+\newblock \doi{10.1111/jcal.12329}.
 
 \bibitem[Murthy and Sujatha(2016)]{Murthy2016}
 S.V.N. Murthy and B.K. Sujatha.
