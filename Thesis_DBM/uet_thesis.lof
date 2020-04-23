@@ -11,16 +11,58 @@
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Use-case Diagram of Player Application\relax }}{27}{figure.caption.67}%
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Use-case Diagram of LMS Web Application Part-I\relax }}{28}{figure.caption.69}%
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Use-case Diagram of LMS Web Application Part-II\relax }}{29}{figure.caption.70}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Architecture Diagram of Digital Board Marker\relax }}{30}{figure.caption.72}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces High frame rate camera placement\relax }}{31}{figure.caption.76}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Marker Hardware working methodology\relax }}{32}{figure.caption.78}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Audio Hardware General Methodology\relax }}{33}{figure.caption.80}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Controller Application General Methodology\relax }}{34}{figure.caption.82}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Offline Player Application General Methodology\relax }}{35}{figure.caption.85}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Online Player Application General Methodology\relax }}{35}{figure.caption.87}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces ER Diagram of LMS\relax }}{36}{figure.caption.90}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces DB Diagram of LMS\relax }}{37}{figure.caption.92}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Architecture Diagram of Digital Board Marker\relax }}{91}{figure.caption.931}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces High frame rate camera placement\relax }}{92}{figure.caption.936}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Controller Application General Methodology\relax }}{93}{figure.caption.938}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Marker Hardware working methodology\relax }}{93}{figure.caption.940}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Audio Hardware General Methodology\relax }}{94}{figure.caption.941}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Offline Player Application General Methodology\relax }}{95}{figure.caption.944}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Online Player Application General Methodology\relax }}{95}{figure.caption.946}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces ER Diagram of LMS\relax }}{96}{figure.caption.949}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces DB Diagram of LMS\relax }}{97}{figure.caption.951}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Overall Project Structure\relax }}{98}{figure.caption.955}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Tact Tactile Switch\relax }}{100}{figure.caption.962}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces DC-DC Boost Converter\relax }}{100}{figure.caption.964}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Glowing Ball\relax }}{101}{figure.caption.966}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Arduino nano\relax }}{101}{figure.caption.968}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Li-po Battery\relax }}{102}{figure.caption.970}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces RGB Led\relax }}{102}{figure.caption.972}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces MPU-6050\relax }}{103}{figure.caption.974}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces nRF24L01\relax }}{103}{figure.caption.976}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Board Marker with Transmitter Components\relax }}{104}{figure.caption.979}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Component connection diagram of Board Marker Transmitter\relax }}{104}{figure.caption.981}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Schematic diagram of Board Marker Transmitter\relax }}{105}{figure.caption.983}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces General Flow of Board Marker Transmitter\relax }}{105}{figure.caption.985}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Component connection diagram of Board Marker Receiver\relax }}{106}{figure.caption.988}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Schematic diagram of Board Marker Receiver\relax }}{106}{figure.caption.990}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces General Flow of Board Marker Receiver\relax }}{107}{figure.caption.992}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Glowing Ball Detection While Covered\relax }}{108}{figure.caption.994}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Marker Orientation Image in Processing Software\relax }}{109}{figure.caption.998}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Electret Microphone\relax }}{110}{figure.caption.1005}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces 100K Resistor\relax }}{110}{figure.caption.1007}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Audio Jack\relax }}{111}{figure.caption.1011}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Arduino nano\relax }}{111}{figure.caption.1013}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces nRF24L01 Adapter\relax }}{112}{figure.caption.1015}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces nRF24L01 Antenna Version\relax }}{112}{figure.caption.1018}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces nRF24L01 Audio Transceiver Component Detail\relax }}{113}{figure.caption.1021}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Audio Transceiver Component Connection Diagram\relax }}{113}{figure.caption.1023}%
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Audio Transceiver Schematic Diagram\relax }}{114}{figure.caption.1025}%
+\contentsline {figure}{\numberline {4.28}{\ignorespaces General Flow of Audio Transmitter\relax }}{114}{figure.caption.1027}%
+\contentsline {figure}{\numberline {4.29}{\ignorespaces Component Diagram of Audio Receiver\relax }}{115}{figure.caption.1030}%
+\contentsline {figure}{\numberline {4.30}{\ignorespaces General Flow of Audio Receiver\relax }}{115}{figure.caption.1032}%
+\contentsline {figure}{\numberline {4.31}{\ignorespaces Home Screen Controller Application\relax }}{117}{figure.caption.1041}%
+\contentsline {figure}{\numberline {4.32}{\ignorespaces Controller Application Record Panel\relax }}{119}{figure.caption.1059}%
+\contentsline {figure}{\numberline {4.33}{\ignorespaces Controller App Position Settings\relax }}{120}{figure.caption.1067}%
+\contentsline {figure}{\numberline {4.34}{\ignorespaces Controller App Camera Settings\relax }}{121}{figure.caption.1075}%
+\contentsline {figure}{\numberline {4.35}{\ignorespaces Controller App Orientation Calibration\relax }}{122}{figure.caption.1088}%
+\contentsline {figure}{\numberline {4.36}{\ignorespaces Controller App Orientation Visualization in 3d Space\relax }}{123}{figure.caption.1090}%
+\contentsline {figure}{\numberline {4.37}{\ignorespaces Controller App Orientation Visualization in 2d Space\relax }}{123}{figure.caption.1092}%
+\contentsline {figure}{\numberline {4.38}{\ignorespaces Controller App Camera Filter Control Panel\relax }}{124}{figure.caption.1099}%
+\contentsline {figure}{\numberline {4.39}{\ignorespaces Controller App Camera Filter Preview\relax }}{125}{figure.caption.1107}%
+\contentsline {figure}{\numberline {4.40}{\ignorespaces Controller App Flow Diagram\relax }}{126}{figure.caption.1109}%
+\contentsline {figure}{\numberline {4.41}{\ignorespaces Player Application Main Screen\relax }}{128}{figure.caption.1127}%
+\contentsline {figure}{\numberline {4.42}{\ignorespaces Player App Flow Diagram\relax }}{129}{figure.caption.1129}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
