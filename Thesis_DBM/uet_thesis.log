@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.9)  23 APR 2020 21:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.9)  24 APR 2020 20:15
 entering extended mode
 **./uet_thesis.tex
 (uet_thesis.tex
@@ -702,7 +702,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 11.74988pt
 (hyperref)                replaced by space on input line 53.
 
-<./Figures/uet_logo.pdf, id=1063, 150.5625pt x 150.5625pt>
+<./Figures/uet_logo.pdf, id=1023, 150.5625pt x 150.5625pt>
 File: ./Figures/uet_logo.pdf Graphic file (type pdf)
 <use ./Figures/uet_logo.pdf>
 Package pdftex.def Info: ./Figures/uet_logo.pdf  used on input line 53.
@@ -750,61 +750,61 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [4
 
 
-] [5] [6] [7] [8]
-Overfull \hbox (2.08926pt too wide) in paragraph at lines 206--206
+] [5] [6] [7]
+Overfull \hbox (2.08926pt too wide) in paragraph at lines 196--196
  [][] [][][]\OT1/cmr/m/n/12 Test Sce-nario TS-18: Stu-dents As-sign-ment Sub-mi
 s-sion Func- 
  []
 
-
-Overfull \hbox (3.49065pt too wide) in paragraph at lines 216--216
+[8]
+Overfull \hbox (3.49065pt too wide) in paragraph at lines 206--206
  [][] [][][]\OT1/cmr/m/n/12 Test Sce-nario TS-28: Down-load Stu-dents' As-sign-
 ments Func- 
  []
 
 [9]
-Overfull \hbox (2.08926pt too wide) in paragraph at lines 246--246
+Overfull \hbox (2.08926pt too wide) in paragraph at lines 236--236
  [][] [][][]\OT1/cmr/m/n/12 Test Sce-nario TS-17: Stu-dents As-sign-ment Sub-mi
 s-sion Func- 
  []
 
 
-Overfull \hbox (3.49065pt too wide) in paragraph at lines 256--256
+Overfull \hbox (3.49065pt too wide) in paragraph at lines 246--246
  [][] [][][]\OT1/cmr/m/n/12 Test Sce-nario TS-27: Down-load Stu-dents' As-sign-
 ments Func- 
  []
 
-[10])
+)
 \tf@toc=\write4
 \openout4 = `uet_thesis.toc'.
 
- [11]
+ [10]
 -------------------------------------------
  List of Figures
 -------------------------------------------
-(uet_thesis.lof [12
+(uet_thesis.lof [11
 
 
 ])
 \tf@lof=\write5
 \openout5 = `uet_thesis.lof'.
 
- [13]
+ [12]
 -------------------------------------------
  List of Tables
 -------------------------------------------
-(uet_thesis.lot [14
+(uet_thesis.lot [13
 
 
 ])
 \tf@lot=\write6
 \openout6 = `uet_thesis.lot'.
 
- [15]
+ [14]
 -------------------------------------------
  Abbreviations
 -------------------------------------------
-[16
+[15
 
 
 
@@ -812,7 +812,7 @@ ments Func-
 -------------------------------------------
  Abstract Page
 -------------------------------------------
-[17
+[16
 
 ] (Chapters/Chapter1.tex
 Chapter 1.
@@ -823,65 +823,67 @@ Chapter 1.
 
 
 
-] [2] [3] [4] [5] [6] [7]
-<Figures/Educational Institutes.png, id=1671, 320.19624pt x 320.19624pt>
+] [2] [3] [4] [5] [6]
+<Figures/Educational Institutes.png, id=1612, 320.19624pt x 320.19624pt>
 File: Figures/Educational Institutes.png Graphic file (type png)
 <use Figures/Educational Institutes.png>
 Package pdftex.def Info: Figures/Educational Institutes.png  used on input line
- 187.
-(pdftex.def)             Requested size: 170.71944pt x 142.26457pt.
- [8 <./Figures/Educational Institutes.png>] [9]
-<Figures/Online Tutors.png, id=1684, 320.19624pt x 320.19624pt>
+ 228.
+(pdftex.def)             Requested size: 142.26457pt x 113.8097pt.
+<Figures/Online Tutors.png, id=1614, 320.19624pt x 320.19624pt>
 File: Figures/Online Tutors.png Graphic file (type png)
 <use Figures/Online Tutors.png>
-Package pdftex.def Info: Figures/Online Tutors.png  used on input line 252.
-(pdftex.def)             Requested size: 170.71944pt x 142.26457pt.
+Package pdftex.def Info: Figures/Online Tutors.png  used on input line 241.
+(pdftex.def)             Requested size: 113.8097pt x 113.8097pt.
 
-[10 <./Figures/Online Tutors.png>]
-<Figures/Sketch Artists.png, id=1690, 202.7575pt x 202.7575pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7 <./Figures/Educational Institutes.png>]
+<Figures/Sketch Artists.png, id=1623, 202.7575pt x 202.7575pt>
 File: Figures/Sketch Artists.png Graphic file (type png)
 <use Figures/Sketch Artists.png>
-Package pdftex.def Info: Figures/Sketch Artists.png  used on input line 287.
-(pdftex.def)             Requested size: 170.72043pt x 142.26651pt.
-<Figures/Industry.png, id=1691, 192.8295pt x 128.4435pt>
+Package pdftex.def Info: Figures/Sketch Artists.png  used on input line 255.
+(pdftex.def)             Requested size: 113.81258pt x 113.81258pt.
+<Figures/Industry.png, id=1624, 192.8295pt x 128.4435pt>
 File: Figures/Industry.png Graphic file (type png)
 <use Figures/Industry.png>
-Package pdftex.def Info: Figures/Industry.png  used on input line 300.
-(pdftex.def)             Requested size: 227.62215pt x 142.26822pt.
-) (Chapters/Chapter2.tex [11 <./Figures/Sketch Artists.png> <./Figures/Industry
-.png>]
+Package pdftex.def Info: Figures/Industry.png  used on input line 268.
+(pdftex.def)             Requested size: 142.262pt x 85.36093pt.
+) (Chapters/Chapter2.tex [8 <./Figures/Online Tutors.png> <./Figures/Sketch Art
+ists.png> <./Figures/Industry.png>]
 Chapter 2.
 -------------------------------------------
  2 Literature Review
 -------------------------------------------
-[12
+[9
 
-] [13] [14] [15] [16] [17]
+] [10] [11] [12] [13] [14]
 Overfull \hbox (10.93224pt too wide) in paragraph at lines 54--55
 []\OT1/cmr/m/n/12 This pa-per de-scribes a fully au-to-mated Real-Time Lecturer
 -Tracking mod-ule (RTLT)
  []
 
-[18] [19] [20]
+[15] [16] [17]
 Overfull \hbox (1.79213pt too wide) in paragraph at lines 81--82
 \OT1/cmr/m/n/12 from in-ter-ac-tive sys-tems on CD-ROM to de-liv-ery of video i
 n-for-ma-tion over telecom-
  []
 
-) [21] (Chapters/Chapter3.tex [22]
+) [18] (Chapters/Chapter3.tex [19]
 Chapter 3.
 -------------------------------------------
  3 Proposed Methodology
 -------------------------------------------
-<Figures/General Model.png, id=1794, 87.9285pt x 87.9285pt>
+<Figures/General Model.png, id=1728, 87.9285pt x 87.9285pt>
 File: Figures/General Model.png Graphic file (type png)
 <use Figures/General Model.png>
 Package pdftex.def Info: Figures/General Model.png  used on input line 15.
 (pdftex.def)             Requested size: 199.18295pt x 170.72864pt.
-[23
+[20
 
  <./Figures/General Model.png>]
-<Figures/Workflow.png, id=1800, 954.56625pt x 609.27625pt>
+<Figures/Workflow.png, id=1734, 954.56625pt x 609.27625pt>
 File: Figures/Workflow.png Graphic file (type png)
 <use Figures/Workflow.png>
 Package pdftex.def Info: Figures/Workflow.png  used on input line 28.
@@ -891,12 +893,12 @@ Overfull \hbox (9.31033pt too wide) in paragraph at lines 28--29
  [][] 
  []
 
-<Figures/EulerAngles.png, id=1801, 211.79124pt x 239.89626pt>
+<Figures/EulerAngles.png, id=1735, 211.79124pt x 239.89626pt>
 File: Figures/EulerAngles.png Graphic file (type png)
 <use Figures/EulerAngles.png>
 Package pdftex.def Info: Figures/EulerAngles.png  used on input line 42.
 (pdftex.def)             Requested size: 125.24336pt x 170.7192pt.
-<Figures/Quaternion to Euler conversion.png, id=1802, 284.86424pt x 81.30376pt>
+<Figures/Quaternion to Euler conversion.png, id=1736, 284.86424pt x 81.30376pt>
 
 File: Figures/Quaternion to Euler conversion.png Graphic file (type png)
 <use Figures/Quaternion to Euler conversion.png>
@@ -913,7 +915,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--62
 []|\OT1/cmr/m/n/12 Used to com-pute
  []
 
-<Figures/Euclidean distance formula.jpg, id=1803, 320.19624pt x 133.49875pt>
+<Figures/Euclidean distance formula.jpg, id=1737, 320.19624pt x 133.49875pt>
 File: Figures/Euclidean distance formula.jpg Graphic file (type jpg)
 <use Figures/Euclidean distance formula.jpg>
 Package pdftex.def Info: Figures/Euclidean distance formula.jpg  used on input 
@@ -929,7 +931,7 @@ Underfull \hbox (badness 1642) in paragraph at lines 73--73
 \OT1/cmr/m/n/12 Marker with re-spect
  []
 
-<Figures/slope-intercept form.jpg, id=1804, 399.02266pt x 77.65181pt>
+<Figures/slope-intercept form.jpg, id=1738, 399.02266pt x 77.65181pt>
 File: Figures/slope-intercept form.jpg Graphic file (type jpg)
 <use Figures/slope-intercept form.jpg>
 Package pdftex.def Info: Figures/slope-intercept form.jpg  used on input line 7
@@ -945,28 +947,28 @@ Overfull \hbox (18.46547pt too wide) in alignment at lines 34--86
  [] [] [] 
  []
 
-[24 <./Figures/Workflow.png>]
+[21 <./Figures/Workflow.png>]
 Underfull \vbox (badness 10000) detected at line 86
  []
 
-[25 <./Figures/EulerAngles.png> <./Figures/Quaternion to Euler conversion.png> 
+[22 <./Figures/EulerAngles.png> <./Figures/Quaternion to Euler conversion.png> 
 <./Figures/Euclidean distance formula.jpg> <./Figures/slope-intercept form.jpg>
 ]
-<Figures/ControllerApplication.png, id=1817, 305.64188pt x 212.795pt>
+<Figures/ControllerApplication.png, id=1750, 305.64188pt x 212.795pt>
 File: Figures/ControllerApplication.png Graphic file (type png)
 <use Figures/ControllerApplication.png>
 Package pdftex.def Info: Figures/ControllerApplication.png  used on input line 
 106.
 (pdftex.def)             Requested size: 312.99579pt x 284.5431pt.
- [26 <./Figures/ControllerApplication.png>]
-<Figures/PlayerApplication.png, id=1823, 301.125pt x 213.29688pt>
+ [23 <./Figures/ControllerApplication.png>]
+<Figures/PlayerApplication.png, id=1756, 301.125pt x 213.29688pt>
 File: Figures/PlayerApplication.png Graphic file (type png)
 <use Figures/PlayerApplication.png>
 Package pdftex.def Info: Figures/PlayerApplication.png  used on input line 128.
 
 (pdftex.def)             Requested size: 369.92206pt x 398.36514pt.
- [27 <./Figures/PlayerApplication.png>]
-<Figures/DBMUseCaseWebAppPart1.png, id=1829, 370.986pt x 641.39626pt>
+ [24 <./Figures/PlayerApplication.png>]
+<Figures/DBMUseCaseWebAppPart1.png, id=1762, 370.986pt x 641.39626pt>
 File: Figures/DBMUseCaseWebAppPart1.png Graphic file (type png)
 <use Figures/DBMUseCaseWebAppPart1.png>
 Package pdftex.def Info: Figures/DBMUseCaseWebAppPart1.png  used on input line 
@@ -977,7 +979,7 @@ Overfull \hbox (9.33298pt too wide) in paragraph at lines 149--150
  [][] 
  []
 
-<Figures/DBMUseCaseWebAppPart2.png, id=1830, 412.54124pt x 441.44925pt>
+<Figures/DBMUseCaseWebAppPart2.png, id=1763, 412.54124pt x 441.44925pt>
 File: Figures/DBMUseCaseWebAppPart2.png Graphic file (type png)
 <use Figures/DBMUseCaseWebAppPart2.png>
 Package pdftex.def Info: Figures/DBMUseCaseWebAppPart2.png  used on input line 
@@ -991,149 +993,149 @@ Overfull \hbox (9.32503pt too wide) in paragraph at lines 155--156
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[28 <./Figures/DBMUseCaseWebAppPart1.png>] [29 <./Figures/DBMUseCaseWebAppPart2
+[25 <./Figures/DBMUseCaseWebAppPart1.png>] [26 <./Figures/DBMUseCaseWebAppPart2
 .png>]
 Underfull \hbox (badness 10000) in paragraph at lines 181--185
 
  []
 
-[30] [31]
+[27] [28]
 Underfull \hbox (badness 10000) in paragraph at lines 263--267
 
  []
 
-[32] [33]
+[29] [30]
 Underfull \hbox (badness 10000) in paragraph at lines 329--333
 
  []
 
-[34] [35]
+[31] [32]
 Underfull \hbox (badness 10000) in paragraph at lines 412--416
 
  []
 
-[36] [37] [38] [39]
+[33] [34] [35] [36]
 Underfull \hbox (badness 10000) in paragraph at lines 543--545
 
  []
 
-[40]
+[37]
 Underfull \hbox (badness 10000) in paragraph at lines 557--561
 
  []
 
-[41] [42]
+[38] [39]
 Underfull \hbox (badness 10000) in paragraph at lines 629--633
 
  []
 
-[43]
+[40]
 Underfull \hbox (badness 10000) in paragraph at lines 684--688
 
  []
 
-[44] [45]
+[41] [42]
 Underfull \hbox (badness 10000) in paragraph at lines 736--740
 
  []
 
-[46] [47]
+[43] [44]
 Underfull \hbox (badness 10000) in paragraph at lines 828--832
 
  []
 
-[48] [49]
+[45] [46]
 Underfull \hbox (badness 10000) in paragraph at lines 900--904
 
  []
 
-[50] [51] [52]
+[47] [48] [49]
 Underfull \hbox (badness 10000) in paragraph at lines 979--983
 
  []
 
-[53]
+[50]
 Underfull \hbox (badness 10000) in paragraph at lines 1046--1051
 
  []
 
-[54]
+[51]
 Underfull \hbox (badness 10000) in paragraph at lines 1065--1069
 
  []
 
-[55] [56]
+[52] [53]
 Underfull \hbox (badness 10000) in paragraph at lines 1133--1135
 
  []
 
-[57]
+[54]
 Underfull \hbox (badness 10000) in paragraph at lines 1152--1156
 
  []
 
-[58] [59]
+[55] [56]
 Underfull \hbox (badness 10000) in paragraph at lines 1246--1250
 
  []
 
-[60] [61]
+[57] [58]
 Underfull \hbox (badness 10000) in paragraph at lines 1315--1320
 
  []
 
-[62]
+[59]
 Underfull \hbox (badness 10000) in paragraph at lines 1333--1337
 
  []
 
-[63]
+[60]
 Underfull \hbox (badness 10000) in paragraph at lines 1398--1400
 
  []
 
-[64] [65] [66] [67]
+[61] [62] [63] [64]
 Underfull \hbox (badness 10000) in paragraph at lines 1512--1516
 
  []
 
-[68] [69]
+[65] [66]
 Underfull \hbox (badness 10000) in paragraph at lines 1586--1590
 
  []
 
-[70] [71]
+[67] [68]
 Underfull \hbox (badness 10000) in paragraph at lines 1667--1671
 
  []
 
-[72] [73] [74]
+[69] [70] [71]
 Underfull \hbox (badness 10000) in paragraph at lines 1750--1754
 
  []
 
-[75] [76]
+[72] [73]
 Underfull \hbox (badness 10000) in paragraph at lines 1820--1824
 
  []
 
-[77] [78]
+[74] [75]
 Underfull \hbox (badness 10000) in paragraph at lines 1912--1916
 
  []
 
-[79] [80]
+[76] [77]
 Underfull \hbox (badness 10000) in paragraph at lines 1985--1989
 
  []
 
-[81] [82]
+[78] [79]
 Underfull \hbox (badness 10000) in paragraph at lines 2038--2042
 
  []
 
-[83] [84] [85] [86] [87] [88] [89]
-<Figures/Architect 3.png, id=2914, 1806.75pt x 1405.25pt>
+[80] [81] [82] [83] [84] [85] [86]
+<Figures/Architect 3.png, id=2848, 1806.75pt x 1405.25pt>
 File: Figures/Architect 3.png Graphic file (type png)
 <use Figures/Architect 3.png>
 Package pdftex.def Info: Figures/Architect 3.png  used on input line 2304.
@@ -1146,8 +1148,8 @@ Overfull \hbox (37.7697pt too wide) in paragraph at lines 2304--2305
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[90]
-<Figures/Main_Camera.png, id=2922, 1505.625pt x 1003.75pt>
+[87]
+<Figures/Main_Camera.png, id=2855, 1505.625pt x 1003.75pt>
 File: Figures/Main_Camera.png Graphic file (type png)
 <use Figures/Main_Camera.png>
 Package pdftex.def Info: Figures/Main_Camera.png  used on input line 2322.
@@ -1161,21 +1163,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 2331--2334
 
  []
 
-[91 <./Figures/Architect 3.png>]
-<Figures/Controller Application Methodology.png, id=2928, 308.65312pt x 213.798
+[88 <./Figures/Architect 3.png>]
+<Figures/Controller Application Methodology.png, id=2861, 308.65312pt x 213.798
 75pt>
 File: Figures/Controller Application Methodology.png Graphic file (type png)
 <use Figures/Controller Application Methodology.png>
 Package pdftex.def Info: Figures/Controller Application Methodology.png  used o
 n input line 2338.
 (pdftex.def)             Requested size: 313.00407pt x 227.62059pt.
- [92 <./Figures/Main_Camera.png>]
-<Figures/Main_Marker.png, id=2934, 1505.625pt x 1003.75pt>
+ [89 <./Figures/Main_Camera.png>]
+<Figures/Main_Marker.png, id=2867, 1505.625pt x 1003.75pt>
 File: Figures/Main_Marker.png Graphic file (type png)
 <use Figures/Main_Marker.png>
 Package pdftex.def Info: Figures/Main_Marker.png  used on input line 2347.
 (pdftex.def)             Requested size: 312.97423pt x 256.06773pt.
-<Figures/Audio Methodology.png, id=2935, 499.8675pt x 389.95688pt>
+<Figures/Audio Methodology.png, id=2868, 499.8675pt x 389.95688pt>
 File: Figures/Audio Methodology.png Graphic file (type png)
 <use Figures/Audio Methodology.png>
 Package pdftex.def Info: Figures/Audio Methodology.png  used on input line 2353
@@ -1185,9 +1187,9 @@ Package pdftex.def Info: Figures/Audio Methodology.png  used on input line 2353
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[93 <./Figures/Controller Application Methodology.png> <./Figures/Main_Marker.p
-ng>] [94 <./Figures/Audio Methodology.png>]
-<Figures/Player Application Methodology (Offline).png, id=2947, 308.65312pt x 1
+[90 <./Figures/Controller Application Methodology.png> <./Figures/Main_Marker.p
+ng>] [91 <./Figures/Audio Methodology.png>]
+<Figures/Player Application Methodology (Offline).png, id=2881, 308.65312pt x 1
 69.38281pt>
 File: Figures/Player Application Methodology (Offline).png Graphic file (type p
 ng)
@@ -1195,7 +1197,7 @@ ng)
 Package pdftex.def Info: Figures/Player Application Methodology (Offline).png  
 used on input line 2367.
 (pdftex.def)             Requested size: 369.91562pt x 227.63083pt.
-<Figures/Player Application Methodology (Online).png, id=2948, 308.65312pt x 16
+<Figures/Player Application Methodology (Online).png, id=2882, 308.65312pt x 16
 9.38281pt>
 File: Figures/Player Application Methodology (Online).png Graphic file (type pn
 g)
@@ -1203,15 +1205,15 @@ g)
 Package pdftex.def Info: Figures/Player Application Methodology (Online).png  u
 sed on input line 2376.
 (pdftex.def)             Requested size: 369.91562pt x 227.63083pt.
- [95 <./Figures/Player Application Methodology (Offline).png> <./Figures/Player
+ [92 <./Figures/Player Application Methodology (Offline).png> <./Figures/Player
  Application Methodology (Online).png>]
-<Figures/Entity Diagram.png, id=2955, 2300.595pt x 1346.02875pt>
+<Figures/Entity Diagram.png, id=2889, 2300.595pt x 1346.02875pt>
 File: Figures/Entity Diagram.png Graphic file (type png)
 <use Figures/Entity Diagram.png>
 Package pdftex.def Info: Figures/Entity Diagram.png  used on input line 2386.
 (pdftex.def)             Requested size: 369.85794pt x 199.16394pt.
- [96 <./Figures/Entity Diagram.png>]
-<Figures/DBM_DB_Diagram.png, id=2962, 1174.3875pt x 1463.4675pt>
+ [93 <./Figures/Entity Diagram.png>]
+<Figures/DBM_DB_Diagram.png, id=2895, 1174.3875pt x 1463.4675pt>
 File: Figures/DBM_DB_Diagram.png Graphic file (type png)
 <use Figures/DBM_DB_Diagram.png>
 Package pdftex.def Info: Figures/DBM_DB_Diagram.png  used on input line 2395.
@@ -1221,12 +1223,12 @@ Overfull \hbox (9.32013pt too wide) in paragraph at lines 2395--2396
  [][] 
  []
 
-) (Chapters/Chapter4.tex [97 <./Figures/DBM_DB_Diagram.png>]
+) (Chapters/Chapter4.tex [94 <./Figures/DBM_DB_Diagram.png>]
 Chapter 4.
 -------------------------------------------
  4 Implementation Details
 -------------------------------------------
-<Figures/Project Structure.png, id=2968, 489.7497pt x 150.3216pt>
+<Figures/Project Structure.png, id=2901, 489.7497pt x 150.3216pt>
 File: Figures/Project Structure.png Graphic file (type png)
 <use Figures/Project Structure.png>
 Package pdftex.def Info: Figures/Project Structure.png  used on input line 15.
@@ -1236,26 +1238,26 @@ Overfull \hbox (9.33807pt too wide) in paragraph at lines 15--16
  [][] 
  []
 
-[98
+[95
 
  <./Figures/Project Structure.png>]
 Underfull \vbox (badness 10000) detected at line 67
  []
 
-<Figures/Tact Tactile Switch.png, id=2974, 93.34875pt x 69.861pt>
+<Figures/Tact Tactile Switch.png, id=2907, 93.34875pt x 69.861pt>
 File: Figures/Tact Tactile Switch.png Graphic file (type png)
 <use Figures/Tact Tactile Switch.png>
 Package pdftex.def Info: Figures/Tact Tactile Switch.png  used on input line 87
 .
 (pdftex.def)             Requested size: 199.1789pt x 199.17302pt.
-[99]
-<Figures/DC-DC Boost Converter.png, id=2979, 97.5645pt x 97.5645pt>
+[96]
+<Figures/DC-DC Boost Converter.png, id=2912, 97.5645pt x 97.5645pt>
 File: Figures/DC-DC Boost Converter.png Graphic file (type png)
 <use Figures/DC-DC Boost Converter.png>
 Package pdftex.def Info: Figures/DC-DC Boost Converter.png  used on input line 
 96.
 (pdftex.def)             Requested size: 199.17181pt x 199.17181pt.
-<Figures/Glowing Ball.png, id=2980, 59.0205pt x 68.6565pt>
+<Figures/Glowing Ball.png, id=2913, 59.0205pt x 68.6565pt>
 File: Figures/Glowing Ball.png Graphic file (type png)
 <use Figures/Glowing Ball.png>
 Package pdftex.def Info: Figures/Glowing Ball.png  used on input line 106.
@@ -1264,61 +1266,62 @@ Package pdftex.def Info: Figures/Glowing Ball.png  used on input line 106.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[100 <./Figures/Tact Tactile Switch.png> <./Figures/DC-DC Boost Converter.png>]
-<Figures/Arduino nano.png, id=2986, 164.41425pt x 67.452pt>
+[97 <./Figures/Tact Tactile Switch.png> <./Figures/DC-DC Boost Converter.png>]
+<Figures/Arduino nano.png, id=2920, 164.41425pt x 67.452pt>
 File: Figures/Arduino nano.png Graphic file (type png)
 <use Figures/Arduino nano.png>
 Package pdftex.def Info: Figures/Arduino nano.png  used on input line 116.
 (pdftex.def)             Requested size: 256.08627pt x 170.75185pt.
-[101 <./Figures/Glowing Ball.png> <./Figures/Arduino nano.png>]
-<Figures/Li-po Battery.png, id=2991, 80.09924pt x 80.09924pt>
+
+[98 <./Figures/Glowing Ball.png> <./Figures/Arduino nano.png>]
+<Figures/Li-po Battery.png, id=2925, 80.09924pt x 80.09924pt>
 File: Figures/Li-po Battery.png Graphic file (type png)
 <use Figures/Li-po Battery.png>
 Package pdftex.def Info: Figures/Li-po Battery.png  used on input line 127.
 (pdftex.def)             Requested size: 199.1818pt x 170.72743pt.
-<Figures/RGB Led.png, id=2992, 100.57574pt x 100.57574pt>
+<Figures/RGB Led.png, id=2926, 100.57574pt x 100.57574pt>
 File: Figures/RGB Led.png Graphic file (type png)
 <use Figures/RGB Led.png>
 Package pdftex.def Info: Figures/RGB Led.png  used on input line 137.
 (pdftex.def)             Requested size: 199.19427pt x 199.19427pt.
- [102 <./Figures/Li-po Battery.png> <./Figures/RGB Led.png>]
-<Figures/MPU-6050.png, id=2998, 69.25874pt x 69.25874pt>
+ [99 <./Figures/Li-po Battery.png> <./Figures/RGB Led.png>]
+<Figures/MPU-6050.png, id=2931, 69.25874pt x 69.25874pt>
 File: Figures/MPU-6050.png Graphic file (type png)
 <use Figures/MPU-6050.png>
 Package pdftex.def Info: Figures/MPU-6050.png  used on input line 147.
 (pdftex.def)             Requested size: 142.28038pt x 170.73688pt.
-<Figures/nRF24L01.png, id=2999, 125.268pt x 69.861pt>
+<Figures/nRF24L01.png, id=2932, 125.268pt x 69.861pt>
 File: Figures/nRF24L01.png Graphic file (type png)
 <use Figures/nRF24L01.png>
 Package pdftex.def Info: Figures/nRF24L01.png  used on input line 157.
 (pdftex.def)             Requested size: 227.62492pt x 113.8127pt.
- [103 <./Figures/MPU-6050.png> <./Figures/nRF24L01.png>]
-<Figures/Marker Parts.png, id=3004, 3578.36874pt x 5058.9pt>
+ [100 <./Figures/MPU-6050.png> <./Figures/nRF24L01.png>]
+<Figures/Marker Parts.png, id=2937, 3578.36874pt x 5058.9pt>
 File: Figures/Marker Parts.png Graphic file (type png)
 <use Figures/Marker Parts.png>
 Package pdftex.def Info: Figures/Marker Parts.png  used on input line 169.
 (pdftex.def)             Requested size: 199.13145pt x 256.04752pt.
-<Figures/Marker Transmitter_bb.png, id=3005, 187.099pt x 330.033pt>
+<Figures/Marker Transmitter_bb.png, id=2938, 187.099pt x 330.033pt>
 File: Figures/Marker Transmitter_bb.png Graphic file (type png)
 <use Figures/Marker Transmitter_bb.png>
 Package pdftex.def Info: Figures/Marker Transmitter_bb.png  used on input line 
 177.
 (pdftex.def)             Requested size: 170.71997pt x 256.07507pt.
-<Figures/Marker Receiver_schem.png, id=3006, 182.281pt x 194.326pt>
+<Figures/Marker Receiver_schem.png, id=2939, 182.281pt x 194.326pt>
 File: Figures/Marker Receiver_schem.png Graphic file (type png)
 <use Figures/Marker Receiver_schem.png>
 Package pdftex.def Info: Figures/Marker Receiver_schem.png  used on input line 
 186.
 (pdftex.def)             Requested size: 170.72946pt x 227.63628pt.
- [104 <./Figures/Marker Parts.png> <./Figures/Marker Transmitter_bb.png>]
-<Figures/Marker Transmitter.png, id=3013, 215.00325pt x 217.41225pt>
+ [101 <./Figures/Marker Parts.png> <./Figures/Marker Transmitter_bb.png>]
+<Figures/Marker Transmitter.png, id=2946, 215.00325pt x 217.41225pt>
 File: Figures/Marker Transmitter.png Graphic file (type png)
 <use Figures/Marker Transmitter.png>
 Package pdftex.def Info: Figures/Marker Transmitter.png  used on input line 195
 .
 (pdftex.def)             Requested size: 199.17014pt x 284.53343pt.
- [105 <./Figures/Marker Receiver_schem.png> <./Figures/Marker Transmitter.png>]
-<Figures/Marker Receiver_bb.png, id=3019, 187.099pt x 189.508pt>
+ [102 <./Figures/Marker Receiver_schem.png> <./Figures/Marker Transmitter.png>]
+<Figures/Marker Receiver_bb.png, id=2952, 187.099pt x 189.508pt>
 File: Figures/Marker Receiver_bb.png Graphic file (type png)
 <use Figures/Marker Receiver_bb.png>
 Package pdftex.def Info: Figures/Marker Receiver_bb.png  used on input line 207
@@ -1329,20 +1332,20 @@ File: Figures/Marker Receiver_schem.png Graphic file (type png)
 Package pdftex.def Info: Figures/Marker Receiver_schem.png  used on input line 
 216.
 (pdftex.def)             Requested size: 142.27316pt x 199.18248pt.
- [106 <./Figures/Marker Receiver_bb.png>]
-<Figures/Marker Receiver.png, id=3025, 105.39375pt x 218.61674pt>
+ [103 <./Figures/Marker Receiver_bb.png>]
+<Figures/Marker Receiver.png, id=2959, 105.39375pt x 218.61674pt>
 File: Figures/Marker Receiver.png Graphic file (type png)
 <use Figures/Marker Receiver.png>
 Package pdftex.def Info: Figures/Marker Receiver.png  used on input line 223.
 (pdftex.def)             Requested size: 199.1743pt x 256.10078pt.
- [107 <./Figures/Marker Receiver.png>]
-<Figures/Ball cover.png, id=3030, 238.491pt x 218.0145pt>
+ [104 <./Figures/Marker Receiver.png>]
+<Figures/Ball cover.png, id=2964, 238.491pt x 218.0145pt>
 File: Figures/Ball cover.png Graphic file (type png)
 <use Figures/Ball cover.png>
 Package pdftex.def Info: Figures/Ball cover.png  used on input line 241.
 (pdftex.def)             Requested size: 256.09624pt x 227.63455pt.
- [108 <./Figures/Ball cover.png>]
-<Figures/Teapot.png, id=3037, 212.59425pt x 215.00325pt>
+ [105 <./Figures/Ball cover.png>]
+<Figures/Teapot.png, id=2970, 212.59425pt x 215.00325pt>
 File: Figures/Teapot.png Graphic file (type png)
 <use Figures/Teapot.png>
 Package pdftex.def Info: Figures/Teapot.png  used on input line 266.
@@ -1351,8 +1354,8 @@ Package pdftex.def Info: Figures/Teapot.png  used on input line 266.
 Underfull \vbox (badness 10000) detected at line 312
  []
 
-[109 <./Figures/Teapot.png>]
-<Figures/Mic.png, id=3042, 64.44075pt x 50.589pt>
+[106 <./Figures/Teapot.png>]
+<Figures/Mic.png, id=2975, 64.44075pt x 50.589pt>
 File: Figures/Mic.png Graphic file (type png)
 <use Figures/Mic.png>
 Package pdftex.def Info: Figures/Mic.png  used on input line 334.
@@ -1363,13 +1366,13 @@ Overfull \hbox (14.73587pt too wide) in paragraph at lines 340--341
  with the $[]$. 
  []
 
-<Figures/Pot.png, id=3043, 79.497pt x 79.497pt>
+<Figures/Pot.png, id=2976, 79.497pt x 79.497pt>
 File: Figures/Pot.png Graphic file (type png)
 <use Figures/Pot.png>
 Package pdftex.def Info: Figures/Pot.png  used on input line 344.
 (pdftex.def)             Requested size: 142.28539pt x 113.8169pt.
-[110 <./Figures/Mic.png> <./Figures/Pot.png>]
-<Figures/3.5mm jack.png, id=3048, 70.46326pt x 78.2925pt>
+[107 <./Figures/Mic.png> <./Figures/Pot.png>]
+<Figures/3.5mm jack.png, id=2981, 70.46326pt x 78.2925pt>
 File: Figures/3.5mm jack.png Graphic file (type png)
 <use Figures/3.5mm jack.png>
 Package pdftex.def Info: Figures/3.5mm jack.png  used on input line 360.
@@ -1378,21 +1381,21 @@ File: Figures/Arduino nano.png Graphic file (type png)
 <use Figures/Arduino nano.png>
 Package pdftex.def Info: Figures/Arduino nano.png  used on input line 369.
 (pdftex.def)             Requested size: 170.72334pt x 113.82187pt.
-<Figures/nrf Adapter.png, id=3049, 95.1555pt x 77.088pt>
+<Figures/nrf Adapter.png, id=2982, 95.1555pt x 77.088pt>
 File: Figures/nrf Adapter.png Graphic file (type png)
 <use Figures/nrf Adapter.png>
 Package pdftex.def Info: Figures/nrf Adapter.png  used on input line 379.
 (pdftex.def)             Requested size: 227.65619pt x 170.73743pt.
- [111 <./Figures/3.5mm jack.png>]
-<Figures/nrf Antenna Version.png, id=3054, 144.54pt x 81.906pt>
+ [108 <./Figures/3.5mm jack.png>]
+<Figures/nrf Antenna Version.png, id=2987, 144.54pt x 81.906pt>
 File: Figures/nrf Antenna Version.png Graphic file (type png)
 <use Figures/nrf Antenna Version.png>
 Package pdftex.def Info: Figures/nrf Antenna Version.png  used on input line 39
 2.
 (pdftex.def)             Requested size: 227.63402pt x 170.74788pt.
 
-[112 <./Figures/nrf Adapter.png> <./Figures/nrf Antenna Version.png>]
-<Figures/Audio Trans num.png, id=3059, 2457.18pt x 2890.8pt>
+[109 <./Figures/nrf Adapter.png> <./Figures/nrf Antenna Version.png>]
+<Figures/Audio Trans num.png, id=2993, 2457.18pt x 2890.8pt>
 File: Figures/Audio Trans num.png Graphic file (type png)
 <use Figures/Audio Trans num.png>
 Package pdftex.def Info: Figures/Audio Trans num.png  used on input line 404.
@@ -1403,46 +1406,46 @@ Overfull \hbox (15.11827pt too wide) in paragraph at lines 409--410
 re con-nected in Transceiver
  []
 
-<Figures/Audio Receiver_bb.png, id=3060, 204.765pt x 252.142pt>
+<Figures/Audio Receiver_bb.png, id=2994, 204.765pt x 252.142pt>
 File: Figures/Audio Receiver_bb.png Graphic file (type png)
 <use Figures/Audio Receiver_bb.png>
 Package pdftex.def Info: Figures/Audio Receiver_bb.png  used on input line 414.
 
 (pdftex.def)             Requested size: 142.27219pt x 199.1669pt.
-<Figures/Audio Receiver_schem.png, id=3061, 231.264pt x 259.369pt>
+<Figures/Audio Receiver_schem.png, id=2995, 231.264pt x 259.369pt>
 File: Figures/Audio Receiver_schem.png Graphic file (type png)
 <use Figures/Audio Receiver_schem.png>
 Package pdftex.def Info: Figures/Audio Receiver_schem.png  used on input line 4
 23.
 (pdftex.def)             Requested size: 199.17957pt x 227.62802pt.
-[113 <./Figures/Audio Trans num.png> <./Figures/Audio Receiver_bb.png>]
-<Figures/Audion transmitter flow.png, id=3068, 215.6055pt x 231.264pt>
+[110 <./Figures/Audio Trans num.png> <./Figures/Audio Receiver_bb.png>]
+<Figures/Audion transmitter flow.png, id=3002, 215.6055pt x 231.264pt>
 File: Figures/Audion transmitter flow.png Graphic file (type png)
 <use Figures/Audion transmitter flow.png>
 Package pdftex.def Info: Figures/Audion transmitter flow.png  used on input lin
 e 432.
 (pdftex.def)             Requested size: 227.63272pt x 256.08853pt.
 
-[114 <./Figures/Audio Receiver_schem.png> <./Figures/Audion transmitter flow.pn
+[111 <./Figures/Audio Receiver_schem.png> <./Figures/Audion transmitter flow.pn
 g>]
-<Figures/Audio Recv num.png, id=3075, 2457.18pt x 2746.26pt>
+<Figures/Audio Recv num.png, id=3008, 2457.18pt x 2746.26pt>
 File: Figures/Audio Recv num.png Graphic file (type png)
 <use Figures/Audio Recv num.png>
 Package pdftex.def Info: Figures/Audio Recv num.png  used on input line 444.
 (pdftex.def)             Requested size: 170.7079pt x 199.13017pt.
-<Figures/Audion Reciever flow.png, id=3076, 111.41624pt x 231.264pt>
+<Figures/Audion Reciever flow.png, id=3009, 111.41624pt x 231.264pt>
 File: Figures/Audion Reciever flow.png Graphic file (type png)
 <use Figures/Audion Reciever flow.png>
 Package pdftex.def Info: Figures/Audion Reciever flow.png  used on input line 4
 52.
 (pdftex.def)             Requested size: 170.7298pt x 199.17957pt.
- [115 <./Figures/Audio Recv num.png> <./Figures/Audion Reciever flow.png>]
+ [112 <./Figures/Audio Recv num.png> <./Figures/Audion Reciever flow.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 474--475
 
  []
 
-[116]
-<Figures/Controller App Home.png, id=3089, 474.573pt x 361.95226pt>
+[113]
+<Figures/Controller App Home.png, id=3022, 474.573pt x 361.95226pt>
 File: Figures/Controller App Home.png Graphic file (type png)
 <use Figures/Controller App Home.png>
 Package pdftex.def Info: Figures/Controller App Home.png  used on input line 51
@@ -1453,32 +1456,32 @@ Overfull \hbox (9.32007pt too wide) in paragraph at lines 510--511
  [][] 
  []
 
-[117 <./Figures/Controller App Home.png>] [118]
-<Figures/Controller Application Record Panel.png, id=3115, 471.56175pt x 360.74
+[114 <./Figures/Controller App Home.png>] [115]
+<Figures/Controller Application Record Panel.png, id=3049, 471.56175pt x 360.74
 776pt>
 File: Figures/Controller Application Record Panel.png Graphic file (type png)
 <use Figures/Controller Application Record Panel.png>
 Package pdftex.def Info: Figures/Controller Application Record Panel.png  used 
 on input line 542.
 (pdftex.def)             Requested size: 341.45258pt x 313.00029pt.
- [119 <./Figures/Controller Application Record Panel.png>]
-<Figures/Controller App Position Calibration.png, id=3127, 472.76625pt x 362.55
+ [116 <./Figures/Controller Application Record Panel.png>]
+<Figures/Controller App Position Calibration.png, id=3061, 472.76625pt x 362.55
 45pt>
 File: Figures/Controller App Position Calibration.png Graphic file (type png)
 <use Figures/Controller App Position Calibration.png>
 Package pdftex.def Info: Figures/Controller App Position Calibration.png  used 
 on input line 563.
 (pdftex.def)             Requested size: 341.43744pt x 312.9968pt.
- [120 <./Figures/Controller App Position Calibration.png>]
-<Figures/Controller App Camera Settings.png, id=3139, 473.97075pt x 360.74776pt
+ [117 <./Figures/Controller App Position Calibration.png>]
+<Figures/Controller App Camera Settings.png, id=3072, 473.97075pt x 360.74776pt
 >
 File: Figures/Controller App Camera Settings.png Graphic file (type png)
 <use Figures/Controller App Camera Settings.png>
 Package pdftex.def Info: Figures/Controller App Camera Settings.png  used on in
 put line 584.
 (pdftex.def)             Requested size: 341.43225pt x 313.00029pt.
- [121 <./Figures/Controller App Camera Settings.png>]
-<Figures/Controller App Orientation Calibration.png, id=3151, 474.573pt x 360.7
+ [118 <./Figures/Controller App Camera Settings.png>]
+<Figures/Controller App Orientation Calibration.png, id=3084, 474.573pt x 360.7
 4776pt>
 File: Figures/Controller App Orientation Calibration.png Graphic file (type png
 )
@@ -1492,8 +1495,8 @@ Overfull \hbox (7.69427pt too wide) in paragraph at lines 614--615
 f marker in three-dimensional
  []
 
-[122 <./Figures/Controller App Orientation Calibration.png>]
-<Figures/Controller App Orientation Visualization.png, id=3163, 380.01974pt x 3
+[119 <./Figures/Controller App Orientation Calibration.png>]
+<Figures/Controller App Orientation Visualization.png, id=3096, 380.01974pt x 3
 99.894pt>
 File: Figures/Controller App Orientation Visualization.png Graphic file (type p
 ng)
@@ -1501,7 +1504,7 @@ ng)
 Package pdftex.def Info: Figures/Controller App Orientation Visualization.png  
 used on input line 619.
 (pdftex.def)             Requested size: 284.53862pt x 227.61853pt.
-<Figures/Controller App 2d Orientation Visualization.png, id=3164, 292.6935pt x
+<Figures/Controller App 2d Orientation Visualization.png, id=3097, 292.6935pt x
  216.81pt>
 File: Figures/Controller App 2d Orientation Visualization.png Graphic file (typ
 e png)
@@ -1515,43 +1518,43 @@ Overfull \hbox (7.69427pt too wide) in paragraph at lines 624--630
 f marker in three-dimensional
  []
 
-[123 <./Figures/Controller App Orientation Visualization.png> <./Figures/Contro
+[120 <./Figures/Controller App Orientation Visualization.png> <./Figures/Contro
 ller App 2d Orientation Visualization.png>]
-<Figures/Controller App Filter Control Panel.png, id=3171, 515.526pt x 390.8602
+<Figures/Controller App Filter Control Panel.png, id=3104, 515.526pt x 390.8602
 4pt>
 File: Figures/Controller App Filter Control Panel.png Graphic file (type png)
 <use Figures/Controller App Filter Control Panel.png>
 Package pdftex.def Info: Figures/Controller App Filter Control Panel.png  used 
 on input line 647.
 (pdftex.def)             Requested size: 341.4439pt x 312.98682pt.
- [124 <./Figures/Controller App Filter Control Panel.png>]
-<Figures/Controller App Filter Preview.png, id=3182, 306.54526pt x 208.98074pt>
+ [121 <./Figures/Controller App Filter Control Panel.png>]
+<Figures/Controller App Filter Preview.png, id=3116, 306.54526pt x 208.98074pt>
 
 File: Figures/Controller App Filter Preview.png Graphic file (type png)
 <use Figures/Controller App Filter Preview.png>
 Package pdftex.def Info: Figures/Controller App Filter Preview.png  used on inp
 ut line 667.
 (pdftex.def)             Requested size: 341.4433pt x 312.9952pt.
-<Figures/Controller App.png, id=3183, 349.305pt x 713.66624pt>
+<Figures/Controller App.png, id=3117, 349.305pt x 713.66624pt>
 File: Figures/Controller App.png Graphic file (type png)
 <use Figures/Controller App.png>
 Package pdftex.def Info: Figures/Controller App.png  used on input line 676.
 (pdftex.def)             Requested size: 227.62651pt x 284.52492pt.
- [125 <./Figures/Controller App Filter Preview.png>]
-[126 <./Figures/Controller App.png>] [127]
-<Figures/Player App (2).png, id=3212, 592.46344pt x 447.17062pt>
+ [122 <./Figures/Controller App Filter Preview.png>]
+[123 <./Figures/Controller App.png>] [124]
+<Figures/Player App (2).png, id=3145, 592.46344pt x 447.17062pt>
 File: Figures/Player App (2).png Graphic file (type png)
 <use Figures/Player App (2).png>
 Package pdftex.def Info: Figures/Player App (2).png  used on input line 751.
 (pdftex.def)             Requested size: 369.90001pt x 369.89604pt.
- [128 <./Figures/Player App (2).png>]
-<Figures/Player Application.png, id=3223, 121.45375pt x 472.76625pt>
+ [125 <./Figures/Player App (2).png>]
+<Figures/Player Application.png, id=3156, 121.45375pt x 472.76625pt>
 File: Figures/Player Application.png Graphic file (type png)
 <use Figures/Player Application.png>
 Package pdftex.def Info: Figures/Player Application.png  used on input line 759
 .
 (pdftex.def)             Requested size: 142.26337pt x 284.5348pt.
-) (Chapters/Chapter5.tex [129 <./Figures/Player Application.png>]
+) (Chapters/Chapter5.tex [126 <./Figures/Player Application.png>]
 Chapter 5.
 -------------------------------------------
  5 Evaluation Criteria
@@ -1604,7 +1607,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 35.
 
-[130
+[127
 
 ]
 
@@ -1655,7 +1658,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 80.
 
-[131]
+[128]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 103.
@@ -1680,7 +1683,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 103.
 
-[132]
+[129]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 126.
@@ -1729,7 +1732,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 161.
 
-[133]
+[130]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 178.
@@ -1783,12 +1786,12 @@ Overfull \hbox (11.17145pt too wide) in paragraph at lines 218--218
 |[]\OT1/cmr/bx/n/14.4 Test Sce-nario TS-3: Teacher's Re-quest Ap-proval Func-
  []
 
-[134]
+[131]
 Overfull \hbox (11.77142pt too wide) in paragraph at lines 257--257
 |[]\OT1/cmr/bx/n/14.4 Test Sce-nario TS-5: Stu-dents' Re-quest Ap-proval Func-
  []
 
-[135] [136]
+[132] [133]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 309.
@@ -1861,7 +1864,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 343.
 
-[137]
+[134]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 375.
@@ -1910,7 +1913,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 392.
 
-[138]
+[135]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 409.
@@ -1935,17 +1938,17 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 409.
 
-[139]
+[136]
 Overfull \hbox (10.50475pt too wide) in paragraph at lines 497--497
 |[]\OT1/cmr/bx/n/14.4 Test Sce-nario TS-12: Down-load-ing As-sign-ment Func-
  []
 
-[140] [141] [142] [143] [144]
+[137] [138] [139] [140] [141]
 Overfull \hbox (0.19649pt too wide) in paragraph at lines 733--733
 |[]\OT1/cmr/bx/n/14.4 Test Sce-nario TS-21: Down-load Course Notes Func-
  []
 
-[145] [146] [147] [148] [149]
+[142] [143] [144] [145] [146]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 956.
@@ -2018,7 +2021,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 992.
 
-[150]
+[147]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 1010.
@@ -2043,7 +2046,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 1010.
 
-[151] [152]) (Chapters/Chapter6.tex [153]
+[148] [149]) (Chapters/Chapter6.tex [150]
 Chapter 6.
 -------------------------------------------
  6 Results
@@ -2272,7 +2275,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--68
 Underfull \vbox (badness 10000) detected at line 76
  []
 
-[154
+[151
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 103--103
@@ -2373,7 +2376,7 @@ Overfull \hbox (11.17145pt too wide) in paragraph at lines 140--140
 |[]\OT1/cmr/bx/n/14.4 Test Sce-nario TS-3: Teacher's Re-quest Ap-proval Func-
  []
 
-[155]
+[152]
 Underfull \hbox (badness 10000) in paragraph at lines 156--156
 []|\OT1/cmr/bx/n/12 Executed
  []
@@ -2398,7 +2401,7 @@ Overfull \hbox (0.65732pt too wide) in paragraph at lines 182--183
 s sent to the teacher. 
  []
 
-[156]
+[153]
 Underfull \hbox (badness 10000) in paragraph at lines 189--189
 []|\OT1/cmr/bx/n/12 Executed
  []
@@ -2431,7 +2434,7 @@ Underfull \hbox (badness 5091) in paragraph at lines 223--223
 Underfull \vbox (badness 10000) detected at line 229
  []
 
-[157]
+[154]
 Underfull \hbox (badness 10000) in paragraph at lines 251--251
 []|\OT1/cmr/bx/n/12 Executed
  []
@@ -2574,7 +2577,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 306--306
 Underfull \vbox (badness 10000) detected at line 312
  []
 
-[158]
+[155]
 Underfull \hbox (badness 10000) in paragraph at lines 336--336
 []|\OT1/cmr/bx/n/12 Test
  []
@@ -2708,7 +2711,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 360--360
 Underfull \vbox (badness 10000) detected at line 366
  []
 
-[159]
+[156]
 Underfull \hbox (badness 10000) in paragraph at lines 385--385
 []|\OT1/cmr/bx/n/12 Executed
  []
@@ -2756,7 +2759,7 @@ Underfull \hbox (badness 4366) in paragraph at lines 421--421
 Underfull \vbox (badness 10000) detected at line 427
  []
 
-[160]
+[157]
 Underfull \hbox (badness 10000) in paragraph at lines 449--449
 []|\OT1/cmr/bx/n/12 Executed
  []
@@ -2809,7 +2812,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 487--487
 Underfull \vbox (badness 10000) detected at line 493
  []
 
-[161]
+[158]
 Underfull \hbox (badness 10000) in paragraph at lines 517--517
 []|\OT1/cmr/bx/n/12 Executed
  []
@@ -2818,7 +2821,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 517--517
 Underfull \vbox (badness 10000) detected at line 527
  []
 
-[162]
+[159]
 Underfull \hbox (badness 10000) in paragraph at lines 554--554
 []|\OT1/cmr/bx/n/12 Executed
  []
@@ -2866,7 +2869,7 @@ Underfull \hbox (badness 2293) in paragraph at lines 595--595
 Underfull \vbox (badness 10000) detected at line 601
  []
 
-[163]
+[160]
 Underfull \hbox (badness 10000) in paragraph at lines 627--627
 []|\OT1/cmr/bx/n/12 Executed
  []
@@ -2924,7 +2927,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 667--667
 Underfull \vbox (badness 10000) detected at line 673
  []
 
-[164]
+[161]
 Underfull \hbox (badness 10000) in paragraph at lines 699--699
 []|\OT1/cmr/bx/n/12 Executed
  []
@@ -2942,7 +2945,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 738--738
 Underfull \vbox (badness 10000) detected at line 748
  []
 
-[165]
+[162]
 Overfull \hbox (0.19649pt too wide) in paragraph at lines 751--751
 |[]\OT1/cmr/bx/n/14.4 Test Sce-nario TS-20: Down-load Course Notes Func-
  []
@@ -2956,7 +2959,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 776--776
 Underfull \vbox (badness 10000) detected at line 786
  []
 
-[166]
+[163]
 Underfull \hbox (badness 10000) in paragraph at lines 813--813
 []|\OT1/cmr/bx/n/12 Executed
  []
@@ -2984,7 +2987,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 848--848
 Underfull \vbox (badness 10000) detected at line 865
  []
 
-[167]
+[164]
 Underfull \hbox (badness 10000) in paragraph at lines 893--893
 []|\OT1/cmr/bx/n/12 Executed
  []
@@ -3003,7 +3006,7 @@ Underfull \hbox (badness 5924) in paragraph at lines 897--897
 Underfull \vbox (badness 10000) detected at line 903
  []
 
-[168]
+[165]
 Underfull \hbox (badness 10000) in paragraph at lines 931--931
 []|\OT1/cmr/bx/n/12 Executed
  []
@@ -3031,7 +3034,7 @@ Underfull \hbox (badness 1072) in paragraph at lines 970--970
 Underfull \vbox (badness 10000) detected at line 976
  []
 
-[169]
+[166]
 Underfull \hbox (badness 10000) in paragraph at lines 1004--1004
 []|\OT1/cmr/bx/n/12 Executed
  []
@@ -3063,7 +3066,7 @@ Underfull \vbox (badness 10000) detected at line 1051
 Overfull \vbox (32.41191pt too high) has occurred while \output is active []
 
 
-[170]
+[167]
 Underfull \hbox (badness 10000) in paragraph at lines 1067--1067
 []|\OT1/cmr/bx/n/12 Test
  []
@@ -3232,7 +3235,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1101--1101
 Underfull \vbox (badness 10000) detected at line 1110
  []
 
-[171]
+[168]
 Underfull \hbox (badness 10000) in paragraph at lines 1136--1136
 []|\OT1/cmr/bx/n/12 Executed
  []
@@ -3279,7 +3282,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1210--1210
 Underfull \vbox (badness 10000) detected at line 1216
  []
 
-[172]
+[169]
 Underfull \hbox (badness 10000) in paragraph at lines 1234--1234
 []|\OT1/cmr/bx/n/12 Executed
  []
@@ -3307,36 +3310,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 1265--1265
 Underfull \vbox (badness 10000) detected at line 1271
  []
 
-) (Chapters/Chapter7.tex [173]
+) (Chapters/Chapter7.tex [170]
 Chapter 7.
 -------------------------------------------
  7 Future Work
 -------------------------------------------
-[174
+[171
 
-]) [175]
+]) [172]
 -------------------------------------------
  References
 -------------------------------------------
-(uet_thesis.bbl [176
+(uet_thesis.bbl [173
 
 
-] [177] [178])
+] [174] [175])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 189.
- [179]
+ [176]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 189.
  (uet_thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 189.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 189.
 Package rerunfilecheck Info: File `uet_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 42DF922576D3388CAD3762EED3BF0574;69297.
+(rerunfilecheck)             Checksum: B334CD9A6FA3A655F13A503F71A432EE;67555.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 189.
  ) 
 Here is how much of TeX's memory you used:
- 17025 strings out of 480896
- 251223 string characters out of 2896234
- 482442 words of memory out of 3000000
- 31116 multiletter control sequences out of 15000+200000
+ 17001 strings out of 480896
+ 250847 string characters out of 2896234
+ 482441 words of memory out of 3000000
+ 31106 multiletter control sequences out of 15000+200000
  541265 words of font info for 56 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,13n,89p,1949b,563s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3351,9 +3354,9 @@ sfonts/cm/cmr17.pfb><C:/Users/KhanHouse/AppData/Local/Programs/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/KhanHouse/AppData/Local/Programs
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/KhanHouse/AppDa
 ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on uet_thesis.pdf (198 pages, 19399830 bytes).
+Output written on uet_thesis.pdf (194 pages, 19388547 bytes).
 PDF statistics:
- 3792 PDF objects out of 4296 (max. 8388607)
- 1483 named destinations out of 1728 (max. 500000)
- 2441 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3722 PDF objects out of 4296 (max. 8388607)
+ 1469 named destinations out of 1728 (max. 500000)
+ 2361 words of extra memory for PDF output out of 10000 (max. 10000000)
 

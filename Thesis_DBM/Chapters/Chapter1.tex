@@ -8,8 +8,11 @@ Digital board marker is a size efficient, bandwidth saving lecture recording sys
 \bigskip
 
 \section{Background}
-The main aim of digital board marker is to provide ease to the students of all the educational institutes. Mostly lecture systems that already exist, of different universities, provide lectures online on youtube but the problem is they need great internet bandwidth and lot of memory to download and watch the lectures which is difficult for students especially in Pakistan. So that we provide bandwidth and storage efficient lecture system.\\
-Universities are places of knowledge production, and the economy and society are the users of this knowledge. So universities can provide ease to student with this system.
+Mostly systems for online video lecture that exist now a days work on the principle of simple video recording and a website for that organization. The systems like edx, coursera, MIT Open Courseware simple records mp4(or any other format) video and then upload it on their website in a particular section related to particular course. Some of them allow to download the videos. These mp4 videos of 1 hour can take upto 900mb to 1gb of storage space and internet data.\\
+Now DBM came up with the solution of this large storage issue and more internet usage. Instead of recording video it stores position of a pen from which teacher is writing on the white-board. Since position of pen/marker is stored in a text/json file which will reduce the size upto 100 times. 
+
+%The main aim of digital board marker is to provide ease to the students of all the educational institutes. Mostly lecture systems that already exist, of different universities, provide lectures online on youtube but the problem is they need great internet bandwidth and lot of memory to download and watch the lectures which is difficult for students especially in Pakistan. So that we provide bandwidth and storage efficient lecture system.\\
+%Universities are places of knowledge production, and the economy and society are the users of this knowledge. So universities can provide ease to student with this system.
 \bigskip
 
 \section{Motivation}
@@ -35,11 +38,10 @@ In industry most of the time it is hard to choose areas for work which have low 
 
 \begin{itemize}
 
-\item System will reduce internet bandwidth usage which 
-will lead to progress in industry.
-\item It must minimize the storage issue which can increase working efficiency of industry.
-\item It will reduce the cost of internet and cost of storage and will help the industry in fast growing world of today.
-\item Main aim of the project is to provide ease and best performance than most previous ones and will eventually lead to progress in industrial field.
+\item To reduce internet bandwidth usage which will lead to progress in industry. Every industry wants to minimum resources and get maximum results so when you want to record some writing on a white-board you can reduce that video size from giga-bytes to few mega-bytes. This smaller size will use less and internet resources.
+\item To minimize the storage issue which can increase working efficiency of industry. Instead of recording video in mp4 DBM records position of marker writing on the white-board which is just like text file. The text file takes very less storage than a video file. So using minimum storage resources will increase industry's efficiency.
+%\item It will reduce the cost of internet and cost of storage and will help the industry in fast growing world of today.
+%\item Main aim of the project is to provide ease and best performance than most previous ones and will eventually lead to progress in industrial field.
 
 \end{itemize}
 
@@ -51,10 +53,16 @@ Research objective of the system is to go through all the recent research work d
 
 \begin{itemize}
 
-\item Project research is related to find position and orientation of marker precisely and accurately.
-\item The high level research part is finding the position and then syncing it with the audio data to play like a video.
-\item Research must be deep so that researchers must be able to discover new and improved techniques to reduce storage issues.
-\item Research should be able to help future work in detection of ball in any sort environment without assumptions and with more accuracy.
+\item To reduce storage and internet usage by recording position of marker and storing it in a text/json file.
+\item To find precise orientation and position of marker on white board with the help of computer vision.
+\item To use colour detection to find location of marker just by using stereo vision.
+\item To find correct way to give offset while calibration of marker for translating position of marker from real world to local(computer) world by interconversion Euler angle and Quaternion.
+\item To reduce the noise in audio hardware due to analogue input in mic. Instead of using mic module is used(built-in noise reduction feature) a mic is used, noise is reduced by using electronic components like capacitor, variable resistor, potential divider resistors and coding(in Embedded C).
+
+%\item Project research is related to find position and orientation of marker precisely and accurately.
+%\item The high level research part is finding the position and then syncing it with the audio data to play like a video.
+%\item Research must be deep so that researchers must be able to discover new and improved techniques to reduce storage issues.
+%\item Research should be able to help future work in detection of ball in any sort environment without assumptions and with more accuracy.
 
 \end{itemize}
 
@@ -65,13 +73,13 @@ Digital board marker mainly cover academic area the main purpose is to provide e
 
 \begin{itemize}
 
-\item The main academic objective of the developers is to learn major computer science field i.e. computer vision.
+\item To learn major computer science field i.e. computer vision.
 
-\item On basis of computer fields used in project developers must be able to use this knowledge to improve in this field.
+%\item On basis of computer fields used in project developers must be able to use this knowledge to improve in this field.
 
-\item Developers must complete all the work before respective deadlines. so by working in a professional way project will be at its best.
+\item To complete all the work before respective deadlines. So by working in a professional way project will be at its best.
 
-\item Developers must be able to risk the change management in their projects, as while doing the projects, developers might face different kinds of situation and their decision making plays and important role in leading them to success.
+\item To be able to risk the change management in their projects, during the projects, developers might face different kinds of situation and their decision making plays and important role in leading them to success.
 
 \end{itemize}
 \bigskip
@@ -100,61 +108,93 @@ The selection of technology was one of the first major issue at the start of pro
 \bigskip
 
 
-\subsection{Camera Selection}
-To record the position and orientation of the camera the main issue was to use good quality cameras with low cost. High FPS cameras with low cost were very difficult to find. So this was also one of major challenges of hardware.
+\subsection{Marker not Visible to Camera}
+Teacher's hand might come in front of camera which will cover the marker and it cannot correctly record the position and orientation. Glowing ball of board marker must be at least partially visible by either of the cameras. Precision of marker position decreases from Case 1 to 6. Best Accuracy in Case 1 and no output at all in Case 6
 \bigskip
 
-
-\subsection{Stereo Vision Camera Input}
-Recording a stereo vision using two cameras and taking correct input, setting them at correct angle came up as a challenge.
+\subsection{Marker}
+User is supposed to be not touching the Marker tip while recording the lecture. If touched it can make error in input.
 \bigskip
-
-
-\subsection{Marker Hardware}
-Marker hardware was also a challenge. To make a marker which is almost same as light weight as the normal marker and make it easy to pick. Also to make it in less cost with all the hardware parts and wires attached.
-\bigskip
-
 
 \subsection{Ball detection}
 The ball attached on the top of marker is used to detect the position of marker but sometimes the color of ball can match with dress of user and cameras can confuse with the color, which came up as a challenge.
 \bigskip
 
-\subsection{Marker Orientation Calibration}
-There should be precise and accurate orientation data of marker so that proper position data can be recorded and later used which became a big challenge.
+\subsection{Marker Transmitter Range}
+Board Marker Transmitter and Receiver are in range of 2 meters for less noise and preventing latency issues.
 \bigskip
 
 \subsection{Pressure Sensor handling}
-There was a lot of noise in the data that is recording which was handled using pressure sensor, it was also one of the major challenges.
+Pressure threshold of board marker tip is 5Pascals that is equivalent to pressure of lead pencil tip. Above this pressure, marker will write and otherwise not.
 \bigskip
 
-\subsection{Transmission Speed}
-The transmission speed lag between \textbf{NRF24L01} came up as a challenge with and without antenna.
+\subsection{Defined Boundary of Platform}
+User is supposed to be write only in the boundary of the defined platform i.e. whiteboard. 
 \bigskip
 
-\subsection{Audio Hardware}
-Audio hardware itself was bit of a challenge which is to be attached so that synchronized audio data can be recorded.
+\subsection{Audio Transmitter and Receiver Range}
+Audio Transmitter and Audio Receiver must be in range of 5 meters.
 \bigskip
 
-\subsection{Noise Reduction}
-The noise from audio should be removed to get clear audio which was also one of the challenge.
+\subsection{Microphone Range}
+Microphone should be in range of 10cm from the audio source i.e. speaker's mouth.
 \bigskip
 
-\subsection{Marker and duster thickness configuration}
-Selecting the dimensions, size and configuration of marker and duster so that it can sync with stereo vision of cameras and input to camera.
-\bigskip
-\subsection{Erasing board}
-When erasing the board or a part of board there should be removal from the video that is played in the video player. So it was a difficult challenge to keep record of that.
-\bigskip
-\subsection{Seek bar control}
-Controlling the seek bar in audio player for forward and rewind of video came up as a challenge.
-\bigskip
-\subsection{Getting familiar with new framework}
-Angular 8 came up as a new framework for the developers so it was a bit challenge for getting familiar with this. Moreover we started using simple HTML and then converting to angular material was bit of a challenge.
+\subsection{Controller Application}
+Application is not closed while recording otherwise all recording will be wasted.
 \bigskip
 
-\subsection{Cross Platform Linking}
-Connecting front end to API came up as a challenge as developers have never worked with API before. Also there were many development related issue to work with .NET core framework since it is updated version of what developers were already using (.NET classic). So it was a bit of challenge to combine API and front end.
-\bigskip
+%Marker hardware was also a challenge. To make a marker which is almost same as light weight as the normal marker and make it easy to pick. Also to make it in less cost with all the hardware parts and wires attached.
+%\bigskip
+
+
+%\subsection{Marker Receiver}
+%Receiving correct orientation data from marker transmitter as Euler angles and send it to desktop application via usb connection with no loss and noise.
+%%Marker hardware was also a challenge. To make a marker which is almost same as light weight as the normal marker and make it easy to pick. Also to make it in less cost with all the hardware parts and wires attached.
+%\bigskip
+
+
+
+
+%\subsection{Marker Orientation Calibration}
+%There should be precise and accurate orientation data of marker so that proper position data can be recorded and later used which became a big challenge.
+%\bigskip
+
+%\subsection{Pressure Sensor handling}
+%There was a lot of noise in the data that is recording which was handled using pressure sensor, it was also one of the major challenges.
+%\bigskip
+
+%\subsection{Transmission Speed}
+%The transmission speed lag between \textbf{NRF24L01} came up as a challenge with and without antenna.
+%\bigskip
+
+%\subsection{Audio Hardware}
+%Audio hardware itself was bit of a challenge which is to be attached so that synchronized audio data can be recorded.
+%\bigskip
+
+%\subsection{Noise Reduction}
+%The noise from audio should be removed to get clear audio which was also one of the challenge.
+%\bigskip
+
+%\subsection{Marker and duster thickness configuration}
+%Selecting the dimensions, size and configuration of marker and duster so that it can sync with stereo vision of cameras and input to camera.
+%\bigskip
+
+%\subsection{Erasing board}
+%When erasing the board or a part of board there should be removal from the video that is played in the video player. So it was a difficult challenge to keep record of that.
+%\bigskip
+
+%\subsection{Seek bar control}
+%Controlling the seek bar in audio player for forward and rewind of video came up as a challenge.
+%\bigskip
+
+%\subsection{Getting familiar with new framework}
+%Angular 8 came up as a new framework for the developers so it was a bit challenge for getting familiar with this. Moreover we started using simple HTML and then converting to angular material was bit of a challenge.
+%\bigskip
+
+%\subsection{Cross Platform Linking}
+%Connecting front end to API came up as a challenge as developers have never worked with API before. Also there were many development related issue to work with .NET core framework since it is updated version of what developers were already using (.NET classic). So it was a bit of challenge to combine API and front end.
+%\bigskip
 
 \section{Assumptions and Constraints}
 
@@ -179,125 +219,53 @@ Following are the possible applications where DBM can be used:
 \bigskip
 
 \subsection{Educational Institutes}
-There can be different types of users in educational institutes so DBM will be helpful to all these users:
+There can be different types of users in educational institutes so DBM will be helpful to all these users. Although there are many other online lecture systems but they are not very efficient in terms of storage space and internet bandwidth usage. Already existing systems have mp4 videos which require approx. 1gb of storage space which is a big issue for students.\\
+So DBM will be using much less resources. The video size will reduce from 1gb to few mbs(less than 100mb) which will be helpful for students with limited resources.
 \bigskip
 
 \begin{figure}[h]
   \centering
-  \includegraphics[width=6cm, height=5cm]{Educational Institutes}
+  \includegraphics[width=5cm, height=4cm]{Educational Institutes}
   \caption{Digital Board Marker Application: Educational Institute}
 \end{figure}
-
-\bigskip
-\subsubsection{Admin}
-Admin can interact with system in form of following tasks.
-\begin{itemize}
-\item Admin can directly login into the system.
-\item Admin can create different groups/roles.
-\item Admin can assign different permissions to each group/role.
-\item Admin can approve or disapprove the login access requests of the users.
-\item Admin can add courses.
-\item Admin can assign courses to teachers.
-\item Admin can update and delete the courses.
-\end{itemize}
 \bigskip
 
-\subsubsection{Teacher}
-Teacher can interact with system in form of following tasks.
-\begin{itemize}
-\item Teacher can register himself in the system.
-\item Teacher can login into the system.
-\item Teacher can reset his password.
-\item Teacher can upload course assignments.
-\item Teacher can delete assignments.
-\item Teacher can \textbf{Add, Edit, View and delete} course content/notes.
-\item Teacher can approve or disapprove course enrollment requests of students.
-\item Teacher can download and view students submitted assignments.
-\item Teacher can start/end recording lectures.
-\item Teacher can delete course lectures.
-\item Teacher can add, delete and edit classes.
-\item Teacher can view students list.
-\item Teacher can add announcement.
-\item Teacher can view and edit course related announcements.
-\item Teacher can delete announcements.
-\end{itemize}
-\bigskip
-
-\subsubsection{Students}
-Student can interact with system in form of following tasks.
-\begin{itemize}
-\item Student can register himself in the system.
-\item Student can login into the system.
-\item Student can reset his password.
-\item Student can view courses.
-\item Student can enroll in any course.
-\item Student can view course content.
-\item Student can view course assignments.
-\item Student can download course assignments.
-\item Student can submit course assignments.
-\item Student can play course lectures.
-\item Student can download course lectures.
-\item Student can view and download course content.
-\item Student can view course announcements.
-\end{itemize}
-\bigskip
 
 \subsection{Online Tutors}
-Online tutors can use DBM. There can be different types of users in online tutors as well:
+Online tutors can use DBM. There can be different types of users in online tutors as well. Online tutors are also the one with limited storage space so instead of recording normal video of 1 hour which can take too much space they can use DBM which will use very less resources and will also be helpful to people listening to these onlune tutors.
 
 \bigskip
 
 \begin{figure}[h]
   \centering
-  \includegraphics[width=6cm, height=5cm]{Online Tutors}
+  \includegraphics[width=4cm, height=4cm]{Online Tutors}
   \caption{Digital Board Marker Application: Online Tutors}
 \end{figure}
 
 \bigskip
-
-\subsubsection{Tutors}
-
-Tutor can interact with system in form of following tasks.
-\begin{itemize}
-\item Tutor can login into our system.
-\item Tutor can start/end recording lectures.
-\item Tutor can delete, download and play lectures.
-\end{itemize}
-
-\bigskip
-
-\subsubsection{Users}
-
-Users can interact with system in form of following tasks.
-\begin{itemize}
-\item User can play tutorials.
-\item User can view lectures list.
-\item User can download lecture.
-\end{itemize}
-\bigskip
+\newpage
 
 
 \subsection{Sketch Artist}
-Sketch artists can use the system just like online education and showing their sketch skills and help others in improving theirs.
-
+Sketch artists can use the system just like online education and showing their sketch skills and help others in improving theirs. The people learning from these sketches need to watch the video again and again which will require a lot of internet data. So DBM will reduce the data usage as it has very small size for video and users can easily buffer the video again and again.
 \bigskip
 
 \begin{figure}[h]
   \centering
-  \includegraphics[width=6cm, height=5cm]{Sketch Artists}
+  \includegraphics[width=4cm, height=4cm]{Sketch Artists}
   \caption{Digital Board Marker Application: Sketch Artists}
 \end{figure}
 
 \bigskip
 
-\subsubsection{Industrial Presentations}
-Digital board marker can be helpful in industrial presentation so that if any person cannot appear at the particular time, that person can watch the recorded (storage efficient) presentation later.
+\subsection{Industrial Presentations}
+Digital board marker can be helpful in industrial presentation so that if any person cannot appear at the particular time, that person can watch the recorded (storage efficient) presentation later. So industry will also have less use of its resources.
 
 \bigskip
 
 \begin{figure}[h]
   \centering
-  \includegraphics[width=8cm, height=5cm]{Industry}
+  \includegraphics[width=5cm, height=3cm]{Industry}
   \caption{Digital Board Marker Application: Industrial Presentations}
 \end{figure}
 
