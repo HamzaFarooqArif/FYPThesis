@@ -1,4 +1,4 @@
-\begin{thebibliography}{27}
+\begin{thebibliography}{25}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -94,16 +94,6 @@ Paola Iannone and Dominic Miller.
 \newblock \emph{Educational Studies in Mathematics}, pages 387--404, 2019.
 \newblock ISSN 15730816.
 \newblock \doi{10.1007/s10649-018-9872-x}.
-
-\bibitem[Khan(2016)]{Khan2016}
-Habib~Ullah Khan.
-\newblock {Possible effect of video lecture capture technology on the cognitive
-  empowerment of higher education students: A case study of gulf-based
-  university}.
-\newblock \emph{International Journal of Innovation and Learning}, 20\penalty0
-  (1):\penalty0 68--84, 2016.
-\newblock ISSN 17408016.
-\newblock \doi{10.1504/IJIL.2016.076672}.
 
 \bibitem[Kiewra et~al.(2018)Kiewra, Colliot, and Lu]{Kiewra2018}
 Kenneth~A. Kiewra, Tiphaine Colliot, and Junrong Lu.
@@ -221,15 +211,6 @@ J~Renz, M~Bauer, M~Malchow, T~Staubitz, and C~Meinel.
 \newblock \emph{EDULEARN15 Proceedings}, \penalty0 (July):\penalty0 5150--5158,
   2015.
 \newblock ISSN 2340-1117.
-
-\bibitem[Vega et~al.(2007)Vega, Dickey-Kurdziolek, Shupp,
-  P{\'{e}}rez-Qui{\~{n}}ones, Booker, and Congleton]{Vega2007}
-Laurian~C. Vega, Margaret Dickey-Kurdziolek, Lauren Shupp, Manuel~A.
-  P{\'{e}}rez-Qui{\~{n}}ones, John Booker, and Ben Congleton.
-\newblock {Taking Notes Together: Augmenting note taking}.
-\newblock \emph{Proceedings of the 2007 International Symposium on
-  Collaborative Technologies and Systems, CTS}, pages 16--23, 2007.
-\newblock \doi{10.1109/CTS.2007.4621733}.
 
 \bibitem[Yang et~al.(2015)Yang, Wen, Howley, Kraut, and Ros{\'{e}}]{Yang2015}
 Diyi Yang, Miaomiao Wen, Iris Howley, Robert Kraut, and Carolyn Ros{\'{e}}.
