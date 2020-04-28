@@ -1,4 +1,4 @@
-\begin{thebibliography}{25}
+\begin{thebibliography}{27}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -105,6 +105,13 @@ Habib~Ullah Khan.
 \newblock ISSN 17408016.
 \newblock \doi{10.1504/IJIL.2016.076672}.
 
+\bibitem[Kiewra et~al.(2018)Kiewra, Colliot, and Lu]{Kiewra2018}
+Kenneth~A. Kiewra, Tiphaine Colliot, and Junrong Lu.
+\newblock {Note This: How to Improve Student Note Taking}.
+\newblock \emph{Idea}, \penalty0 (September):\penalty0 1--18, 2018.
+\newblock URL \url{https://www.ideaedu.org/Portals/0/Uploads/Documents/IDEA
+  Papers/IDEA Papers/IDEA_Paper_73.pdf}.
+
 \bibitem[{Le Gall}(1992)]{LeGall1992}
 Didier~J. {Le Gall}.
 \newblock {The MPEG video compression algorithm}.
@@ -189,6 +196,14 @@ Frances~V. O'Callaghan, David~L. Neumann, Liz Jones, and Peter~A. Creed.
 \newblock ISSN 15737608.
 \newblock \doi{10.1007/s10639-015-9451-z}.
 \newblock URL \url{http://dx.doi.org/10.1007/s10639-015-9451-z}.
+
+\bibitem[Patel et~al.(2019)Patel, Mislan, Yook, and Persky]{Patel2019}
+Bianka Patel, Sarah Mislan, Grace Yook, and Adam~M. Persky.
+\newblock {Recorded lectures as a source of cognitive off-loading}.
+\newblock \emph{American Journal of Pharmaceutical Education}, 83\penalty0 (5),
+  2019.
+\newblock ISSN 15536467.
+\newblock \doi{10.5688/ajpe6793}.
 
 \bibitem[Pimentel et~al.(2019)Pimentel, Martins, Yaguinuma, and
   Zaine]{Pimentel2019}
