@@ -7,28 +7,28 @@
 \section{Proposed Solution}
 The proposed system focuses on size efficiency of the output video. System acts well in the environment where there is storage issue and bandwidth issue in terms of internet transfer rate. Ultra-durability makes the system more portable to use and more reliable to handle. Re-positionable cameras make the system able to work well in different canvas sizes i.e. size of writing board. System automates the process of video compression technique. Video of the lecture is not recorded as it as video format rather only the important data is extracted. By utilizing the stereo vision and high-speed cameras and low wireless latency, video animation and sound quality is maintained in noisy environment as well. 
 
+
+\section{General Flow}
+The system consists on several modules and deliverables one of which is controller application. This application is quite important because it include major functionalities and complex image processing algorithms. Furthermore, the instructor in mainly connected to the controller application so that he/she is controlling the recording of lecture i.e. he can start, pause or stop the recording. After the lecture is recorded, he can replay the lecture for any further changes. When the lecture is finally uploaded to central computer, students can play lecture online or save the lecture file in .dbm(file extension) extension to watch later.\\ Offline player is also one of the major modules of the project. It plays the downloaded lecture file just like video player. Learning management system is the online platform where all uploaded online lecture hierarchy is accessible. It is a comprehensive management system designed by placing the convenience of instructor and student in focus. Reliability, security and quality are the top priorities.
+A simple visual of the working of system can be seen below
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=13cm, height=8cm]{Workflow}
+  \caption{General Flow of the Project}
+\end{figure}
+
 \section{General Proposed Model}
 General working model of the system can be seen below
 
 \begin{figure}[h]
   \centering
-  \includegraphics[width=7cm, height=6cm]{General Model}
+  \includegraphics[width=14cm, height=9cm]{General Model}
   \caption{General Methodology View of the System}
 \end{figure}
 
-
-\section{General Flow}
-The system consists on several modules and deliverables one of which is controller application. This application is quite important because it include major functionalities and complex image processing algorithms. Furthermore, the instructor in mainly connected to the controller application so that he/she is controlling the recording of lecture i.e. he can start, pause or stop the recording. After the lecture is recorded, he can replay the lecture for any further changes. When the lecture is finally uploaded to central computer, students can play lecture online or save the lecture file in .dbm(file extension) extension to watch later.\\ Offline player is also one of the major modules of the project. It plays the downloaded lecture file just like video player. Learning management system is the online platform where all uploaded online lecture hierarchy is accessible. It is a comprehensive management system designed by placing the convenience of instructor and student in focus. Reliability, security and quality are the top priorities.
-A simple visual of the working of system can be seen below
-\bigskip
-\bigskip
-
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=15cm, height=11cm]{Workflow}
-  \caption{General Flow of the Project}
-\end{figure}
-\bigskip
+\newpage
+%\bigskip
 
 \section{Formulas Used}
 \begin{longtable}{|>{\raggedright\arraybackslash}p{3cm}|p{4cm}|p{7cm}|}
@@ -39,7 +39,7 @@ A simple visual of the working of system can be seen below
 \vspace{0pt}\large Euler Angles Rotation Matrices &
 Transpose of the fixed-axis matrix. Used in orientation extraction of Board Marker & 
 \begin{minipage}{.3\textwidth}
-      \includegraphics[width=\linewidth, height=60mm, valign=T]{EulerAngles}
+      \includegraphics[width=\linewidth, height=50mm, valign=T]{EulerAngles}
 \end{minipage}
 \\
 % Row 1 end
@@ -48,8 +48,9 @@ Transpose of the fixed-axis matrix. Used in orientation extraction of Board Mark
 % Row 1 start
 \vspace{0pt}\large Quaternion to Euler conversion &
 Used in Marker calibration when an offset is given in particular dimension. & 
+\bigskip
 \begin{minipage}{.3\textwidth}
-      \includegraphics[width=70mm, height=30mm]{Quaternion to Euler conversion}
+      \includegraphics[width=65mm, height=30mm]{Quaternion to Euler conversion}
 \end{minipage}
 \\
 % Row 1 end
@@ -61,7 +62,7 @@ Used in Marker calibration when an offset is given in particular dimension. &
 \vspace{0pt}\large Euclidean distance formula &
 Used to compute the distance in one-dimension. & 
 \begin{minipage}{.3\textwidth}
-      \includegraphics[width=70mm, height=40mm]{Euclidean distance formula}
+      \includegraphics[width=60mm, height=30mm]{Euclidean distance formula}
 \end{minipage}
 \\
 % Row 1 end
@@ -85,7 +86,6 @@ Used to draw lines and get relative position of Marker with respect to cameras. 
 \caption{Formulae and Equations used}
 \end{longtable}
 
-\newpage
 \section{Use-Case Diagrams}
 To describe the system requirements, use-case diagrams in form of simple user interaction are detailed below
 \subsection{Controller Application}
@@ -103,11 +103,10 @@ The main end user of controller application is the class instructor or teacher. 
 
 \begin{figure}[h]
   \centering
-  \includegraphics[width=11cm, height=10cm]{ControllerApplication}
+  \includegraphics[width=13cm, height=12cm]{ControllerApplication}
   \caption{Use-case Diagram of Controller Application}
 \end{figure}
 
-\newpage
 
 \subsection{Player Application}
 Just like media player, the player application plays the lecture. Common end user of Player Application is student. Teacher and Student are end users of controller application. Typical actions of Player application are:
@@ -139,16 +138,16 @@ LMS application is major module in terms of accessibility. Students, Teachers an
 \item Teacher, who manages students
 \item Users, who are students
 
-
 \end{itemize}
 
-\bigskip
-
+\newpage
 \begin{figure}[h]
   \centering
-  \includegraphics[width=15cm, height=14cm]{DBMUseCaseWebAppPart1}
+  \includegraphics[width=15cm, height=20cm]{DBMUseCaseWebAppPart1}
   \caption{Use-case Diagram of LMS Web Application Part-I}
 \end{figure}
+
+\newpage
 
 \begin{figure}[h]
   \centering
@@ -156,8 +155,6 @@ LMS application is major module in terms of accessibility. Students, Teachers an
   \caption{Use-case Diagram of LMS Web Application Part-II}
 \end{figure}
 
-\bigskip
-\bigskip
 
 \section{Use Cases(Web App)}
 \subsection{Use Case UC-1: User Registration}
@@ -2230,9 +2227,6 @@ a*. At any time system fails.
 \item Make sure the token is present in local database which is not expired.
 \item try again.
 \end{enumerate}
-
-
-
 \subsection{Use Case UC6: View About page}
 \textbf{Stakeholders: } University, Educational Institutes \\
 \textbf{Primary Actors: } Student, Teacher \\
@@ -2396,32 +2390,32 @@ LMS System that provides platform for playing online lectures, assignment submis
   \caption{DB Diagram of LMS}
 \end{figure}
 
-
-
-
-
-
-%\begin{figure}[h]
-%  \centering
-%  \includegraphics[width=1cm, height=1cm]{EulerAngles}
-%%  \caption{General Flow of the Project}
-%\end{figure}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+%
+%
+%
+%
+%
+%%\begin{figure}[h]
+%%  \centering
+%%  \includegraphics[width=1cm, height=1cm]{EulerAngles}
+%%%  \caption{General Flow of the Project}
+%%\end{figure}
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
