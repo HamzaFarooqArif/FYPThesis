@@ -49,33 +49,107 @@ Then we have to see the patterns on which a student view and understand a video 
 We have discussed all the pros and cons of video lectures and how to make them more efficient for the students but what if the quality or source of video becomes a problem video lectures takes a lot of space and a lot of speed is needed to stream them smoothly. If they are not streamed smoothly it is almost impossible to understand a lecture. A human mind loses interest in something after 2 seconds if its buffering and we feel angry and irritated so how can we focus on a video lecture which buffers after every 1 minute or even seconds. For that purpose different techniques were introduced to optimized the video size or quality to stream it smoothly. A good quality video is hard to stream but an average quality video can be streamed easily but what if we cannot compromise on quality. It is a seesaw but we have to balance both quality and space.\\
 Automated video recording system was introduced in 2010 by a researcher in his paper. A PTZ camera was used in this study to capture the video lecture instead of a cameraman this camera acts as a cameraman and tracks the screen and lecturer and starts recording the lecture.\cite{Chou2010} 
 The cons of this system was it provides the simple video and the streaming issue remains the same even if a student downloads every lecture he may need a lot of space to save them because 1 lecture of one hour can take space up to 1 GB.\\
+Another technique to increase the quality and understanding of video lecture was introduced in 2017 by research team in their research paper. This technique captures video from different angles and multi-stream them. The approach was to use multiple cameras to get same scenes from different angles and stream the most suitable. The movements and actions of cameras were synchronized all the cameras captures the video at the same time. It increased the canvas of video lecture at that time later this technique was used in many gaming engines too. \cite{Carlsson2017} The con of this technique was that to capture a scene which is static in case of lecture video use of multiple cameras was expensive and quality wasn't even that much better.\\
+A tracker named Gal Tracker was also introduced in 2013 by a researcher. The use of this tracker was to optimize the lecture recording. It captures the lecture in real time environment also called real time lecture capturing. It captures all the important parts of lecture and creates slides of lecture according which can be later distributed among the users.\cite{Gonzalez-Agulla2013} Again the issue is it can not capture all the important points given that it works on cues it can only capture a certain type of info and if something new comes it might fail in that environment. Its basically optimizing the lecture notes not lecture videos but trying to provide the same feature.\\
+In MOOCS platform it is essential to provide videos but many people are working how to optimize them as much as possible and their type of optimization depends on how user can interact with video lectures. A research was conducted in 2015 to check how user interacts with single and multi streamed videos and their behavior on them. They also tested how it will help if a user can stream two videos at the same time.\cite{Renz2015} This statistical data from this research can be used to improve many new video streaming engines.\\
+Since many people are streaming videos worldwide it is a wast field to compress these files but but compression can cause loss of data. To minimize the loss of data as much as possible different techniques of compression are used throughout the years. Wavelet transform is an efficient method to compress videos but in 2011 a research was conducted to achieve video compression algorithm using frame difference approach. This technique was to discard unimportant frames and keep the ones which can be important now the factors which decides whether the frame is important or not can be compression performance or frame change from previous one if its too minor it can be discarded. This technique was tested on many videos and the results were positive it can optimize the video size upto 3 percent and it's a big thing when we stream a 2 GB HD video with less amount of bandwidth.\cite{AlAni2011}
+As we discussed earlier video compression is a wast field so here is another technique to compress a video: in 1992 an algorithm was developed to compress a video by MPEG video compression algorithm. The major focus of this algorithm is based on two techniques: block based motion compensation for the reduction of the temporal redundancy and transform domain based compression for the reduction of spatial redundancy. Motion compensation techniques are used with both interpolative and predictive techniques. The prediction error signal is further compressed with spatial redundancy reduction (DCT). This algorithm changed the video about 1.5Mbit/s.\cite{LeGall1992}\\
+As we discussed different compression algorithms but they have some cons when we compress a video we compromise its quality a data loss is possible. There are some techniques which focuses on video compression as well as preserving the quality or resolution of video one of them was presented in 2016 which focuses on multi-level optimization of encoding to balance video compression and retention of 8k resolution. A paper was presented for this technique. This Paper is focused on providing better quality videos after compression by using some factors and techniques. This paper presents a technique that aimed to achieve an efficient balance between video compression using H.265 protocol and retention of 8K resolution. The study implements multi-level of optimization in the encoding process using H.265 where we can see JPEG2000 standards play an important role. The study also uses a novel concept of orthogonal projection that manages pixels metadata required in every frame transition by using motion compensation. By using multiple file formats of 30 video datasets, the outcome of the study is found to be achieving approximately 49 percent of increase in data quality and around 59 percent of enhancement in video compression in comparison to the former techniques of HEVC-based video compression which are most commonly used techniques.\cite{Murthy2016}\\
+We saw how video lectures are helpful for learning and growth of students, how different video recording techniques are used to provide video lectures or notes, how compression of videos is important and how quality is important. We discussed different techniques and studies to achieve and justify all the goals. These techniques are not perfect but they are achieving the goal somehow "provide video lectures with ease". Ease can be considered as less space hogging and less bandwidth usage and still stream the lecture as possible. But first we have to see one thing to capture these lectures we have to change the environment of a classroom and we have to see either these changes are good or bad for classroom environment some studies were conducted to see the behavior of students towards these changes and the studies have shown positive result students were much attentive in lecture because they don't have to jot down the lecture they can focus on the concept because now they can access those lectures later on if wanted.\cite{Brooks2014}\cite{Chen2015}\cite{Barokas2010}\\
+After discussing all the pros and cons of video lectures, availability of video lectures and techniques to make it easier. We are going to discuss another technique introduced by us. Compression may cause loss of data and quality may increase the space or bandwidth issue. To overcome this issue we are introducing DBM(digital board marker) this technique uses coordinate information to generate a video later on. DBM erases all the noise from video and chooses to save the information written on board or screen and audio of instructor. It draws a virtual plain on board and saves the coordinate information with respect to time in a customized file which can be later used to generate the video of board on our customized player integrated in web app and desktop application with a speed less than 2.5Kb. Which is much less than all the compression techniques used. So, DBM is solving all the compression problems for lecture videos and providing video lectures which is essential for the growth of student's learning.
  
-
-
 
  
 \section{Comparison Table}
-\begin{table}[htp]
+
+\begin{sideways}
 \centering
+\begin{tabularx}{1.5\textwidth} { 
+  | >{\raggedright\arraybackslash}X 
+  | >{\centering\arraybackslash}X | >{\centering\arraybackslash}X | >{\centering\arraybackslash}X | >{\raggedleft\arraybackslash}X | }
+ \hline
+\bfseries{Name} & \bfseries{Support Video Lectures} &\bfseries{Provide Video Lectures} &\bfseries{Technique to Provide Video Lectures} & \bfseries{Video Optimization}  \\
+\hline
+Muti-level optimization in encoding to balance video compression and retention of 8k resolution
+&
+&
+&
+&
+\\
+\hline
+Muti-level optimization in encoding to balance video compression and retention of 8k resolution
+&
+&
+&
+&
+\\
+\hline
+
+Muti-level optimization in encoding to balance video compression and retention of 8k resolution
+&
+&
+&
+&
+\\
+\hline
+
+Muti-level optimization in encoding to balance video compression and retention of 8k resolution
+&
+&
+&
+&
+\\
+\hline
+
+
+
+\end{tabularx}
+\end{sideways}
 
 
 \begin{sideways}
-\begin{tabular}{l@{\hspace{100pt}} *{5}{c}}
-\toprule
-\bfseries{Name} & \bfseries{Factor1} &\bfseries{Factor2} &\bfseries{Factor3} & \bfseries{Factor4} 
+\centering
+\begin{tabularx}{1.5\textwidth} { 
+  | >{\raggedright\arraybackslash}X 
+  | >{\centering\arraybackslash}X | >{\centering\arraybackslash}X | >{\centering\arraybackslash}X | >{\raggedleft\arraybackslash}X | }
+ \hline
+\bfseries{Name} & \bfseries{Support Video Lectures} &\bfseries{Provide Video Lectures} &\bfseries{Technique to Provide Video Lectures} & \bfseries{Video Optimization}  \\
+\hline
+Muti-level optimization in encoding to balance video compression and retention of 8k resolution
+&
+&
+&
+&
 \\
-\midrule
-\bfseries A
-& 33 & 33 & 33 & 33  \\
-\bfseries B
-& 33 & 33 & 33 & 33 \\
-\bottomrule
-\addlinespace
-\end{tabular}
-\end{sideways}
-\caption{Observations}\label{tab:observ}
-\end{table}
+\hline
+Muti-level optimization in encoding to balance video compression and retention of 8k resolution
+&
+&
+&
+&
+\\
+\hline
 
+Muti-level optimization in encoding to balance video compression and retention of 8k resolution
+&
+&
+&
+&
+\\
+\hline
+
+Muti-level optimization in encoding to balance video compression and retention of 8k resolution
+&
+&
+&
+&
+\\
+\hline
+
+
+
+\end{tabularx}
+\end{sideways}
 
 \section{Shortcomings in Existing Systems}
 
@@ -83,80 +157,3 @@ The cons of this system was it provides the simple video and the streaming issue
 
 
 
-
-This Paper is focused on providing better quality videos after compression by using some special techniques. This paper presents a technique that aimed to accomplish an efficient balance between video compression using H.265 protocol and retention of 8K resolution. The study implements multi-level of optimization in the encoding process using H.265 where JPEG2000 standards play a crucial role. The study also applies a novel concept of orthogonal projection that manages pixels metadata required in every frame transition followed by motion compensation. By using multiple file formats of 30 video datasets, the outcome of the study is found to be accomplishing approximately 49\% of enhancement in data quality and around 59\% of improvement in video compression in comparison to the existing techniques of HEVC-based video compression.\cite{Murthy2016}
-
-
-Web-based lecture technologies are being used increasingly in higher education. One widely-used method is the recording of lectures delivered during face-to-face teaching of on-campus courses. The recordings are subsequently made available to students on-line and have been variously referred to as lecture capture, video podcasts, and Lectopia. We examined the literature on lecture recordings for on-campus courses from the perspective of students, lecturers, and the institution. Literature was drawn from major international electronic databases of Elsevier ScienceDirect, PsycInfo, SAGE Journals, SpringerLink, ERIC and Google Scholar. Searches were conducted using key terms of lecture capture, podcasts, vodcasts, video podcasts, video streaming, screencast, webcasts, and online video. The reference sections of each article were also searched and a citation search was conducted. Institutions receive pressure from a range of sources to implement web-based technologies, including from students and financial imperatives, but the selection of appropriate technologies must reflect the vision the institution holds. Students are positive about the availability of lecture recordings. They make significant use of the recordings, and the recordings have some demonstrated benefits to student learning outcomes. Lecturers recognise the benefits of lecture recordings for students and themselves, but also perceive several potential disadvantages, such as its negative effect on attendance and engagement, and restricting the style and structure of lectures. It is concluded that the positives of lecture recordings outweigh the negatives and its continued use in higher education is recommended. However, further research is needed to evaluate lecture recordings in different contexts and to develop approaches that enhance its effectiveness.\cite{OCallaghan2017}
-
-The flipped classroom has become more widely used in engineering education. Flipped classrooms are classroom which provides online helping material to students. However, a systematic and quantitative assessment of its achievement outcomes has not been conducted to date. Purpose: To address this gap, we examined the findings from comparative articles published between 2008 and 2017 through a meta-analysis to summarize the overall effects of the flipped classroom on student achievement in engineering education. We searched and analyzed journal and conference publications on flipped classroom studies in engineering education in K-12 and higher education contexts. Twenty-nine comparative interventions were included in a meta-analysis involving 2,590 students exposed to flipped classroom and 2,739 students exposed to traditional lectures. A content analysis was also conducted to determine how the flipped engineering classroom benefits student learning. Conclusions: The meta-analysis comparing these 29 traditional flipped interventions in relation to student achievement showed an overall significant effect in favor of the flipped classroom over traditional lecturing (Hedges' g = 0.289, 95\% CI [0.165, 0.414], p <.001). A moderator analysis showed that the effect of the flipped classroom was further enhanced when instructors offered a brief review at the start of face-to-face classes. Our qualitative findings suggest that self-paced learning and more problem-solving activities were the two most frequently reported benefits that promoted student learning. Based on quantitative and qualitative support, several implications are identified for future practice, such as offering a brief in-class review of preclass materials. Some recommendations for future research are also provided.\cite{Lo2019}
-
-
-Videos have enhanced the value of teaching and learning, particularly in tertiary education. Recent studies have investigated students' attitudes toward video lectures for educational purposes; however, the relationship between students' attitudes and different usage patterns such as platforms used, video duration, watching period and students' experience, is yet to be explored. To investigate potential attitudinal differences among the diverse video lectures usage patterns, the present study incorporates responses from 40 students who participated in a video-assisted software engineering course. Our results suggest that usage patterns affect students' attitudes to video lectures as a learning tool. The overall outcomes are expected to promote theoretical development of students' attitudes, video-platform design principles, and better and more efficient use of video lectures.\cite{Giannakos2016}
-
-
-
-The literature is mixed as to whether the addition of lecture capture technologies provide for better student success. In this work, we consider not just the broad effect of lecture capture technology on academic achievement between cohorts, but whether this effect is related to patterns of viewership among learners. At the centre of our interest is determining whether there are strategies learners take in their reviewing of content week-to-week that may result in better achievement. To investigate this, we describe a method for modelling learners based on their interactions with lecture capture systems. Unlike investigations done by others, our models emerge from the activities of the learners themselves, and are based on the results of applying unsupervised machine learning (clustering) techniques to student viewership data. These models describe five different classifications of learner interactions, and we show that one of these is positively correlated with academic achievement. We further validate our results through repeated experimentation, and describe how such models might be used by early-alert systems.\cite{Brooks2014}
-
-
-Instructors use various strategies to facilitate learning and actively engage students in online courses. In this study, we examine student perception on the helpfulness of the twelve different facilitation strategies used by instructors on establishing instructor presence, instructor connection, engagement and learning. One hundred and eighty eight graduate students taking online courses in Fall 2016 semester in US higher education institutions responded to the survey. Among the 12 facilitation strategies, instructors' timely response to questions and instructors' timely feedback on assignments/projects were rated the highest in all four constructs (instructor presence, instructor connection, engagement and learning). Interactive visual syllabi of the course was rated the lowest, and video based introduction and instructors' use of synchronous sessions to interact were rated lowest among two of the four constructs. Descriptive statistics for each of the construct (instructor presence, instructor connection, engagement and learning) by gender, status, and major of study are presented. Confirmative factor analysis of the data provided aspects of construct validity of the survey. Analysis of variance failed to detect differences between gender and discipline (education major versus non-education major) on all four constructs measured. However, undergraduate students rated significantly lower on engagement and learning in comparison to post-doctoral and other post graduate students.\cite{Martin2018}
-
-
-This paper reports findings from a case study of the impact that teaching using guided notes has on university mathematics students’ note-taking behaviour. Whereas previous research indicates that students do not appreciate the importance of lecturers’ non-written comments and record in their notes only what is written on the board when taught with the traditional chalk and talk method, some students in our study recorded the non-written comments as well as some of their own links between sections of the lecture. We did not, however, find students’ attitude towards those comments to be different from what previous research found. We conclude that guided notes can be an appropriate way of teaching university mathematics but on their own cannot make the pedagogical intentions of the lecturer clearer to the students. We also found that the educational environment plays a big part for all aspects of student learning, including decisions related to note-taking during lectures.\cite{Iannone2019}
-
-
-Online video lectures are widely used in e-learning environments. They provide several advantages for students such as preparing for class and controlling their learning pace. However, essential features of videos, such as transient information and learner control, can also increase learners’ cognitive load and disorientation, particularly for learners with low prior knowledge. This study analyzed data collected from a questionnaire, students’ examination and homework scores, and system logs to examine the effects of prior knowledge on the engagement level, frequency of viewing strategies used, attitudes, and learning performance of students who watched video lectures. The results showed that the students demonstrated the same engagement levels of watching video lectures, regardless of whether they had high or low prior knowledge. However, high prior knowledge learners used a higher frequency of viewing strategies, had a more positive attitude toward watching the video lectures, and exhibited higher learning performance than the low prior knowledge learners did. These results are discussed in this article, and several suggestions for personalized prior knowledge support are proposed.\cite{Li2019}
-
-
-Thousands of students enroll in Massive Open Online Courses (MOOCs) to seek opportunities for learning and selfimprovement. However, the learning process often involves struggles with confusion, which may have an adverse effect on the course participation experience, leading to dropout along the way. In this paper, we quantify that effect. We describe a classification model using discussion forum behavior and clickstream data to automatically identify posts that express confusion. We then apply survival analysis to quantify the impact of confusion on student dropout. The results demonstrate that the more confusion students express or are exposed to, the lower the probability of their retention. Receiving support and resolution of confusion helps mitigate this effect. We explore the differential effects of confusion expressed in different contexts and related to different aspects of courses. We conclude with implications for design of interventions towards improving the retention of students in MOOCs.\cite{Yang2015}
-
-
-
-Although online courseware often includes multimedia materials, exactly how different video lecture types impact student performance has seldom been studied. Therefore, this study explores how three commonly used video lectures styles affect the sustained attention, emotion, cognitive load, and learning performance of verbalizers and visualizers in an autonomous online learning scenario by using a two-factor experimental design, brainwave detection, emotion-sensing equipment, cognitive load scale, and learning performance test sheet. Analysis results indicate that, while the three video lecture types enhance learning performance, learning performance with lecture capture and picture-in-picture types is superior to that associated with the voice-over type. Verbalizers and visualizers achieve the same learning performance with the three video types. Additionally, sustained attention induced by the voice-over type is markedly higher than that with the picture-in-picture type. Sustained attention of verbalizers is also significantly higher than that of visualizers when learning with the three video lectures. Moreover, the positive and negative emotions induced by the three video lectures do not appear to significantly differ from each other. Also, cognitive load related to the voice-over type is significantly higher than that with by the lecture capture and picture-in-picture types. Furthermore, the cognitive load for visualizers markedly exceeds that of verbalizers who are presented with the voice-over type. Results of this study significantly contribute to efforts to design of video lectures and also provide a valuable reference when selecting video lecture types for online learning.\cite{Chen2015}
-
-We apply Carroll's model of school learning, which theorizes about the relationship between time and learning, to motivate the design of a large, first-year, university mathematics course, where students have the choice to attend lectures and/or watch online videos. The theoretical model informs how the course and resources are designed in order to assist students to spend the time they need to master a task in an efficient manner. We examine the relationship between learning and time spent on lectures and/or videos, by analysing data collected on lecture attendance, videos accessed, and mathematical achievement, prior to, and at the end of, the course. Findings show that students use videos as either a complement to, or substitute for, the lecture, and time spent using either or both resources has a significant impact on learning.\cite{Meehan2019}
-
-
-Lecture recording plays an important role in online learning and distance education. Most of they are recorded by a cameraman or a static camera. In this paper, we propose an automatic lecture recording system. A Pan-Tilt-Zoom (PTZ) camera is shooting as it operated by a cameraman. Three partsare developed in this system. The first one is preprocessing for detecting the position of the lecturer and the screen. The second part is designed to track their motion to define the lecture information. According to the tracking result, we can control the PTZ camera in the third part based on the camera action table designed beforehand.\cite{Chou2010}
-
-
-E-learning concept is becoming a vital need for higher and lower education students. It has been observed from the interaction with students of gulf region that they have challenges with the online method of knowledge delivery in higher education. There are multiple reasons for this belief. In this case, there is possibility to add some extra features in the online or virtual classes to make them more beneficial and more informative. If the video lectures are added to these classes, there can be much better utilisation of the content. To explore the possible effects of video lecture, on the cognitive empowerment of the students, the current research was conducted on 124 undergraduate students of Qatar University (QU), which is one of the leading higher education institutions in the GCC-based country Qatar. The data is collected by distributing questionnaires and QU registration department data. Relevant statistical tools are applied to evaluate and analyse the data.\cite{Khan2016}
-
-
-The design of online course materials is rarely informed by learning theories or their pedagogical implications. The goal of this research was to develop, implement and assess a virtual learning environment (VLE), SOFIAA, which was designed using the cognitive apprenticeship model (CAM), a pedagogical model based on learning-centered theory. We present an instructional design case study that reveals the steps taken to improve student performance in a master’s level blended learning course on program evaluation. The case study documents four phases of improving on-line instruction in program evaluation, starting with Online Course Materials (OCM) that contained resources and information required to complete team field projects. In phase 1, quantitative analyses revealed that there was improvement of student test scores using the OCM, however, qualitative analyses of think-aloud sessions found that students failed to attain key course objectives. In phase 2, a team of experts reviewed the materials and suggested ways to improve opportunities for student learning. In phase 3, a (VLE) was designed based on the results of phase 2 using a reconceptualization of CAM as a design model. In phase 4, the VLE was validated using experts’ appraisal of content and presentation, and student achievement, which indicated that use of the VLE led to significant improvement in learning over use of OCM. The design process is discussed in terms of a reconceptualization of CAM as a general strategy for instructional design that can be used to improve both the content and quality of online course materials.\cite{Garcia-Cabrero2018}
-
-
-
-In contrast to traditional video, multi-view video streaming allows viewers to interactively switch among multiple perspectives provided by different cameras. One approach to achieve such a service is to encode the video from all of the cameras into a single stream, but this has the disadvantage that only a portion of the received video data will be used, namely that required for the selected view at each point in time. In this paper, we introduce the concept of a 'multi-video stream bundle' that consists of multiple parallel video streams that are synchronized in time, each providing the video from a different camera capturing the same event or movie. For delivery we leverage the adaptive features and time-based chunking of HTTP-based adaptive streaming, but now employing adaptation in both content and rate. Users are able to change their viewpoint on-demand and the client player adapts the rate at which data are retrieved from each stream based on the user's current view, the probabilities of switching to other views, and the user's current bandwidth conditions. A crucial component of such a system is the prefetching policy. For this we present an optimization model as well as a simpler heuristic that can balance the playback quality and the probability of playback interruptions. After analytically and numerically characterizing the optimal solution, we present a prototype implementation and sample results. Our prefetching and buffer management solution is shown to provide close to seamless playback switching when there is sufficient bandwidth to prefetch the parallel streams.\cite{Carlsson2017}
-
-
-This paper describes a fully automated Real-Time Lecturer-Tracking module (RTLT) and the seamless integration into a Matter horn-based Lecture Capturing System (LCS). The main purpose of the RTLT module is obtaining a lecturer's portrait image for creating an integrated slides lecturer single-stream ready to distribute and consume in portable devices, where displayed contents must be optimized. The module robustly tracks any number of presenters in real-time using a set of visual cues and delivers frame-rate metadata to plug into a Virtual Cinematographer module. The so-called Gal tracker RTLT module allows broadcasting live in conjunction with the LCS, Gal caster, or processing off-line as a video-production engine inserted into the Matter horn workflow. \cite{Gonzalez-Agulla2013}
-
-
-The decrease in cost and increase in automation of audio visual systems for the classroom has led to widespread deployment of lecture capture within higher education. While a number of studies have examined the effectiveness of such systems within an institution, no study has characterized student background across institutions. In this paper we describe three different lecture capture systems deployed in three different higher education institutions worldwide. We note particular interesting investigations we have made into how students use these systems, and outline how our current work in the opencast community project will be used to provide more rigorous cross-institution analysis options of lecture capture systems.\cite{Barokas2010}
-
-
-Online video-based learning has been increasingly used in educational settings. However, students usually do not have enough cognitive capacity and metacognition skills to diagnose and record their attention status during learning tasks by themselves. This study thus presents an attention-based video lecture review mechanism (AVLRM) that can generate video segments for review based on students’ sustained attention status, as determined using brainwave signal detection technology. A quasi-experiment nonequivalent control group design was utilized to divide 55 participants from two classes of an elementary school in New Taipei City, Taiwan, into two groups. One class was randomly assigned to the experimental group, and used video lectures with the AVLRM support for learning. The other class was assigned to the control group, and used video lectures with autonomous review for learning. Analytical results indicate that students in the experimental group exhibited significantly better review effectiveness than did the control group, and this difference was especially marked for students who had a low attention level, were field-dependent, or were female. The findings show that AVLRM based on brainwave signal detection technology can precisely identify video segments that are more useful for effective review than those picked by student themselves. This study contributes to the design of learning tools that aim to support independent learning and effective review in online or video-based learning environments.\cite{Lin2019}
-
-
-
-Massive Open Online Courses have gained more and more popularity in the recent years. Video Content contributes a vital aspect of the learning experience in MOOCs. The paper at hand proposes ways to optimize the video experience in MOOCs. Single stream videos will be considered as well as the openHPI's dual stream video player. openHPI is the MOOC platform of the Hasso Plattner Institute, providing MOOCs to thousands of users since 2012. One of the unique features of our video player is the possibility to play two synchronized video streams. Based on collected usage data of our html5 based video player we evaluate the learners acceptance of features, such as adaptive playback speed, dual video scaling, full-screen mode, slide navigation and subtitles. Furthermore, we will discuss the impact on the users learning outcome.\cite{Renz2015}
-
-
-Although thousands of students enroll in Massive Open Online Courses (MOOCs) for learning and self-improvement, many get confused, harming learning and increasing dropout rates. In this paper, we quantify these effects in two large MOOCs. We first describe how we automatically estimate stu- dents’ confusion by looking at their clicking behavior on course content and participation in the course discussion forums. We then apply survival analysis to quantify the impact of confusion on students’ dropout. The results demonstrate that the more confusion students express themselves and the more they are exposed to other students’ confusion, the sooner they drop out of the course. We also explore the effects of confusion expressed in different contexts and related to different aspects of courses. We conclude with implications for the design of interventions to improve student retention in MOOCs.\cite{Yang2016}
-
-Student engagement increases student satisfaction, enhances student motivation to learn, reduces the sense of isolation, and improves student performance in online courses. This survey-based research study examines student perception on various engagement strategies used in online courses based on Moore’s interaction framework. One hundred and fifty-five students completed a 38-item survey on learner-to-learner, learner-to-instructor, and learner-to-content engagement strategies. Learner-to-instructor engagement strategies seemed to be most valued among the three categories. Icebreaker/introduction discussions and working collaboratively using online communication tools were rated the most beneficial engagement strategies in the learner-to-learner category, whereas sending regular announcements or email reminders and providing grading rubrics for all assignments were rated most beneficial in learner-to-instructor category. In the learner-content category, students mentioned working on real-world projects and having discussions with structured or guiding questions were the most beneficial. This study also analyzed the effect of age, gender, and years of online learning experience differences on students’ perception of engagement strategies. The results of the study have implications for online instructors, instructional designers, and administrators who wish to enhance engagement in the online courses.\cite{Martin2018(2)}
-
-
-
-Sufficient tools for students with Learning Disabilities and Attention Deficit Disorder have not yet been established. We believe that the current tools these students can use call for a drastic change in traditional learning paradigms by either the instructor or the pupil. To fill this gap, we propose our tool, Taking Notes Together (TNT), as a collaborative note taking tool that will help in equalizing the classroom for students with disabilities. This tool allows students to collaboratively tag classroom lecture/discussion in real time through synchronized transcription and audio recording. TNT provides a visualization that highlights the important classroom points and we argue facilitates better recall and a deeper understanding of the classroom material. Through our evaluation we were able to prove that all students can benefit from this tool. We also present a case study of one student with ADD and how they benefited. The tool makes the learning experience, particularly for students with special needs like LD and ADD, less stressful while still being active in the notes taking. \cite{Vega2007}
-
-
-
-
-The huge usage of digital multimedia via communications, wireless communications, Internet, Intranet and cellular mobile leads to incurable growth of data flow through these Media. The researchers go deep in developing efficient techniques in these fields such as compression of data, image and video. Recently, video compression techniques and their applications in many areas (educational, agriculture, medical …) cause this field to be one of the most interested fields. Wavelet transform is an efficient method that can be used to perform an efficient compression technique. This work deals with the developing of an efficient video compression approach based on frames difference approaches that concentrated on the calculation of frame near distance (difference between frames). The selection of the meaningful frame depends on many factors such as compression performance, frame details, frame size and near distance between frames. Three different approaches are applied for removing the lowest frame difference. In this paper, many videos are tested to insure the efficiency of this technique, in addition a good performance results has been obtained.\cite{AlAni2011}
-
-
-The video compression technique developed by MPEG covers many applications from interactive systems on CD-ROM to delivery of video information over telecommunications networks. The MPEG video compression algorithm relies on two basic techniques: block based motion compensation for the reduction of the temporal redundancy and transform domain based compression for the reduction of spatial redundancy. Motion compensation techniques are applied with both predictive and interpolative techniques. The prediction error signal is further compressed with spatial redundancy reduction (DCT). The quality of the compressed video with the MPEG algorithm at about 1.5 Mbit/s has been compared to that of consumer grade VCR's.\cite{LeGall1992}
-
-The use of video as instructional content has become popular in web-based learning environments. Considering that there are fragments of a video lecture that may be of particular interest, in our study we analyzed the effects on interaction behavior and on students' perceived experience of providing an instructional video enriched with an interactive timeline highlighting points of interest. We offered a content test for a control group and an experimental group. In the former, participants used a video player with a conventional timeline. In the latter, participants used a video player with an additional interactive timeline indicating points of interest, corresponding to topic transitions in the lecture, which provided direct access to the point where a topic is introduced. Our findings indicate that the annotated interactive timeline affected students' behavior and improved their personal experience and efficiency in terms of interaction in video-based tasks. The experimental group significantly performed a lower number of clicks to find information and also reported diminished perceived workload scores when compared to the control group. Also, participants in the experimental group presented a more predictable and patterned search behavior than participants in the control group.\cite{Pimentel2019}
