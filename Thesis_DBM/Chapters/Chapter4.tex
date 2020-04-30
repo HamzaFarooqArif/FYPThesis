@@ -7,15 +7,19 @@
 \section{Implementation}
 The system consists of five major modules i.e. Marker Hardware, Audio Hardware, Controller Application, Player Application and LMS Web Application. Implementation detail of each module is discussed below.
 
+%\mbox{}\\
+
 \section{Overall Project Structure}
 This diagram shows how the modules are connected and how the effort is implemented to develop modules and connect them to form a Digital Board Marker system.
 
+\mbox{}\\
+
 \begin{figure}[h]
   \centering
-  \includegraphics[width=15cm, height=7cm]{Project Structure}
+  \includegraphics[width=15cm, height=5cm]{Project Structure}
   \caption{Overall Project Structure}
 \end{figure}
-
+\newpage
 \section{Marker Hardware}
 The role of this module is to give orientation and tip pressure of the marker. The module sends data packet that contain encoded orientation of marker in 3d space in form of Euler angles.
 
@@ -779,6 +783,22 @@ Following external libraries are used while development of controller applicatio
 
 \section{Web Application}
 This is a website which is a platform where all the lectures are available with respect to particular course.
+
+\subsection{Main Page}
+Here is the main page of web application. User can navigate to different pages from this page. 
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=13cm, height=8cm]{MainPage(1)}
+  \caption{Web Application: Main Page (1)}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=13cm, height=8cm]{MainPage(2)}
+  \caption{Web Application: Main Page (2)}
+\end{figure}
+
 \newpage
 
 \subsection{Sign Up Page}
