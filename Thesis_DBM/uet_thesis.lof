@@ -16,7 +16,7 @@
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Controller Application General Methodology\relax }}{97}{figure.caption.930}%
 \contentsline {figure}{\numberline {3.10}{\ignorespaces Marker Hardware working methodology\relax }}{97}{figure.caption.932}%
 \contentsline {figure}{\numberline {3.11}{\ignorespaces Audio Hardware General Methodology\relax }}{98}{figure.caption.933}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Offline Player Application General Methodology\relax }}{99}{figure.caption.936}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Offline Player Application General Methodology\relax }}{98}{figure.caption.936}%
 \contentsline {figure}{\numberline {3.13}{\ignorespaces Online Player Application General Methodology\relax }}{99}{figure.caption.938}%
 \contentsline {figure}{\numberline {3.14}{\ignorespaces ER Diagram of LMS\relax }}{100}{figure.caption.941}%
 \contentsline {figure}{\numberline {3.15}{\ignorespaces DB Diagram of LMS\relax }}{101}{figure.caption.943}%
@@ -63,21 +63,23 @@
 \contentsline {figure}{\numberline {4.40}{\ignorespaces Controller App Flow Diagram\relax }}{130}{figure.caption.1101}%
 \contentsline {figure}{\numberline {4.41}{\ignorespaces Player Application Main Screen\relax }}{132}{figure.caption.1119}%
 \contentsline {figure}{\numberline {4.42}{\ignorespaces Player App Flow Diagram\relax }}{133}{figure.caption.1121}%
-\contentsline {figure}{\numberline {4.43}{\ignorespaces Web Application: Sign Up\relax }}{135}{figure.caption.1126}%
-\contentsline {figure}{\numberline {4.44}{\ignorespaces Web Application: Login\relax }}{135}{figure.caption.1128}%
-\contentsline {figure}{\numberline {4.45}{\ignorespaces Web Application: All Courses\relax }}{136}{figure.caption.1130}%
-\contentsline {figure}{\numberline {4.46}{\ignorespaces Web Application: Course Enrolment\relax }}{136}{figure.caption.1132}%
-\contentsline {figure}{\numberline {4.47}{\ignorespaces Web Application: Course Enrolment Requests\relax }}{137}{figure.caption.1134}%
-\contentsline {figure}{\numberline {4.48}{\ignorespaces Web Application: Course Assignments\relax }}{137}{figure.caption.1136}%
-\contentsline {figure}{\numberline {4.49}{\ignorespaces Web Application: Course Assignments Submission\relax }}{138}{figure.caption.1138}%
-\contentsline {figure}{\numberline {4.50}{\ignorespaces Web Application: Add Course Assignments\relax }}{138}{figure.caption.1140}%
-\contentsline {figure}{\numberline {4.51}{\ignorespaces Web Application: Course Lectures\relax }}{139}{figure.caption.1142}%
-\contentsline {figure}{\numberline {4.52}{\ignorespaces Web Application: Lecture Notes\relax }}{139}{figure.caption.1144}%
-\contentsline {figure}{\numberline {4.53}{\ignorespaces Web Application: Add Lecture Notes\relax }}{140}{figure.caption.1146}%
-\contentsline {figure}{\numberline {4.54}{\ignorespaces Web Application: Add Lecture Video\relax }}{140}{figure.caption.1148}%
-\contentsline {figure}{\numberline {4.55}{\ignorespaces Web Application: See All Announcements\relax }}{141}{figure.caption.1150}%
-\contentsline {figure}{\numberline {4.56}{\ignorespaces Web Application: Add Announcements\relax }}{141}{figure.caption.1152}%
-\contentsline {figure}{\numberline {4.57}{\ignorespaces Web Application: Assign Course to Teacher\relax }}{142}{figure.caption.1154}%
+\contentsline {figure}{\numberline {4.43}{\ignorespaces Web Application: Main Page (1)\relax }}{134}{figure.caption.1126}%
+\contentsline {figure}{\numberline {4.44}{\ignorespaces Web Application: Main Page (2)\relax }}{134}{figure.caption.1127}%
+\contentsline {figure}{\numberline {4.45}{\ignorespaces Web Application: Sign Up\relax }}{135}{figure.caption.1129}%
+\contentsline {figure}{\numberline {4.46}{\ignorespaces Web Application: Login\relax }}{135}{figure.caption.1131}%
+\contentsline {figure}{\numberline {4.47}{\ignorespaces Web Application: All Courses\relax }}{136}{figure.caption.1133}%
+\contentsline {figure}{\numberline {4.48}{\ignorespaces Web Application: Course Enrolment\relax }}{136}{figure.caption.1135}%
+\contentsline {figure}{\numberline {4.49}{\ignorespaces Web Application: Course Enrolment Requests\relax }}{137}{figure.caption.1137}%
+\contentsline {figure}{\numberline {4.50}{\ignorespaces Web Application: Course Assignments\relax }}{137}{figure.caption.1139}%
+\contentsline {figure}{\numberline {4.51}{\ignorespaces Web Application: Course Assignments Submission\relax }}{138}{figure.caption.1141}%
+\contentsline {figure}{\numberline {4.52}{\ignorespaces Web Application: Add Course Assignments\relax }}{138}{figure.caption.1143}%
+\contentsline {figure}{\numberline {4.53}{\ignorespaces Web Application: Course Lectures\relax }}{139}{figure.caption.1145}%
+\contentsline {figure}{\numberline {4.54}{\ignorespaces Web Application: Lecture Notes\relax }}{139}{figure.caption.1147}%
+\contentsline {figure}{\numberline {4.55}{\ignorespaces Web Application: Add Lecture Notes\relax }}{140}{figure.caption.1149}%
+\contentsline {figure}{\numberline {4.56}{\ignorespaces Web Application: Add Lecture Video\relax }}{140}{figure.caption.1151}%
+\contentsline {figure}{\numberline {4.57}{\ignorespaces Web Application: See All Announcements\relax }}{141}{figure.caption.1153}%
+\contentsline {figure}{\numberline {4.58}{\ignorespaces Web Application: Add Announcements\relax }}{141}{figure.caption.1155}%
+\contentsline {figure}{\numberline {4.59}{\ignorespaces Web Application: Assign Course to Teacher\relax }}{142}{figure.caption.1157}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
