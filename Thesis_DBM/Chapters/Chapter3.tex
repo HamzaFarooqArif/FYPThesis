@@ -2279,6 +2279,12 @@ a*. At any time system fails.
 
 
 \section{Architecture Diagram}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=14cm, height=10cm]{Architect 3}
+  \caption{Architecture Diagram of Digital Board Marker}
+\end{figure}
+
 Interaction among different modules of the system is not simple but can be simplified and easy to understand. The set of rules and concepts concerned by the overall project are visually explained by the Architecture Diagram shown below.
 It consist of follow modules:
 \begin{itemize}
@@ -2293,45 +2299,14 @@ It consist of follow modules:
 \end{itemize}
 
 
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=14cm, height=10cm]{Architect 3}
-  \caption{Architecture Diagram of Digital Board Marker}
-\end{figure}
-\bigskip
+
+%\bigskip
 
 \section{Modules Methodology Description}
 System consists of five major modules. General work flow of each module is detailed using visuals and diagrams.
 \subsection{Board Marker}
 Board marker transfer the position data of currently written word on the platform i.e. Whiteboard. It is subdivided in two sub-modules
-\subsection{Audio Hardware}
-Wireless voice transmission is done by this module. Voice data is accepted at transmitter module. This data is converted into digital audio. Digital audio is then transmitted to receiver at another end. Receiver module decode the digital audio into analogue audio. Receiver module is attached to computer through Line-in[2] on which controller application is being executed. Controller application encode the analogue audio into lightweight ogg(file extension) file format. After the audio file generation is successful, audio file is then embedded into lecture file and uploaded to central server.
-\subsubsection{Stereo Vision Cameras}
-At least two high framerate cameras get the video of back ball and send it to controller application. Stereo vision is important for accurately extracting marker position by placing these cameras at such position so that different angles make same alignment to the writing platform irrespective to size. Square and rectangular boards can be mapped to same parent algorithm with simple to calibrate camera placement guide.
 
-\bigskip
-
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=13cm, height=10cm]{Main_Camera}
-  \caption{High frame rate camera placement}
-\end{figure}
-
-
-
-
-
-\subsection{Controller Application}
-Controller application plays several roles in the project. First of all, it is responsible for application of computer vision algorithms to detect marker and extract the position data. At least two camera perspectives are considered for position extraction. Manual calibration system aids in the setup and view port positioning of multiple cameras. Marker position data and audio data have to be synchronously written in the final output file.\\
-Second, it is also responsible for decoding the orientation data. Orientation data is sent using encoded packet by Marker Hardware and received by the controller application. Orientation is extracted using quaternions. Euler angles then extracted using converted quaternion to avoid gimble lock. Position of the marker is extracted.\\
-Third, it can play the lecture file before uploading the lecture. Lecture can be paused, resumed and replayed. also, the lecture can be annotated by the instructor i.e. topic and sub-topic markings. Audio and video quality can be controlled over performance of lecture play media.\\
-
-\bigskip
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=11cm, height=8cm]{Controller Application Methodology}
-  \caption{Controller Application General Methodology}
-\end{figure}
 
 \subsubsection{Marker Hardware}
 To extract marker orientation, Marker Hardware is connected to controller application.
@@ -2348,17 +2323,45 @@ To extract marker orientation, Marker Hardware is connected to controller applic
   \caption{Audio Hardware General Methodology}
 \end{figure}
 
+\subsection{Audio Hardware}
+Wireless voice transmission is done by this module. Voice data is accepted at transmitter module. This data is converted into digital audio. Digital audio is then transmitted to receiver at another end. Receiver module decode the digital audio into analogue audio. Receiver module is attached to computer through Line-in[2] on which controller application is being executed. Controller application encode the analogue audio into lightweight ogg(file extension) file format. After the audio file generation is successful, audio file is then embedded into lecture file and uploaded to central server.
+
+
+
+\subsection{Controller Application}
+Controller application plays several roles in the project. First of all, it is responsible for application of computer vision algorithms to detect marker and extract the position data. At least two camera perspectives are considered for position extraction. Manual calibration system aids in the setup and view port positioning of multiple cameras. Marker position data and audio data have to be synchronously written in the final output file.\\
+Second, it is also responsible for decoding the orientation data. Orientation data is sent using encoded packet by Marker Hardware and received by the controller application. Orientation is extracted using quaternions. Euler angles then extracted using converted quaternion to avoid gimble lock. Position of the marker is extracted.\\
+Third, it can play the lecture file before uploading the lecture. Lecture can be paused, resumed and replayed. also, the lecture can be annotated by the instructor i.e. topic and sub-topic markings. Audio and video quality can be controlled over performance of lecture play media.\\
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=10cm, height=6cm]{Controller Application Methodology}
+  \caption{Controller Application General Methodology}
+\end{figure}
+
+
+\subsubsection{Stereo Vision Cameras}
+At least two high framerate cameras get the video of back ball and send it to controller application. Stereo vision is important for accurately extracting marker position by placing these cameras at such position so that different angles make same alignment to the writing platform irrespective to size. Square and rectangular boards can be mapped to same parent algorithm with simple to calibrate camera placement guide.
+
+\bigskip
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=9cm, height=7cm]{Main_Camera}
+  \caption{High frame rate camera placement}
+\end{figure}
+
+\newpage
 
 \subsection{Player Application}
 Just like media player, the player application plays the lecture. Common end user of Player Application is student. Player application has two version based on data availability.
-\bigskip
-\bigskip
+
 \subsection{Offline Player}
 Lecture file can be played on the computer via Offline Player with no interaction with internet at all. Typical end user is student. A student can rewind, play, pause, stop and resume while watching the lecture. As the lecture is being played by generated lecture file So, there is no compromise on quality.
-\newpage
+%\newpage
 \begin{figure}[h]
   \centering
-  \includegraphics[width=13cm, height=8cm]{Player Application Methodology (Offline)}
+  \includegraphics[width=10cm, height=5cm]{Player Application Methodology (Offline)}
   \caption{Offline Player Application General Methodology}
 \end{figure}
 
@@ -2367,7 +2370,7 @@ It is an online in-browser player that streams the lecture right in the webpage.
 
 \begin{figure}[h]
   \centering
-  \includegraphics[width=13cm, height=8cm]{Player Application Methodology (Online)}
+  \includegraphics[width=10cm, height=5cm]{Player Application Methodology (Online)}
   \caption{Online Player Application General Methodology}
 \end{figure}
 
