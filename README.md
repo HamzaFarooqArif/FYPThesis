@@ -2,6 +2,8 @@
 ## Storage Efficient System for Class Lectures
 ![LabManagementSystem-main-img](https://i.imgur.com/JjC8PM4.png)
 
+## Demo is [here](https://youtu.be/KJjtoqgEu9k)
+
 Digital Board Marker is an innovation through technology which focuses on reduc-
 tion of resource usage. The system records and live stream the lecture by using
 the minimal resources. In Particular, usage of storage media and communication
