@@ -15,3 +15,11 @@ it does not implement any physical touchpad that makes it ultradurable because
 no physical contact with system.
 
 Evaluated Documents are [here](https://www.dropbox.com/sh/huddzth3wr3kn2b/AACiXMR4jpsWiUAVEvKhyXmAa?dl=0)
+
+## Links to Modules
+
+Controller Application is [here](https://github.com/HamzaFarooqArif/FYP_DBMControllerApp)
+
+LMS Application is [here](https://github.com/hariskhan41/DBM_Backend) and Demo is [here](http://dbm.spikotech.com/)
+
+DBM Website is [here](https://github.com/HamzaFarooqArif/FYP_DBMWebsite)
